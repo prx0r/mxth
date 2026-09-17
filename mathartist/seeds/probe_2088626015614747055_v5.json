@@ -1,0 +1,76 @@
+{
+  "code_file": "corpus/tsubuyaki/code/2088626015614747055.js",
+  "code_sha256": "d872bdf5fdaaad060c55a4f75f94c4c609c4c5b0611b5ace264ed788ca0fe4a9",
+  "parser": "acorn",
+  "default_ok": true,
+  "candidates_probed": 27,
+  "effectful_controls": 3,
+  "controls": [
+    {
+      "literal": "200",
+      "value": 200,
+      "role": "MATHEMATICAL_COEFFICIENT",
+      "mutable_art_program": true,
+      "confidence": 0.65,
+      "why": "feeds point()",
+      "start": 79,
+      "end": 82,
+      "line": 1,
+      "column": 79,
+      "call": "point",
+      "probe": {
+        "status": "EFFECTFUL",
+        "delta": 20.0,
+        "mad_minus": 0.015325089916586876,
+        "mad_plus": 0.016022566705942154
+      },
+      "id": "L1C79",
+      "min": 120.0,
+      "max": 280.0
+    },
+    {
+      "literal": "99",
+      "value": 99,
+      "role": "MATHEMATICAL_COEFFICIENT",
+      "mutable_art_program": true,
+      "confidence": 0.65,
+      "why": "feeds point()",
+      "start": 105,
+      "end": 107,
+      "line": 1,
+      "column": 105,
+      "call": "point",
+      "probe": {
+        "status": "EFFECTFUL",
+        "delta": 9.9,
+        "mad_minus": 0.012188601307570934,
+        "mad_plus": 0.012648877687752247
+      },
+      "id": "L1C105",
+      "min": 59.4,
+      "max": 138.6
+    },
+    {
+      "literal": "200",
+      "value": 200,
+      "role": "MATHEMATICAL_COEFFICIENT",
+      "mutable_art_program": true,
+      "confidence": 0.65,
+      "why": "feeds point()",
+      "start": 153,
+      "end": 156,
+      "line": 1,
+      "column": 153,
+      "call": "point",
+      "probe": {
+        "status": "EFFECTFUL",
+        "delta": 20.0,
+        "mad_minus": 0.02192765846848488,
+        "mad_plus": 0.021874763071537018
+      },
+      "id": "L1C153",
+      "min": 120.0,
+      "max": 280.0
+    }
+  ]
+}

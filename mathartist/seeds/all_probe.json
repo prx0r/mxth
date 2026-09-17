@@ -1,0 +1,6960 @@
+[
+  {
+    "seed_id": "tsubuyaki-2010959555635921041",
+    "code_file": "corpus/tsubuyaki/code/2010959555635921041.js",
+    "total_literals": 12,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2011055743190127084",
+    "code_file": "corpus/tsubuyaki/code/2011055743190127084.js",
+    "total_literals": 23,
+    "candidates": 15,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2011077051877638233",
+    "code_file": "corpus/tsubuyaki/code/2011077051877638233.js",
+    "total_literals": 10,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2011080208225620136",
+    "code_file": "corpus/tsubuyaki/code/2011080208225620136.js",
+    "total_literals": 11,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2011207610276753729",
+    "code_file": "corpus/tsubuyaki/code/2011207610276753729.js",
+    "total_literals": 10,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2011221068430905741",
+    "code_file": "corpus/tsubuyaki/code/2011221068430905741.js",
+    "total_literals": 13,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2011221665011941471",
+    "code_file": "corpus/tsubuyaki/code/2011221665011941471.js",
+    "total_literals": 15,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2011423053779976252",
+    "code_file": "corpus/tsubuyaki/code/2011423053779976252.js",
+    "total_literals": 10,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2011433747514859597",
+    "code_file": "corpus/tsubuyaki/code/2011433747514859597.js",
+    "total_literals": 15,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2011511038525784421",
+    "code_file": "corpus/tsubuyaki/code/2011511038525784421.js",
+    "total_literals": 26,
+    "candidates": 21,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2011584185350438942",
+    "code_file": "corpus/tsubuyaki/code/2011584185350438942.js",
+    "total_literals": 13,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2011704719765655686",
+    "code_file": "corpus/tsubuyaki/code/2011704719765655686.js",
+    "total_literals": 17,
+    "candidates": 14,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2011929331392811507",
+    "code_file": "corpus/tsubuyaki/code/2011929331392811507.js",
+    "total_literals": 10,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2011979342767931662",
+    "code_file": "corpus/tsubuyaki/code/2011979342767931662.js",
+    "total_literals": 7,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2012105024915312849",
+    "code_file": "corpus/tsubuyaki/code/2012105024915312849.js",
+    "total_literals": 9,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2012138946919297040",
+    "code_file": "corpus/tsubuyaki/code/2012138946919297040.js",
+    "total_literals": 11,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2012144344187494754",
+    "code_file": "corpus/tsubuyaki/code/2012144344187494754.js",
+    "total_literals": 19,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2012145247418278033",
+    "code_file": "corpus/tsubuyaki/code/2012145247418278033.js",
+    "total_literals": 14,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2012169482890854493",
+    "code_file": "corpus/tsubuyaki/code/2012169482890854493.js",
+    "total_literals": 14,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2012169486766682363",
+    "code_file": "corpus/tsubuyaki/code/2012169486766682363.js",
+    "total_literals": 16,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2012290067633684956",
+    "code_file": "corpus/tsubuyaki/code/2012290067633684956.js",
+    "total_literals": 10,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2012491182476259572",
+    "code_file": "corpus/tsubuyaki/code/2012491182476259572.js",
+    "total_literals": 13,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2012505023234687421",
+    "code_file": "corpus/tsubuyaki/code/2012505023234687421.js",
+    "total_literals": 13,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2012565871604924760",
+    "code_file": "corpus/tsubuyaki/code/2012565871604924760.js",
+    "total_literals": 14,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2012651502595342579",
+    "code_file": "corpus/tsubuyaki/code/2012651502595342579.js",
+    "total_literals": 15,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2012714198451794032",
+    "code_file": "corpus/tsubuyaki/code/2012714198451794032.js",
+    "total_literals": 9,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2012764366412910867",
+    "code_file": "corpus/tsubuyaki/code/2012764366412910867.js",
+    "total_literals": 11,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2012830698978078896",
+    "code_file": "corpus/tsubuyaki/code/2012830698978078896.js",
+    "total_literals": 17,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2012872148533334129",
+    "code_file": "corpus/tsubuyaki/code/2012872148533334129.js",
+    "total_literals": 10,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2013010390276284698",
+    "code_file": "corpus/tsubuyaki/code/2013010390276284698.js",
+    "total_literals": 9,
+    "candidates": 3,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2013224946827506106",
+    "code_file": "corpus/tsubuyaki/code/2013224946827506106.js",
+    "total_literals": 15,
+    "candidates": 12,
+    "parser": "acorn-loose"
+  },
+  {
+    "seed_id": "tsubuyaki-2013380397384769864",
+    "code_file": "corpus/tsubuyaki/code/2013380397384769864.js",
+    "total_literals": 9,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2013591489524441255",
+    "code_file": "corpus/tsubuyaki/code/2013591489524441255.js",
+    "total_literals": 11,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2013595670360228321",
+    "code_file": "corpus/tsubuyaki/code/2013595670360228321.js",
+    "total_literals": 16,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2013613216371204452",
+    "code_file": "corpus/tsubuyaki/code/2013613216371204452.js",
+    "total_literals": 18,
+    "candidates": 14,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2013613219168829821",
+    "code_file": "corpus/tsubuyaki/code/2013613219168829821.js",
+    "total_literals": 19,
+    "candidates": 14,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2013740795962982860",
+    "code_file": "corpus/tsubuyaki/code/2013740795962982860.js",
+    "total_literals": 11,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2013742508124381609",
+    "code_file": "corpus/tsubuyaki/code/2013742508124381609.js",
+    "total_literals": 11,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2013958239629840446",
+    "code_file": "corpus/tsubuyaki/code/2013958239629840446.js",
+    "total_literals": 12,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2014103383683240399",
+    "code_file": "corpus/tsubuyaki/code/2014103383683240399.js",
+    "total_literals": 8,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2014323497229836609",
+    "code_file": "corpus/tsubuyaki/code/2014323497229836609.js",
+    "total_literals": 14,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2014323499721269288",
+    "code_file": "corpus/tsubuyaki/code/2014323499721269288.js",
+    "total_literals": 16,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2014468300101845119",
+    "code_file": "corpus/tsubuyaki/code/2014468300101845119.js",
+    "total_literals": 7,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2014681662345642274",
+    "code_file": "corpus/tsubuyaki/code/2014681662345642274.js",
+    "total_literals": 24,
+    "candidates": 17,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2014725088017580118",
+    "code_file": "corpus/tsubuyaki/code/2014725088017580118.js",
+    "total_literals": 17,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2014832524888047667",
+    "code_file": "corpus/tsubuyaki/code/2014832524888047667.js",
+    "total_literals": 8,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2014929529123545406",
+    "code_file": "corpus/tsubuyaki/code/2014929529123545406.js",
+    "total_literals": 14,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2015189644477128724",
+    "code_file": "corpus/tsubuyaki/code/2015189644477128724.js",
+    "total_literals": 8,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2015263614245183774",
+    "code_file": "corpus/tsubuyaki/code/2015263614245183774.js",
+    "total_literals": 24,
+    "candidates": 16,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2015358836249616796",
+    "code_file": "corpus/tsubuyaki/code/2015358836249616796.js",
+    "total_literals": 18,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2015551014175461639",
+    "code_file": "corpus/tsubuyaki/code/2015551014175461639.js",
+    "total_literals": 7,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2015758123836018883",
+    "code_file": "corpus/tsubuyaki/code/2015758123836018883.js",
+    "total_literals": 18,
+    "candidates": 14,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2015771711027994825",
+    "code_file": "corpus/tsubuyaki/code/2015771711027994825.js",
+    "total_literals": 14,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2015920784334835839",
+    "code_file": "corpus/tsubuyaki/code/2015920784334835839.js",
+    "total_literals": 16,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2016144390767665192",
+    "code_file": "corpus/tsubuyaki/code/2016144390767665192.js",
+    "total_literals": 18,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2016352961027571782",
+    "code_file": "corpus/tsubuyaki/code/2016352961027571782.js",
+    "total_literals": 13,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2016470308648108206",
+    "code_file": "corpus/tsubuyaki/code/2016470308648108206.js",
+    "total_literals": 12,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2016483102097625233",
+    "code_file": "corpus/tsubuyaki/code/2016483102097625233.js",
+    "total_literals": 9,
+    "candidates": 2,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2016483168170504503",
+    "code_file": "corpus/tsubuyaki/code/2016483168170504503.js",
+    "total_literals": 19,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2016495833114615824",
+    "code_file": "corpus/tsubuyaki/code/2016495833114615824.js",
+    "total_literals": 14,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2016639327145775318",
+    "code_file": "corpus/tsubuyaki/code/2016639327145775318.js",
+    "total_literals": 13,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2016668121520848953",
+    "code_file": "corpus/tsubuyaki/code/2016668121520848953.js",
+    "total_literals": 10,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2016810725210022399",
+    "code_file": "corpus/tsubuyaki/code/2016810725210022399.js",
+    "total_literals": 12,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2017037251927298233",
+    "code_file": "corpus/tsubuyaki/code/2017037251927298233.js",
+    "total_literals": 5,
+    "candidates": 2,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2017246017637569010",
+    "code_file": "corpus/tsubuyaki/code/2017246017637569010.js",
+    "total_literals": 11,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2017246020862910698",
+    "code_file": "corpus/tsubuyaki/code/2017246020862910698.js",
+    "total_literals": 20,
+    "candidates": 15,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2017362626230341637",
+    "code_file": "corpus/tsubuyaki/code/2017362626230341637.js",
+    "total_literals": 5,
+    "candidates": 2,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2017857110353317915",
+    "code_file": "corpus/tsubuyaki/code/2017857110353317915.js",
+    "total_literals": 16,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2017935383682863534",
+    "code_file": "corpus/tsubuyaki/code/2017935383682863534.js",
+    "total_literals": 12,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2017936055417352340",
+    "code_file": "corpus/tsubuyaki/code/2017936055417352340.js",
+    "total_literals": 12,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2017937107797635410",
+    "code_file": "corpus/tsubuyaki/code/2017937107797635410.js",
+    "total_literals": 11,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2017958161060376825",
+    "code_file": "corpus/tsubuyaki/code/2017958161060376825.js",
+    "total_literals": 13,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2017958164369748432",
+    "code_file": "corpus/tsubuyaki/code/2017958164369748432.js",
+    "total_literals": 13,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2018089656932556908",
+    "code_file": "corpus/tsubuyaki/code/2018089656932556908.js",
+    "total_literals": 7,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2018140039268757883",
+    "code_file": "corpus/tsubuyaki/code/2018140039268757883.js",
+    "total_literals": 5,
+    "candidates": 2,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2018140779341128082",
+    "code_file": "corpus/tsubuyaki/code/2018140779341128082.js",
+    "total_literals": 5,
+    "candidates": 2,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2018292495529205924",
+    "code_file": "corpus/tsubuyaki/code/2018292495529205924.js",
+    "total_literals": 13,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2018294652953366944",
+    "code_file": "corpus/tsubuyaki/code/2018294652953366944.js",
+    "total_literals": 16,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2018295864427733203",
+    "code_file": "corpus/tsubuyaki/code/2018295864427733203.js",
+    "total_literals": 13,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2018668452693893224",
+    "code_file": "corpus/tsubuyaki/code/2018668452693893224.js",
+    "total_literals": 10,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2018816956586221780",
+    "code_file": "corpus/tsubuyaki/code/2018816956586221780.js",
+    "total_literals": 8,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2018841459026546983",
+    "code_file": "corpus/tsubuyaki/code/2018841459026546983.js",
+    "total_literals": 7,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2018953820949418161",
+    "code_file": "corpus/tsubuyaki/code/2018953820949418161.js",
+    "total_literals": 7,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2019032287967670714",
+    "code_file": "corpus/tsubuyaki/code/2019032287967670714.js",
+    "total_literals": 8,
+    "candidates": 2,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2019046731007369714",
+    "code_file": "corpus/tsubuyaki/code/2019046731007369714.js",
+    "total_literals": 15,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2019046734656397758",
+    "code_file": "corpus/tsubuyaki/code/2019046734656397758.js",
+    "total_literals": 15,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2019180527404896545",
+    "code_file": "corpus/tsubuyaki/code/2019180527404896545.js",
+    "total_literals": 7,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2019360710661403114",
+    "code_file": "corpus/tsubuyaki/code/2019360710661403114.js",
+    "total_literals": 11,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2019895707856204232",
+    "code_file": "corpus/tsubuyaki/code/2019895707856204232.js",
+    "total_literals": 15,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2019902375130243276",
+    "code_file": "corpus/tsubuyaki/code/2019902375130243276.js",
+    "total_literals": 14,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2020241683850621237",
+    "code_file": "corpus/tsubuyaki/code/2020241683850621237.js",
+    "total_literals": 16,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2020260104139055154",
+    "code_file": "corpus/tsubuyaki/code/2020260104139055154.js",
+    "total_literals": 12,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2020401620631368100",
+    "code_file": "corpus/tsubuyaki/code/2020401620631368100.js",
+    "total_literals": 5,
+    "candidates": 3,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2020464410255347809",
+    "code_file": "corpus/tsubuyaki/code/2020464410255347809.js",
+    "total_literals": 15,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2020471899848102154",
+    "code_file": "corpus/tsubuyaki/code/2020471899848102154.js",
+    "total_literals": 12,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2020509112010936361",
+    "code_file": "corpus/tsubuyaki/code/2020509112010936361.js",
+    "total_literals": 25,
+    "candidates": 22,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2020626753983791131",
+    "code_file": "corpus/tsubuyaki/code/2020626753983791131.js",
+    "total_literals": 17,
+    "candidates": 14,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2020814466401612208",
+    "code_file": "corpus/tsubuyaki/code/2020814466401612208.js",
+    "total_literals": 14,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2020833901942600153",
+    "code_file": "corpus/tsubuyaki/code/2020833901942600153.js",
+    "total_literals": 16,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2020839255002784121",
+    "code_file": "corpus/tsubuyaki/code/2020839255002784121.js",
+    "total_literals": 9,
+    "candidates": 3,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2020986764811436406",
+    "code_file": "corpus/tsubuyaki/code/2020986764811436406.js",
+    "total_literals": 11,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2021186421222969822",
+    "code_file": "corpus/tsubuyaki/code/2021186421222969822.js",
+    "total_literals": 8,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2021248000077574647",
+    "code_file": "corpus/tsubuyaki/code/2021248000077574647.js",
+    "total_literals": 11,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2021326872668406062",
+    "code_file": "corpus/tsubuyaki/code/2021326872668406062.js",
+    "total_literals": 12,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2021459884592726091",
+    "code_file": "corpus/tsubuyaki/code/2021459884592726091.js",
+    "total_literals": 10,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2021463079368917405",
+    "code_file": "corpus/tsubuyaki/code/2021463079368917405.js",
+    "total_literals": 9,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2021597692330131876",
+    "code_file": "corpus/tsubuyaki/code/2021597692330131876.js",
+    "total_literals": 22,
+    "candidates": 18,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2021853521260470557",
+    "code_file": "corpus/tsubuyaki/code/2021853521260470557.js",
+    "total_literals": 19,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2021927165043126371",
+    "code_file": "corpus/tsubuyaki/code/2021927165043126371.js",
+    "total_literals": 9,
+    "candidates": 3,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2021960617658396885",
+    "code_file": "corpus/tsubuyaki/code/2021960617658396885.js",
+    "total_literals": 16,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2022077585912738217",
+    "code_file": "corpus/tsubuyaki/code/2022077585912738217.js",
+    "total_literals": 15,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2022327393093030132",
+    "code_file": "corpus/tsubuyaki/code/2022327393093030132.js",
+    "total_literals": 21,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2022441909017563467",
+    "code_file": "corpus/tsubuyaki/code/2022441909017563467.js",
+    "total_literals": 10,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2022443201202917683",
+    "code_file": "corpus/tsubuyaki/code/2022443201202917683.js",
+    "total_literals": 11,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2022540045442601131",
+    "code_file": "corpus/tsubuyaki/code/2022540045442601131.js",
+    "total_literals": 14,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2022540047732576461",
+    "code_file": "corpus/tsubuyaki/code/2022540047732576461.js",
+    "total_literals": 18,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2022628150346461626",
+    "code_file": "corpus/tsubuyaki/code/2022628150346461626.js",
+    "total_literals": 15,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2022646457229246612",
+    "code_file": "corpus/tsubuyaki/code/2022646457229246612.js",
+    "total_literals": 6,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2022672187250086189",
+    "code_file": "corpus/tsubuyaki/code/2022672187250086189.js",
+    "total_literals": 28,
+    "candidates": 25,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2022679723630039439",
+    "code_file": "corpus/tsubuyaki/code/2022679723630039439.js",
+    "total_literals": 25,
+    "candidates": 22,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2022799593751351411",
+    "code_file": "corpus/tsubuyaki/code/2022799593751351411.js",
+    "total_literals": 11,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2022954506863120749",
+    "code_file": "corpus/tsubuyaki/code/2022954506863120749.js",
+    "total_literals": 5,
+    "candidates": 2,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2022988418305925234",
+    "code_file": "corpus/tsubuyaki/code/2022988418305925234.js",
+    "total_literals": 16,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2022990348230984124",
+    "code_file": "corpus/tsubuyaki/code/2022990348230984124.js",
+    "total_literals": 28,
+    "candidates": 25,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2022990999358988663",
+    "code_file": "corpus/tsubuyaki/code/2022990999358988663.js",
+    "total_literals": 29,
+    "candidates": 26,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2022999756642103313",
+    "code_file": "corpus/tsubuyaki/code/2022999756642103313.js",
+    "total_literals": 27,
+    "candidates": 24,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2023000638322594165",
+    "code_file": "corpus/tsubuyaki/code/2023000638322594165.js",
+    "total_literals": 7,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2023159280489431411",
+    "code_file": "corpus/tsubuyaki/code/2023159280489431411.js",
+    "total_literals": 5,
+    "candidates": 2,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2023182241862705215",
+    "code_file": "corpus/tsubuyaki/code/2023182241862705215.js",
+    "total_literals": 13,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2023198985272602735",
+    "code_file": "corpus/tsubuyaki/code/2023198985272602735.js",
+    "total_literals": 23,
+    "candidates": 19,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2023523832401920444",
+    "code_file": "corpus/tsubuyaki/code/2023523832401920444.js",
+    "total_literals": 12,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2023557900703326626",
+    "code_file": "corpus/tsubuyaki/code/2023557900703326626.js",
+    "total_literals": 12,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2023684031003717781",
+    "code_file": "corpus/tsubuyaki/code/2023684031003717781.js",
+    "total_literals": 10,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2023760784300597447",
+    "code_file": "corpus/tsubuyaki/code/2023760784300597447.js",
+    "total_literals": 10,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2023771768775696881",
+    "code_file": "corpus/tsubuyaki/code/2023771768775696881.js",
+    "total_literals": 11,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2023771772852859014",
+    "code_file": "corpus/tsubuyaki/code/2023771772852859014.js",
+    "total_literals": 11,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2023889153675719077",
+    "code_file": "corpus/tsubuyaki/code/2023889153675719077.js",
+    "total_literals": 11,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2024009299089924127",
+    "code_file": "corpus/tsubuyaki/code/2024009299089924127.js",
+    "total_literals": 12,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2024139362858918163",
+    "code_file": "corpus/tsubuyaki/code/2024139362858918163.js",
+    "total_literals": 20,
+    "candidates": 14,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2024241876807930333",
+    "code_file": "corpus/tsubuyaki/code/2024241876807930333.js",
+    "total_literals": 10,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2024489280064852228",
+    "code_file": "corpus/tsubuyaki/code/2024489280064852228.js",
+    "total_literals": 27,
+    "candidates": 24,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2024496849584083397",
+    "code_file": "corpus/tsubuyaki/code/2024496849584083397.js",
+    "total_literals": 16,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2024612511107183057",
+    "code_file": "corpus/tsubuyaki/code/2024612511107183057.js",
+    "total_literals": 13,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2024809725230297325",
+    "code_file": "corpus/tsubuyaki/code/2024809725230297325.js",
+    "total_literals": 28,
+    "candidates": 25,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2024974306221121546",
+    "code_file": "corpus/tsubuyaki/code/2024974306221121546.js",
+    "total_literals": 15,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2025187603184824786",
+    "code_file": "corpus/tsubuyaki/code/2025187603184824786.js",
+    "total_literals": 17,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2025198826836164856",
+    "code_file": "corpus/tsubuyaki/code/2025198826836164856.js",
+    "total_literals": 17,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2025198829533102232",
+    "code_file": "corpus/tsubuyaki/code/2025198829533102232.js",
+    "total_literals": 21,
+    "candidates": 15,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2025340639328829889",
+    "code_file": "corpus/tsubuyaki/code/2025340639328829889.js",
+    "total_literals": 14,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2025461007066562860",
+    "code_file": "corpus/tsubuyaki/code/2025461007066562860.js",
+    "total_literals": 16,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2025521537038897299",
+    "code_file": "corpus/tsubuyaki/code/2025521537038897299.js",
+    "total_literals": 12,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2025694607288455620",
+    "code_file": "corpus/tsubuyaki/code/2025694607288455620.js",
+    "total_literals": 17,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2025905047482351660",
+    "code_file": "corpus/tsubuyaki/code/2025905047482351660.js",
+    "total_literals": 11,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2025935676727038283",
+    "code_file": "corpus/tsubuyaki/code/2025935676727038283.js",
+    "total_literals": 12,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2026057947978358969",
+    "code_file": "corpus/tsubuyaki/code/2026057947978358969.js",
+    "total_literals": 10,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2026110484022452708",
+    "code_file": "corpus/tsubuyaki/code/2026110484022452708.js",
+    "total_literals": 6,
+    "candidates": 3,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2026173343087620227",
+    "code_file": "corpus/tsubuyaki/code/2026173343087620227.js",
+    "total_literals": 16,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2026298885023715489",
+    "code_file": "corpus/tsubuyaki/code/2026298885023715489.js",
+    "total_literals": 15,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2026410324623294543",
+    "code_file": "corpus/tsubuyaki/code/2026410324623294543.js",
+    "total_literals": 19,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2026452429634678856",
+    "code_file": "corpus/tsubuyaki/code/2026452429634678856.js",
+    "total_literals": 9,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2026553206977999086",
+    "code_file": "corpus/tsubuyaki/code/2026553206977999086.js",
+    "total_literals": 14,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2026661614104227962",
+    "code_file": "corpus/tsubuyaki/code/2026661614104227962.js",
+    "total_literals": 14,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2026779618636861632",
+    "code_file": "corpus/tsubuyaki/code/2026779618636861632.js",
+    "total_literals": 7,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2027033870034759738",
+    "code_file": "corpus/tsubuyaki/code/2027033870034759738.js",
+    "total_literals": 12,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2027152530225123611",
+    "code_file": "corpus/tsubuyaki/code/2027152530225123611.js",
+    "total_literals": 7,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2027358364519596240",
+    "code_file": "corpus/tsubuyaki/code/2027358364519596240.js",
+    "total_literals": 10,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2027511752070729935",
+    "code_file": "corpus/tsubuyaki/code/2027511752070729935.js",
+    "total_literals": 6,
+    "candidates": 3,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2027565476277059774",
+    "code_file": "corpus/tsubuyaki/code/2027565476277059774.js",
+    "total_literals": 32,
+    "candidates": 24,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2027698481905996249",
+    "code_file": "corpus/tsubuyaki/code/2027698481905996249.js",
+    "total_literals": 8,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2027741487770034304",
+    "code_file": "corpus/tsubuyaki/code/2027741487770034304.js",
+    "total_literals": 10,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2027755599703007653",
+    "code_file": "corpus/tsubuyaki/code/2027755599703007653.js",
+    "total_literals": 13,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2027755602165043241",
+    "code_file": "corpus/tsubuyaki/code/2027755602165043241.js",
+    "total_literals": 16,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2027765870030672359",
+    "code_file": "corpus/tsubuyaki/code/2027765870030672359.js",
+    "total_literals": 20,
+    "candidates": 16,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2027876454202282085",
+    "code_file": "corpus/tsubuyaki/code/2027876454202282085.js",
+    "total_literals": 5,
+    "candidates": 3,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2027893250493977021",
+    "code_file": "corpus/tsubuyaki/code/2027893250493977021.js",
+    "total_literals": 8,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2027919705739301011",
+    "code_file": "corpus/tsubuyaki/code/2027919705739301011.js",
+    "total_literals": 10,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2028026217774125495",
+    "code_file": "corpus/tsubuyaki/code/2028026217774125495.js",
+    "total_literals": 8,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2028081860413374648",
+    "code_file": "corpus/tsubuyaki/code/2028081860413374648.js",
+    "total_literals": 12,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2028231929729028543",
+    "code_file": "corpus/tsubuyaki/code/2028231929729028543.js",
+    "total_literals": 9,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2028367104744063215",
+    "code_file": "corpus/tsubuyaki/code/2028367104744063215.js",
+    "total_literals": 10,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2028454546188685572",
+    "code_file": "corpus/tsubuyaki/code/2028454546188685572.js",
+    "total_literals": 26,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2028502256837144607",
+    "code_file": "corpus/tsubuyaki/code/2028502256837144607.js",
+    "total_literals": 11,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2028587872446812503",
+    "code_file": "corpus/tsubuyaki/code/2028587872446812503.js",
+    "total_literals": 11,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2028610452176154633",
+    "code_file": "corpus/tsubuyaki/code/2028610452176154633.js",
+    "total_literals": 6,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2028612724511629720",
+    "code_file": "corpus/tsubuyaki/code/2028612724511629720.js",
+    "total_literals": 7,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2028787214138917319",
+    "code_file": "corpus/tsubuyaki/code/2028787214138917319.js",
+    "total_literals": 9,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2028836876610929112",
+    "code_file": "corpus/tsubuyaki/code/2028836876610929112.js",
+    "total_literals": 16,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2028937986285683106",
+    "code_file": "corpus/tsubuyaki/code/2028937986285683106.js",
+    "total_literals": 8,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2028957973096349834",
+    "code_file": "corpus/tsubuyaki/code/2028957973096349834.js",
+    "total_literals": 8,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2029097940363735362",
+    "code_file": "corpus/tsubuyaki/code/2029097940363735362.js",
+    "total_literals": 12,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2029177650301042979",
+    "code_file": "corpus/tsubuyaki/code/2029177650301042979.js",
+    "total_literals": 14,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2029326206278221840",
+    "code_file": "corpus/tsubuyaki/code/2029326206278221840.js",
+    "total_literals": 10,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2029554253472420206",
+    "code_file": "corpus/tsubuyaki/code/2029554253472420206.js",
+    "total_literals": 15,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2029684526113509497",
+    "code_file": "corpus/tsubuyaki/code/2029684526113509497.js",
+    "total_literals": 12,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2029899592058515781",
+    "code_file": "corpus/tsubuyaki/code/2029899592058515781.js",
+    "total_literals": 5,
+    "candidates": 2,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2029925600300015634",
+    "code_file": "corpus/tsubuyaki/code/2029925600300015634.js",
+    "total_literals": 27,
+    "candidates": 24,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2029940149497516508",
+    "code_file": "corpus/tsubuyaki/code/2029940149497516508.js",
+    "total_literals": 12,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2029940152513220744",
+    "code_file": "corpus/tsubuyaki/code/2029940152513220744.js",
+    "total_literals": 14,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2030234537519931851",
+    "code_file": "corpus/tsubuyaki/code/2030234537519931851.js",
+    "total_literals": 6,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2030265975166394437",
+    "code_file": "corpus/tsubuyaki/code/2030265975166394437.js",
+    "total_literals": 12,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2030404562151165968",
+    "code_file": "corpus/tsubuyaki/code/2030404562151165968.js",
+    "total_literals": 8,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2030541687072907624",
+    "code_file": "corpus/tsubuyaki/code/2030541687072907624.js",
+    "total_literals": 9,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2030623560478449973",
+    "code_file": "corpus/tsubuyaki/code/2030623560478449973.js",
+    "total_literals": 13,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2030650578758680723",
+    "code_file": "corpus/tsubuyaki/code/2030650578758680723.js",
+    "total_literals": 27,
+    "candidates": 24,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2030770718225645769",
+    "code_file": "corpus/tsubuyaki/code/2030770718225645769.js",
+    "total_literals": 6,
+    "candidates": 2,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2030978701811388432",
+    "code_file": "corpus/tsubuyaki/code/2030978701811388432.js",
+    "total_literals": 14,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2030979431280648320",
+    "code_file": "corpus/tsubuyaki/code/2030979431280648320.js",
+    "total_literals": 19,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2031124649355169950",
+    "code_file": "corpus/tsubuyaki/code/2031124649355169950.js",
+    "total_literals": 17,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2031327021654274398",
+    "code_file": "corpus/tsubuyaki/code/2031327021654274398.js",
+    "total_literals": 17,
+    "candidates": 14,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2031494708355281212",
+    "code_file": "corpus/tsubuyaki/code/2031494708355281212.js",
+    "total_literals": 16,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2031705281324036175",
+    "code_file": "corpus/tsubuyaki/code/2031705281324036175.js",
+    "total_literals": 16,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2031705284318830703",
+    "code_file": "corpus/tsubuyaki/code/2031705284318830703.js",
+    "total_literals": 19,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2031713157610389565",
+    "code_file": "corpus/tsubuyaki/code/2031713157610389565.js",
+    "total_literals": 12,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2031854305775616069",
+    "code_file": "corpus/tsubuyaki/code/2031854305775616069.js",
+    "total_literals": 17,
+    "candidates": 14,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2032102223401173060",
+    "code_file": "corpus/tsubuyaki/code/2032102223401173060.js",
+    "total_literals": 16,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2032222201651609978",
+    "code_file": "corpus/tsubuyaki/code/2032222201651609978.js",
+    "total_literals": 15,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2032317196404449669",
+    "code_file": "corpus/tsubuyaki/code/2032317196404449669.js",
+    "total_literals": 11,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2032425564532044074",
+    "code_file": "corpus/tsubuyaki/code/2032425564532044074.js",
+    "total_literals": 13,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2032582274596876347",
+    "code_file": "corpus/tsubuyaki/code/2032582274596876347.js",
+    "total_literals": 14,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2032582783110152530",
+    "code_file": "corpus/tsubuyaki/code/2032582783110152530.js",
+    "total_literals": 12,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2032845831431401640",
+    "code_file": "corpus/tsubuyaki/code/2032845831431401640.js",
+    "total_literals": 18,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2032949352537501838",
+    "code_file": "corpus/tsubuyaki/code/2032949352537501838.js",
+    "total_literals": 17,
+    "candidates": 14,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2033173649747038600",
+    "code_file": "corpus/tsubuyaki/code/2033173649747038600.js",
+    "total_literals": 12,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2033307766283264472",
+    "code_file": "corpus/tsubuyaki/code/2033307766283264472.js",
+    "total_literals": 10,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2033505837982036305",
+    "code_file": "corpus/tsubuyaki/code/2033505837982036305.js",
+    "total_literals": 13,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2033516586645209274",
+    "code_file": "corpus/tsubuyaki/code/2033516586645209274.js",
+    "total_literals": 14,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2033664130616570104",
+    "code_file": "corpus/tsubuyaki/code/2033664130616570104.js",
+    "total_literals": 16,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2033782946847723945",
+    "code_file": "corpus/tsubuyaki/code/2033782946847723945.js",
+    "total_literals": 13,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2033815677518417953",
+    "code_file": "corpus/tsubuyaki/code/2033815677518417953.js",
+    "total_literals": 15,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2033821798052372619",
+    "code_file": "corpus/tsubuyaki/code/2033821798052372619.js",
+    "total_literals": 15,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2033858683084677355",
+    "code_file": "corpus/tsubuyaki/code/2033858683084677355.js",
+    "total_literals": 13,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2033918791642763605",
+    "code_file": "corpus/tsubuyaki/code/2033918791642763605.js",
+    "total_literals": 11,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2034226925271707965",
+    "code_file": "corpus/tsubuyaki/code/2034226925271707965.js",
+    "total_literals": 11,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2034274977911128407",
+    "code_file": "corpus/tsubuyaki/code/2034274977911128407.js",
+    "total_literals": 12,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2034392995475452041",
+    "code_file": "corpus/tsubuyaki/code/2034392995475452041.js",
+    "total_literals": 15,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2034758534538355198",
+    "code_file": "corpus/tsubuyaki/code/2034758534538355198.js",
+    "total_literals": 12,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2034866218402988403",
+    "code_file": "corpus/tsubuyaki/code/2034866218402988403.js",
+    "total_literals": 16,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2034945823088451873",
+    "code_file": "corpus/tsubuyaki/code/2034945823088451873.js",
+    "total_literals": 9,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2034946828677128218",
+    "code_file": "corpus/tsubuyaki/code/2034946828677128218.js",
+    "total_literals": 14,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2034977233727889458",
+    "code_file": "corpus/tsubuyaki/code/2034977233727889458.js",
+    "total_literals": 11,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2035117381132140755",
+    "code_file": "corpus/tsubuyaki/code/2035117381132140755.js",
+    "total_literals": 11,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2035184834839290197",
+    "code_file": "corpus/tsubuyaki/code/2035184834839290197.js",
+    "total_literals": 13,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2035237159226261792",
+    "code_file": "corpus/tsubuyaki/code/2035237159226261792.js",
+    "total_literals": 16,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2035322585286848799",
+    "code_file": "corpus/tsubuyaki/code/2035322585286848799.js",
+    "total_literals": 12,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2035481121853739102",
+    "code_file": "corpus/tsubuyaki/code/2035481121853739102.js",
+    "total_literals": 14,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2035585478230196676",
+    "code_file": "corpus/tsubuyaki/code/2035585478230196676.js",
+    "total_literals": 15,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2035696785033945214",
+    "code_file": "corpus/tsubuyaki/code/2035696785033945214.js",
+    "total_literals": 22,
+    "candidates": 17,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2035728012386377741",
+    "code_file": "corpus/tsubuyaki/code/2035728012386377741.js",
+    "total_literals": 15,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2035847402222223382",
+    "code_file": "corpus/tsubuyaki/code/2035847402222223382.js",
+    "total_literals": 22,
+    "candidates": 17,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2035914382782443889",
+    "code_file": "corpus/tsubuyaki/code/2035914382782443889.js",
+    "total_literals": 22,
+    "candidates": 15,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2035987440520015929",
+    "code_file": "corpus/tsubuyaki/code/2035987440520015929.js",
+    "total_literals": 17,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2036008689765929109",
+    "code_file": "corpus/tsubuyaki/code/2036008689765929109.js",
+    "total_literals": 14,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2036017697780298139",
+    "code_file": "corpus/tsubuyaki/code/2036017697780298139.js",
+    "total_literals": 13,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2036047598403129508",
+    "code_file": "corpus/tsubuyaki/code/2036047598403129508.js",
+    "total_literals": 21,
+    "candidates": 18,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2036071690070016187",
+    "code_file": "corpus/tsubuyaki/code/2036071690070016187.js",
+    "total_literals": 13,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2036209002351304914",
+    "code_file": "corpus/tsubuyaki/code/2036209002351304914.js",
+    "total_literals": 15,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2036338842790404246",
+    "code_file": "corpus/tsubuyaki/code/2036338842790404246.js",
+    "total_literals": 15,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2036424378108485937",
+    "code_file": "corpus/tsubuyaki/code/2036424378108485937.js",
+    "total_literals": 17,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2036445561352814848",
+    "code_file": "corpus/tsubuyaki/code/2036445561352814848.js",
+    "total_literals": 16,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2036568535011565575",
+    "code_file": "corpus/tsubuyaki/code/2036568535011565575.js",
+    "total_literals": 10,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2036628936348836103",
+    "code_file": "corpus/tsubuyaki/code/2036628936348836103.js",
+    "total_literals": 16,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2036688621949055000",
+    "code_file": "corpus/tsubuyaki/code/2036688621949055000.js",
+    "total_literals": 25,
+    "candidates": 22,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2036811790840213708",
+    "code_file": "corpus/tsubuyaki/code/2036811790840213708.js",
+    "total_literals": 12,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2036823715149906024",
+    "code_file": "corpus/tsubuyaki/code/2036823715149906024.js",
+    "total_literals": 15,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2036913184570040796",
+    "code_file": "corpus/tsubuyaki/code/2036913184570040796.js",
+    "total_literals": 10,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2037113538100289734",
+    "code_file": "corpus/tsubuyaki/code/2037113538100289734.js",
+    "total_literals": 13,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2037115146091536818",
+    "code_file": "corpus/tsubuyaki/code/2037115146091536818.js",
+    "total_literals": 11,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2037171220408655975",
+    "code_file": "corpus/tsubuyaki/code/2037171220408655975.js",
+    "total_literals": 17,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2037297001948487948",
+    "code_file": "corpus/tsubuyaki/code/2037297001948487948.js",
+    "total_literals": 15,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2037442655521751495",
+    "code_file": "corpus/tsubuyaki/code/2037442655521751495.js",
+    "total_literals": 10,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2037493507162804726",
+    "code_file": "corpus/tsubuyaki/code/2037493507162804726.js",
+    "total_literals": 9,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2037658145221464286",
+    "code_file": "corpus/tsubuyaki/code/2037658145221464286.js",
+    "total_literals": 15,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2037755072323760565",
+    "code_file": "corpus/tsubuyaki/code/2037755072323760565.js",
+    "total_literals": 14,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2037790876232237213",
+    "code_file": "corpus/tsubuyaki/code/2037790876232237213.js",
+    "total_literals": 14,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2037829352675766700",
+    "code_file": "corpus/tsubuyaki/code/2037829352675766700.js",
+    "total_literals": 12,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2037857027603743195",
+    "code_file": "corpus/tsubuyaki/code/2037857027603743195.js",
+    "total_literals": 19,
+    "candidates": 15,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2037862294676537355",
+    "code_file": "corpus/tsubuyaki/code/2037862294676537355.js",
+    "total_literals": 6,
+    "candidates": 3,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2038019491750445337",
+    "code_file": "corpus/tsubuyaki/code/2038019491750445337.js",
+    "total_literals": 14,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2038052856197161093",
+    "code_file": "corpus/tsubuyaki/code/2038052856197161093.js",
+    "total_literals": 12,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2038131647988818356",
+    "code_file": "corpus/tsubuyaki/code/2038131647988818356.js",
+    "total_literals": 19,
+    "candidates": 15,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2038172698757730721",
+    "code_file": "corpus/tsubuyaki/code/2038172698757730721.js",
+    "total_literals": 15,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2038200370095116665",
+    "code_file": "corpus/tsubuyaki/code/2038200370095116665.js",
+    "total_literals": 26,
+    "candidates": 17,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2038382660582789224",
+    "code_file": "corpus/tsubuyaki/code/2038382660582789224.js",
+    "total_literals": 12,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2038493410122969311",
+    "code_file": "corpus/tsubuyaki/code/2038493410122969311.js",
+    "total_literals": 10,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2038563996186636380",
+    "code_file": "corpus/tsubuyaki/code/2038563996186636380.js",
+    "total_literals": 10,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2038583378539368883",
+    "code_file": "corpus/tsubuyaki/code/2038583378539368883.js",
+    "total_literals": 14,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2038613765835686392",
+    "code_file": "corpus/tsubuyaki/code/2038613765835686392.js",
+    "total_literals": 14,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2038622696616198463",
+    "code_file": "corpus/tsubuyaki/code/2038622696616198463.js",
+    "total_literals": 21,
+    "candidates": 18,
+    "parser": "acorn-loose"
+  },
+  {
+    "seed_id": "tsubuyaki-2038631117583265819",
+    "code_file": "corpus/tsubuyaki/code/2038631117583265819.js",
+    "total_literals": 29,
+    "candidates": 24,
+    "parser": "acorn-loose"
+  },
+  {
+    "seed_id": "tsubuyaki-2038743468458275064",
+    "code_file": "corpus/tsubuyaki/code/2038743468458275064.js",
+    "total_literals": 11,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2039105585455808525",
+    "code_file": "corpus/tsubuyaki/code/2039105585455808525.js",
+    "total_literals": 12,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2039336213539430538",
+    "code_file": "corpus/tsubuyaki/code/2039336213539430538.js",
+    "total_literals": 14,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2039452441062813861",
+    "code_file": "corpus/tsubuyaki/code/2039452441062813861.js",
+    "total_literals": 6,
+    "candidates": 1,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2039655847719248328",
+    "code_file": "corpus/tsubuyaki/code/2039655847719248328.js",
+    "total_literals": 14,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2039716286528450634",
+    "code_file": "corpus/tsubuyaki/code/2039716286528450634.js",
+    "total_literals": 15,
+    "candidates": 11,
+    "parser": "acorn-loose"
+  },
+  {
+    "seed_id": "tsubuyaki-2039831113569611897",
+    "code_file": "corpus/tsubuyaki/code/2039831113569611897.js",
+    "total_literals": 21,
+    "candidates": 16,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2040110671418044582",
+    "code_file": "corpus/tsubuyaki/code/2040110671418044582.js",
+    "total_literals": 18,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2040195253576388665",
+    "code_file": "corpus/tsubuyaki/code/2040195253576388665.js",
+    "total_literals": 14,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2040315463914385914",
+    "code_file": "corpus/tsubuyaki/code/2040315463914385914.js",
+    "total_literals": 19,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2040557558210130083",
+    "code_file": "corpus/tsubuyaki/code/2040557558210130083.js",
+    "total_literals": 18,
+    "candidates": 14,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2040575693604675915",
+    "code_file": "corpus/tsubuyaki/code/2040575693604675915.js",
+    "total_literals": 20,
+    "candidates": 17,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2040711458603106452",
+    "code_file": "corpus/tsubuyaki/code/2040711458603106452.js",
+    "total_literals": 11,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2040760613920760038",
+    "code_file": "corpus/tsubuyaki/code/2040760613920760038.js",
+    "total_literals": 11,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2040776322059030977",
+    "code_file": "corpus/tsubuyaki/code/2040776322059030977.js",
+    "total_literals": 15,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2040801827973915071",
+    "code_file": "corpus/tsubuyaki/code/2040801827973915071.js",
+    "total_literals": 10,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2040916146019520936",
+    "code_file": "corpus/tsubuyaki/code/2040916146019520936.js",
+    "total_literals": 13,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2040947314714673307",
+    "code_file": "corpus/tsubuyaki/code/2040947314714673307.js",
+    "total_literals": 12,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2041068644676124718",
+    "code_file": "corpus/tsubuyaki/code/2041068644676124718.js",
+    "total_literals": 14,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2041070482271981962",
+    "code_file": "corpus/tsubuyaki/code/2041070482271981962.js",
+    "total_literals": 15,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2041095348261978128",
+    "code_file": "corpus/tsubuyaki/code/2041095348261978128.js",
+    "total_literals": 14,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2041147785433534589",
+    "code_file": "corpus/tsubuyaki/code/2041147785433534589.js",
+    "total_literals": 11,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2041284688107770100",
+    "code_file": "corpus/tsubuyaki/code/2041284688107770100.js",
+    "total_literals": 8,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2041372611398242369",
+    "code_file": "corpus/tsubuyaki/code/2041372611398242369.js",
+    "total_literals": 6,
+    "candidates": 2,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2041423589183025322",
+    "code_file": "corpus/tsubuyaki/code/2041423589183025322.js",
+    "total_literals": 6,
+    "candidates": 2,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2041460543987597614",
+    "code_file": "corpus/tsubuyaki/code/2041460543987597614.js",
+    "total_literals": 5,
+    "candidates": 1,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2041486208446927132",
+    "code_file": "corpus/tsubuyaki/code/2041486208446927132.js",
+    "total_literals": 19,
+    "candidates": 17,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2041493133729632632",
+    "code_file": "corpus/tsubuyaki/code/2041493133729632632.js",
+    "total_literals": 16,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2041515089027911700",
+    "code_file": "corpus/tsubuyaki/code/2041515089027911700.js",
+    "total_literals": 16,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2041643455701737853",
+    "code_file": "corpus/tsubuyaki/code/2041643455701737853.js",
+    "total_literals": 9,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2041885650602095061",
+    "code_file": "corpus/tsubuyaki/code/2041885650602095061.js",
+    "total_literals": 16,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2042004380392820963",
+    "code_file": "corpus/tsubuyaki/code/2042004380392820963.js",
+    "total_literals": 16,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2042250309595238618",
+    "code_file": "corpus/tsubuyaki/code/2042250309595238618.js",
+    "total_literals": 13,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2042363210058383777",
+    "code_file": "corpus/tsubuyaki/code/2042363210058383777.js",
+    "total_literals": 9,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2042364756464713925",
+    "code_file": "corpus/tsubuyaki/code/2042364756464713925.js",
+    "total_literals": 13,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2042593671888167409",
+    "code_file": "corpus/tsubuyaki/code/2042593671888167409.js",
+    "total_literals": 22,
+    "candidates": 16,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2042729602704118078",
+    "code_file": "corpus/tsubuyaki/code/2042729602704118078.js",
+    "total_literals": 13,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2042837575493390819",
+    "code_file": "corpus/tsubuyaki/code/2042837575493390819.js",
+    "total_literals": 8,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2042966026443460670",
+    "code_file": "corpus/tsubuyaki/code/2042966026443460670.js",
+    "total_literals": 13,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2042971027727400978",
+    "code_file": "corpus/tsubuyaki/code/2042971027727400978.js",
+    "total_literals": 10,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2043091240607191353",
+    "code_file": "corpus/tsubuyaki/code/2043091240607191353.js",
+    "total_literals": 16,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2043289783016022261",
+    "code_file": "corpus/tsubuyaki/code/2043289783016022261.js",
+    "total_literals": 14,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2043455922668994840",
+    "code_file": "corpus/tsubuyaki/code/2043455922668994840.js",
+    "total_literals": 14,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2043576986015314279",
+    "code_file": "corpus/tsubuyaki/code/2043576986015314279.js",
+    "total_literals": 15,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2043647629863866762",
+    "code_file": "corpus/tsubuyaki/code/2043647629863866762.js",
+    "total_literals": 21,
+    "candidates": 17,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2043653310675403018",
+    "code_file": "corpus/tsubuyaki/code/2043653310675403018.js",
+    "total_literals": 13,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2043814801256878121",
+    "code_file": "corpus/tsubuyaki/code/2043814801256878121.js",
+    "total_literals": 18,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2043816140267467225",
+    "code_file": "corpus/tsubuyaki/code/2043816140267467225.js",
+    "total_literals": 18,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2043920438930313698",
+    "code_file": "corpus/tsubuyaki/code/2043920438930313698.js",
+    "total_literals": 11,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2044041634787308013",
+    "code_file": "corpus/tsubuyaki/code/2044041634787308013.js",
+    "total_literals": 19,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2044182208639037758",
+    "code_file": "corpus/tsubuyaki/code/2044182208639037758.js",
+    "total_literals": 17,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2044359258041659615",
+    "code_file": "corpus/tsubuyaki/code/2044359258041659615.js",
+    "total_literals": 20,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2044420961852928068",
+    "code_file": "corpus/tsubuyaki/code/2044420961852928068.js",
+    "total_literals": 18,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2044531349508575482",
+    "code_file": "corpus/tsubuyaki/code/2044531349508575482.js",
+    "total_literals": 10,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2044560564169674867",
+    "code_file": "corpus/tsubuyaki/code/2044560564169674867.js",
+    "total_literals": 12,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2044665673822224572",
+    "code_file": "corpus/tsubuyaki/code/2044665673822224572.js",
+    "total_literals": 10,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2044798894958358665",
+    "code_file": "corpus/tsubuyaki/code/2044798894958358665.js",
+    "total_literals": 14,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2044901878266581105",
+    "code_file": "corpus/tsubuyaki/code/2044901878266581105.js",
+    "total_literals": 15,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2044972548946043380",
+    "code_file": "corpus/tsubuyaki/code/2044972548946043380.js",
+    "total_literals": 12,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2045009390550540558",
+    "code_file": "corpus/tsubuyaki/code/2045009390550540558.js",
+    "total_literals": 13,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2045089803956572567",
+    "code_file": "corpus/tsubuyaki/code/2045089803956572567.js",
+    "total_literals": 17,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2045122370881654930",
+    "code_file": "corpus/tsubuyaki/code/2045122370881654930.js",
+    "total_literals": 10,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2045271650640527646",
+    "code_file": "corpus/tsubuyaki/code/2045271650640527646.js",
+    "total_literals": 8,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2045304854042866070",
+    "code_file": "corpus/tsubuyaki/code/2045304854042866070.js",
+    "total_literals": 16,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2045465910706876673",
+    "code_file": "corpus/tsubuyaki/code/2045465910706876673.js",
+    "total_literals": 17,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2045470279875592548",
+    "code_file": "corpus/tsubuyaki/code/2045470279875592548.js",
+    "total_literals": 19,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2045631058260201752",
+    "code_file": "corpus/tsubuyaki/code/2045631058260201752.js",
+    "total_literals": 16,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2045761915692146906",
+    "code_file": "corpus/tsubuyaki/code/2045761915692146906.js",
+    "total_literals": 15,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2045877088021065779",
+    "code_file": "corpus/tsubuyaki/code/2045877088021065779.js",
+    "total_literals": 14,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2045987011484594389",
+    "code_file": "corpus/tsubuyaki/code/2045987011484594389.js",
+    "total_literals": 12,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2046222301222601019",
+    "code_file": "corpus/tsubuyaki/code/2046222301222601019.js",
+    "total_literals": 16,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2046229330758643788",
+    "code_file": "corpus/tsubuyaki/code/2046229330758643788.js",
+    "total_literals": 16,
+    "candidates": 14,
+    "parser": "acorn-loose"
+  },
+  {
+    "seed_id": "tsubuyaki-2046354853006643534",
+    "code_file": "corpus/tsubuyaki/code/2046354853006643534.js",
+    "total_literals": 12,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2046525049566605498",
+    "code_file": "corpus/tsubuyaki/code/2046525049566605498.js",
+    "total_literals": 13,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2046526319371165865",
+    "code_file": "corpus/tsubuyaki/code/2046526319371165865.js",
+    "total_literals": 12,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2046570178599928258",
+    "code_file": "corpus/tsubuyaki/code/2046570178599928258.js",
+    "total_literals": 10,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2046704750616555779",
+    "code_file": "corpus/tsubuyaki/code/2046704750616555779.js",
+    "total_literals": 19,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2046728514804806040",
+    "code_file": "corpus/tsubuyaki/code/2046728514804806040.js",
+    "total_literals": 12,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2046970062595338398",
+    "code_file": "corpus/tsubuyaki/code/2046970062595338398.js",
+    "total_literals": 15,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2046970065179046324",
+    "code_file": "corpus/tsubuyaki/code/2046970065179046324.js",
+    "total_literals": 21,
+    "candidates": 16,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2047078757064900855",
+    "code_file": "corpus/tsubuyaki/code/2047078757064900855.js",
+    "total_literals": 16,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2047100635338899526",
+    "code_file": "corpus/tsubuyaki/code/2047100635338899526.js",
+    "total_literals": 17,
+    "candidates": 14,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2047324325561417794",
+    "code_file": "corpus/tsubuyaki/code/2047324325561417794.js",
+    "total_literals": 15,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2047437253438533931",
+    "code_file": "corpus/tsubuyaki/code/2047437253438533931.js",
+    "total_literals": 19,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2047622205354463665",
+    "code_file": "corpus/tsubuyaki/code/2047622205354463665.js",
+    "total_literals": 14,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2047728917998714905",
+    "code_file": "corpus/tsubuyaki/code/2047728917998714905.js",
+    "total_literals": 20,
+    "candidates": 14,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2047805256818643430",
+    "code_file": "corpus/tsubuyaki/code/2047805256818643430.js",
+    "total_literals": 16,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2047806088402321569",
+    "code_file": "corpus/tsubuyaki/code/2047806088402321569.js",
+    "total_literals": 10,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2047905078154326519",
+    "code_file": "corpus/tsubuyaki/code/2047905078154326519.js",
+    "total_literals": 12,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2048184851065712996",
+    "code_file": "corpus/tsubuyaki/code/2048184851065712996.js",
+    "total_literals": 18,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2048338302210855354",
+    "code_file": "corpus/tsubuyaki/code/2048338302210855354.js",
+    "total_literals": 21,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2048411170626019684",
+    "code_file": "corpus/tsubuyaki/code/2048411170626019684.js",
+    "total_literals": 17,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2048520987587789006",
+    "code_file": "corpus/tsubuyaki/code/2048520987587789006.js",
+    "total_literals": 15,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2048651429750214915",
+    "code_file": "corpus/tsubuyaki/code/2048651429750214915.js",
+    "total_literals": 7,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2048689338356203686",
+    "code_file": "corpus/tsubuyaki/code/2048689338356203686.js",
+    "total_literals": 13,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2048701919233998942",
+    "code_file": "corpus/tsubuyaki/code/2048701919233998942.js",
+    "total_literals": 21,
+    "candidates": 15,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2048723325518766586",
+    "code_file": "corpus/tsubuyaki/code/2048723325518766586.js",
+    "total_literals": 15,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2048798437471338689",
+    "code_file": "corpus/tsubuyaki/code/2048798437471338689.js",
+    "total_literals": 17,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2048891715403289024",
+    "code_file": "corpus/tsubuyaki/code/2048891715403289024.js",
+    "total_literals": 5,
+    "candidates": 2,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2049109245657014282",
+    "code_file": "corpus/tsubuyaki/code/2049109245657014282.js",
+    "total_literals": 13,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2049142713854173481",
+    "code_file": "corpus/tsubuyaki/code/2049142713854173481.js",
+    "total_literals": 19,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2049251203763364267",
+    "code_file": "corpus/tsubuyaki/code/2049251203763364267.js",
+    "total_literals": 13,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2049457290194071876",
+    "code_file": "corpus/tsubuyaki/code/2049457290194071876.js",
+    "total_literals": 16,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2049469443445764494",
+    "code_file": "corpus/tsubuyaki/code/2049469443445764494.js",
+    "total_literals": 9,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2049471104847315198",
+    "code_file": "corpus/tsubuyaki/code/2049471104847315198.js",
+    "total_literals": 19,
+    "candidates": 16,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2049616657354768454",
+    "code_file": "corpus/tsubuyaki/code/2049616657354768454.js",
+    "total_literals": 14,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2049881529841779083",
+    "code_file": "corpus/tsubuyaki/code/2049881529841779083.js",
+    "total_literals": 20,
+    "candidates": 15,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2049963411388412006",
+    "code_file": "corpus/tsubuyaki/code/2049963411388412006.js",
+    "total_literals": 8,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2049977218093490519",
+    "code_file": "corpus/tsubuyaki/code/2049977218093490519.js",
+    "total_literals": 13,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2050161551261511745",
+    "code_file": "corpus/tsubuyaki/code/2050161551261511745.js",
+    "total_literals": 10,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2050211072670638178",
+    "code_file": "corpus/tsubuyaki/code/2050211072670638178.js",
+    "total_literals": 9,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2050260162125148503",
+    "code_file": "corpus/tsubuyaki/code/2050260162125148503.js",
+    "total_literals": 14,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2050337913188315234",
+    "code_file": "corpus/tsubuyaki/code/2050337913188315234.js",
+    "total_literals": 12,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2050372843792408610",
+    "code_file": "corpus/tsubuyaki/code/2050372843792408610.js",
+    "total_literals": 16,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2050601233220763868",
+    "code_file": "corpus/tsubuyaki/code/2050601233220763868.js",
+    "total_literals": 15,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2050826104341139595",
+    "code_file": "corpus/tsubuyaki/code/2050826104341139595.js",
+    "total_literals": 15,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2050851653256114627",
+    "code_file": "corpus/tsubuyaki/code/2050851653256114627.js",
+    "total_literals": 11,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2050861977648640134",
+    "code_file": "corpus/tsubuyaki/code/2050861977648640134.js",
+    "total_literals": 14,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2051218670056350051",
+    "code_file": "corpus/tsubuyaki/code/2051218670056350051.js",
+    "total_literals": 14,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2051260185503793382",
+    "code_file": "corpus/tsubuyaki/code/2051260185503793382.js",
+    "total_literals": 18,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2051486550287106080",
+    "code_file": "corpus/tsubuyaki/code/2051486550287106080.js",
+    "total_literals": 11,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2051676013902639591",
+    "code_file": "corpus/tsubuyaki/code/2051676013902639591.js",
+    "total_literals": 30,
+    "candidates": 27,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2051790382552502357",
+    "code_file": "corpus/tsubuyaki/code/2051790382552502357.js",
+    "total_literals": 12,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2051790908182683945",
+    "code_file": "corpus/tsubuyaki/code/2051790908182683945.js",
+    "total_literals": 13,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2051859426479632462",
+    "code_file": "corpus/tsubuyaki/code/2051859426479632462.js",
+    "total_literals": 6,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2051951631885894040",
+    "code_file": "corpus/tsubuyaki/code/2051951631885894040.js",
+    "total_literals": 24,
+    "candidates": 15,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2051973569522102330",
+    "code_file": "corpus/tsubuyaki/code/2051973569522102330.js",
+    "total_literals": 9,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2051985170476204496",
+    "code_file": "corpus/tsubuyaki/code/2051985170476204496.js",
+    "total_literals": 13,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2052029773287915739",
+    "code_file": "corpus/tsubuyaki/code/2052029773287915739.js",
+    "total_literals": 15,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2052029776836317285",
+    "code_file": "corpus/tsubuyaki/code/2052029776836317285.js",
+    "total_literals": 16,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2052150021399978028",
+    "code_file": "corpus/tsubuyaki/code/2052150021399978028.js",
+    "total_literals": 14,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2052289402064507186",
+    "code_file": "corpus/tsubuyaki/code/2052289402064507186.js",
+    "total_literals": 10,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2052289716897386932",
+    "code_file": "corpus/tsubuyaki/code/2052289716897386932.js",
+    "total_literals": 10,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2052292084783284711",
+    "code_file": "corpus/tsubuyaki/code/2052292084783284711.js",
+    "total_literals": 9,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2052361179683836279",
+    "code_file": "corpus/tsubuyaki/code/2052361179683836279.js",
+    "total_literals": 22,
+    "candidates": 15,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2052368432285557121",
+    "code_file": "corpus/tsubuyaki/code/2052368432285557121.js",
+    "total_literals": 27,
+    "candidates": 19,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2052513829641417109",
+    "code_file": "corpus/tsubuyaki/code/2052513829641417109.js",
+    "total_literals": 12,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2052514946806935832",
+    "code_file": "corpus/tsubuyaki/code/2052514946806935832.js",
+    "total_literals": 12,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2052701433498354154",
+    "code_file": "corpus/tsubuyaki/code/2052701433498354154.js",
+    "total_literals": 11,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2052738636492447931",
+    "code_file": "corpus/tsubuyaki/code/2052738636492447931.js",
+    "total_literals": 11,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2052879345388302740",
+    "code_file": "corpus/tsubuyaki/code/2052879345388302740.js",
+    "total_literals": 16,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2052912078558769535",
+    "code_file": "corpus/tsubuyaki/code/2052912078558769535.js",
+    "total_literals": 10,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2053014549520097646",
+    "code_file": "corpus/tsubuyaki/code/2053014549520097646.js",
+    "total_literals": 16,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2053022941647159793",
+    "code_file": "corpus/tsubuyaki/code/2053022941647159793.js",
+    "total_literals": 14,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2053027874895216916",
+    "code_file": "corpus/tsubuyaki/code/2053027874895216916.js",
+    "total_literals": 17,
+    "candidates": 14,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2053088695717339569",
+    "code_file": "corpus/tsubuyaki/code/2053088695717339569.js",
+    "total_literals": 16,
+    "candidates": 14,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2053149494439800895",
+    "code_file": "corpus/tsubuyaki/code/2053149494439800895.js",
+    "total_literals": 23,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2053243044774989910",
+    "code_file": "corpus/tsubuyaki/code/2053243044774989910.js",
+    "total_literals": 11,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2053274640571859209",
+    "code_file": "corpus/tsubuyaki/code/2053274640571859209.js",
+    "total_literals": 15,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2053439043736928423",
+    "code_file": "corpus/tsubuyaki/code/2053439043736928423.js",
+    "total_literals": 11,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2053471331417809309",
+    "code_file": "corpus/tsubuyaki/code/2053471331417809309.js",
+    "total_literals": 14,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2053603142563180707",
+    "code_file": "corpus/tsubuyaki/code/2053603142563180707.js",
+    "total_literals": 13,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2053631862682394873",
+    "code_file": "corpus/tsubuyaki/code/2053631862682394873.js",
+    "total_literals": 8,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2053723977810665827",
+    "code_file": "corpus/tsubuyaki/code/2053723977810665827.js",
+    "total_literals": 15,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2053779736577614022",
+    "code_file": "corpus/tsubuyaki/code/2053779736577614022.js",
+    "total_literals": 18,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2053796487944171838",
+    "code_file": "corpus/tsubuyaki/code/2053796487944171838.js",
+    "total_literals": 10,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2053836650502123758",
+    "code_file": "corpus/tsubuyaki/code/2053836650502123758.js",
+    "total_literals": 15,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2053963125247053947",
+    "code_file": "corpus/tsubuyaki/code/2053963125247053947.js",
+    "total_literals": 11,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2053985175219102162",
+    "code_file": "corpus/tsubuyaki/code/2053985175219102162.js",
+    "total_literals": 19,
+    "candidates": 18,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2054056602131689674",
+    "code_file": "corpus/tsubuyaki/code/2054056602131689674.js",
+    "total_literals": 11,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2054166216529580467",
+    "code_file": "corpus/tsubuyaki/code/2054166216529580467.js",
+    "total_literals": 10,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2054322299718033887",
+    "code_file": "corpus/tsubuyaki/code/2054322299718033887.js",
+    "total_literals": 19,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2054355504290484253",
+    "code_file": "corpus/tsubuyaki/code/2054355504290484253.js",
+    "total_literals": 11,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2054564068103749943",
+    "code_file": "corpus/tsubuyaki/code/2054564068103749943.js",
+    "total_literals": 18,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2054564070255472833",
+    "code_file": "corpus/tsubuyaki/code/2054564070255472833.js",
+    "total_literals": 18,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2054684272787886531",
+    "code_file": "corpus/tsubuyaki/code/2054684272787886531.js",
+    "total_literals": 13,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2054708206828769376",
+    "code_file": "corpus/tsubuyaki/code/2054708206828769376.js",
+    "total_literals": 14,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2054822119750746225",
+    "code_file": "corpus/tsubuyaki/code/2054822119750746225.js",
+    "total_literals": 13,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2054970926211707273",
+    "code_file": "corpus/tsubuyaki/code/2054970926211707273.js",
+    "total_literals": 17,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2055051096184455239",
+    "code_file": "corpus/tsubuyaki/code/2055051096184455239.js",
+    "total_literals": 12,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2055056878527562029",
+    "code_file": "corpus/tsubuyaki/code/2055056878527562029.js",
+    "total_literals": 10,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2055174683448984061",
+    "code_file": "corpus/tsubuyaki/code/2055174683448984061.js",
+    "total_literals": 13,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2055271602531823735",
+    "code_file": "corpus/tsubuyaki/code/2055271602531823735.js",
+    "total_literals": 9,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2055289531847565422",
+    "code_file": "corpus/tsubuyaki/code/2055289531847565422.js",
+    "total_literals": 21,
+    "candidates": 17,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2055323134409216235",
+    "code_file": "corpus/tsubuyaki/code/2055323134409216235.js",
+    "total_literals": 27,
+    "candidates": 24,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2055411052301738012",
+    "code_file": "corpus/tsubuyaki/code/2055411052301738012.js",
+    "total_literals": 10,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2055565875416383676",
+    "code_file": "corpus/tsubuyaki/code/2055565875416383676.js",
+    "total_literals": 14,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2055635771298824209",
+    "code_file": "corpus/tsubuyaki/code/2055635771298824209.js",
+    "total_literals": 5,
+    "candidates": 2,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2055638722239160696",
+    "code_file": "corpus/tsubuyaki/code/2055638722239160696.js",
+    "total_literals": 17,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2055795808436691001",
+    "code_file": "corpus/tsubuyaki/code/2055795808436691001.js",
+    "total_literals": 10,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2055909930868301964",
+    "code_file": "corpus/tsubuyaki/code/2055909930868301964.js",
+    "total_literals": 9,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2055914547781743037",
+    "code_file": "corpus/tsubuyaki/code/2055914547781743037.js",
+    "total_literals": 23,
+    "candidates": 14,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2055916481352024284",
+    "code_file": "corpus/tsubuyaki/code/2055916481352024284.js",
+    "total_literals": 13,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2056263739444449790",
+    "code_file": "corpus/tsubuyaki/code/2056263739444449790.js",
+    "total_literals": 12,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2056336293714628943",
+    "code_file": "corpus/tsubuyaki/code/2056336293714628943.js",
+    "total_literals": 19,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2056339149867917721",
+    "code_file": "corpus/tsubuyaki/code/2056339149867917721.js",
+    "total_literals": 10,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2056499917368287633",
+    "code_file": "corpus/tsubuyaki/code/2056499917368287633.js",
+    "total_literals": 16,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2056680338462765379",
+    "code_file": "corpus/tsubuyaki/code/2056680338462765379.js",
+    "total_literals": 14,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2056719114169970788",
+    "code_file": "corpus/tsubuyaki/code/2056719114169970788.js",
+    "total_literals": 16,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2056866604353515641",
+    "code_file": "corpus/tsubuyaki/code/2056866604353515641.js",
+    "total_literals": 14,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2057037166510055641",
+    "code_file": "corpus/tsubuyaki/code/2057037166510055641.js",
+    "total_literals": 7,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2057037624699978122",
+    "code_file": "corpus/tsubuyaki/code/2057037624699978122.js",
+    "total_literals": 10,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2057086166709764577",
+    "code_file": "corpus/tsubuyaki/code/2057086166709764577.js",
+    "total_literals": 13,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2057212466367733979",
+    "code_file": "corpus/tsubuyaki/code/2057212466367733979.js",
+    "total_literals": 12,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2057364814985584873",
+    "code_file": "corpus/tsubuyaki/code/2057364814985584873.js",
+    "total_literals": 13,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2057489640039530588",
+    "code_file": "corpus/tsubuyaki/code/2057489640039530588.js",
+    "total_literals": 14,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2057569606542426456",
+    "code_file": "corpus/tsubuyaki/code/2057569606542426456.js",
+    "total_literals": 11,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2057580626128290159",
+    "code_file": "corpus/tsubuyaki/code/2057580626128290159.js",
+    "total_literals": 9,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2057720578400977254",
+    "code_file": "corpus/tsubuyaki/code/2057720578400977254.js",
+    "total_literals": 9,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2057744835164172657",
+    "code_file": "corpus/tsubuyaki/code/2057744835164172657.js",
+    "total_literals": 10,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2057806469748396246",
+    "code_file": "corpus/tsubuyaki/code/2057806469748396246.js",
+    "total_literals": 11,
+    "candidates": 3,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2057812120843194617",
+    "code_file": "corpus/tsubuyaki/code/2057812120843194617.js",
+    "total_literals": 15,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2057950475354575339",
+    "code_file": "corpus/tsubuyaki/code/2057950475354575339.js",
+    "total_literals": 11,
+    "candidates": 3,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2058097545034047786",
+    "code_file": "corpus/tsubuyaki/code/2058097545034047786.js",
+    "total_literals": 15,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2058099956695929239",
+    "code_file": "corpus/tsubuyaki/code/2058099956695929239.js",
+    "total_literals": 15,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2058317375901151602",
+    "code_file": "corpus/tsubuyaki/code/2058317375901151602.js",
+    "total_literals": 16,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2058448154413121846",
+    "code_file": "corpus/tsubuyaki/code/2058448154413121846.js",
+    "total_literals": 12,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2058450858309030388",
+    "code_file": "corpus/tsubuyaki/code/2058450858309030388.js",
+    "total_literals": 13,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2058482275806056917",
+    "code_file": "corpus/tsubuyaki/code/2058482275806056917.js",
+    "total_literals": 19,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2058492176473210886",
+    "code_file": "corpus/tsubuyaki/code/2058492176473210886.js",
+    "total_literals": 10,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2058673768529317938",
+    "code_file": "corpus/tsubuyaki/code/2058673768529317938.js",
+    "total_literals": 15,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2058812279869804595",
+    "code_file": "corpus/tsubuyaki/code/2058812279869804595.js",
+    "total_literals": 15,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2058813178277220541",
+    "code_file": "corpus/tsubuyaki/code/2058813178277220541.js",
+    "total_literals": 11,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2058899265574068628",
+    "code_file": "corpus/tsubuyaki/code/2058899265574068628.js",
+    "total_literals": 18,
+    "candidates": 16,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2058899286855950337",
+    "code_file": "corpus/tsubuyaki/code/2058899286855950337.js",
+    "total_literals": 11,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2059040479774375939",
+    "code_file": "corpus/tsubuyaki/code/2059040479774375939.js",
+    "total_literals": 11,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2059159134126112921",
+    "code_file": "corpus/tsubuyaki/code/2059159134126112921.js",
+    "total_literals": 23,
+    "candidates": 17,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2059174400591827226",
+    "code_file": "corpus/tsubuyaki/code/2059174400591827226.js",
+    "total_literals": 7,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2059276677113594161",
+    "code_file": "corpus/tsubuyaki/code/2059276677113594161.js",
+    "total_literals": 17,
+    "candidates": 15,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2059280111795597721",
+    "code_file": "corpus/tsubuyaki/code/2059280111795597721.js",
+    "total_literals": 12,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2059396408608981384",
+    "code_file": "corpus/tsubuyaki/code/2059396408608981384.js",
+    "total_literals": 16,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2059521157393797419",
+    "code_file": "corpus/tsubuyaki/code/2059521157393797419.js",
+    "total_literals": 17,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2059615152832643073",
+    "code_file": "corpus/tsubuyaki/code/2059615152832643073.js",
+    "total_literals": 24,
+    "candidates": 22,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2059646825699901561",
+    "code_file": "corpus/tsubuyaki/code/2059646825699901561.js",
+    "total_literals": 13,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2059758580446953796",
+    "code_file": "corpus/tsubuyaki/code/2059758580446953796.js",
+    "total_literals": 15,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2059870737457201575",
+    "code_file": "corpus/tsubuyaki/code/2059870737457201575.js",
+    "total_literals": 13,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2059952095302930581",
+    "code_file": "corpus/tsubuyaki/code/2059952095302930581.js",
+    "total_literals": 21,
+    "candidates": 16,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2059964298588467571",
+    "code_file": "corpus/tsubuyaki/code/2059964298588467571.js",
+    "total_literals": 22,
+    "candidates": 17,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2059966655946764661",
+    "code_file": "corpus/tsubuyaki/code/2059966655946764661.js",
+    "total_literals": 8,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2059989248196153494",
+    "code_file": "corpus/tsubuyaki/code/2059989248196153494.js",
+    "total_literals": 19,
+    "candidates": 17,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2060214110516834320",
+    "code_file": "corpus/tsubuyaki/code/2060214110516834320.js",
+    "total_literals": 13,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2060331006482415976",
+    "code_file": "corpus/tsubuyaki/code/2060331006482415976.js",
+    "total_literals": 9,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2060341229062365377",
+    "code_file": "corpus/tsubuyaki/code/2060341229062365377.js",
+    "total_literals": 9,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2060389280196030554",
+    "code_file": "corpus/tsubuyaki/code/2060389280196030554.js",
+    "total_literals": 13,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2060389282611929496",
+    "code_file": "corpus/tsubuyaki/code/2060389282611929496.js",
+    "total_literals": 16,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2060489916711367061",
+    "code_file": "corpus/tsubuyaki/code/2060489916711367061.js",
+    "total_literals": 9,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2060634213456769309",
+    "code_file": "corpus/tsubuyaki/code/2060634213456769309.js",
+    "total_literals": 26,
+    "candidates": 19,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2060652909751402551",
+    "code_file": "corpus/tsubuyaki/code/2060652909751402551.js",
+    "total_literals": 12,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2060727159350788467",
+    "code_file": "corpus/tsubuyaki/code/2060727159350788467.js",
+    "total_literals": 11,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2060850344515830131",
+    "code_file": "corpus/tsubuyaki/code/2060850344515830131.js",
+    "total_literals": 9,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2060905765016305920",
+    "code_file": "corpus/tsubuyaki/code/2060905765016305920.js",
+    "total_literals": 14,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2061106172426612769",
+    "code_file": "corpus/tsubuyaki/code/2061106172426612769.js",
+    "total_literals": 17,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2061231736856641582",
+    "code_file": "corpus/tsubuyaki/code/2061231736856641582.js",
+    "total_literals": 15,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2061759268295209374",
+    "code_file": "corpus/tsubuyaki/code/2061759268295209374.js",
+    "total_literals": 31,
+    "candidates": 16,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2061914512996061585",
+    "code_file": "corpus/tsubuyaki/code/2061914512996061585.js",
+    "total_literals": 17,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2061924047374725244",
+    "code_file": "corpus/tsubuyaki/code/2061924047374725244.js",
+    "total_literals": 12,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2062120280361955495",
+    "code_file": "corpus/tsubuyaki/code/2062120280361955495.js",
+    "total_literals": 14,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2062123876864401783",
+    "code_file": "corpus/tsubuyaki/code/2062123876864401783.js",
+    "total_literals": 17,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2062197792911638785",
+    "code_file": "corpus/tsubuyaki/code/2062197792911638785.js",
+    "total_literals": 16,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2062297734208729384",
+    "code_file": "corpus/tsubuyaki/code/2062297734208729384.js",
+    "total_literals": 16,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2062550042960097376",
+    "code_file": "corpus/tsubuyaki/code/2062550042960097376.js",
+    "total_literals": 15,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2062673155282682207",
+    "code_file": "corpus/tsubuyaki/code/2062673155282682207.js",
+    "total_literals": 14,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2062779944854512082",
+    "code_file": "corpus/tsubuyaki/code/2062779944854512082.js",
+    "total_literals": 12,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2062895277028295152",
+    "code_file": "corpus/tsubuyaki/code/2062895277028295152.js",
+    "total_literals": 14,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2063002423875252493",
+    "code_file": "corpus/tsubuyaki/code/2063002423875252493.js",
+    "total_literals": 14,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2063260202124951955",
+    "code_file": "corpus/tsubuyaki/code/2063260202124951955.js",
+    "total_literals": 15,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2063266924356857982",
+    "code_file": "corpus/tsubuyaki/code/2063266924356857982.js",
+    "total_literals": 21,
+    "candidates": 18,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2063545817328447936",
+    "code_file": "corpus/tsubuyaki/code/2063545817328447936.js",
+    "total_literals": 17,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2063584559837688009",
+    "code_file": "corpus/tsubuyaki/code/2063584559837688009.js",
+    "total_literals": 22,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2063723487156748619",
+    "code_file": "corpus/tsubuyaki/code/2063723487156748619.js",
+    "total_literals": 6,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2063973761095995581",
+    "code_file": "corpus/tsubuyaki/code/2063973761095995581.js",
+    "total_literals": 11,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2063993748015739067",
+    "code_file": "corpus/tsubuyaki/code/2063993748015739067.js",
+    "total_literals": 25,
+    "candidates": 17,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2064106329321713805",
+    "code_file": "corpus/tsubuyaki/code/2064106329321713805.js",
+    "total_literals": 10,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2064350039296835724",
+    "code_file": "corpus/tsubuyaki/code/2064350039296835724.js",
+    "total_literals": 21,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2064466586233401528",
+    "code_file": "corpus/tsubuyaki/code/2064466586233401528.js",
+    "total_literals": 9,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2064736437040468227",
+    "code_file": "corpus/tsubuyaki/code/2064736437040468227.js",
+    "total_literals": 17,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2064830333300969569",
+    "code_file": "corpus/tsubuyaki/code/2064830333300969569.js",
+    "total_literals": 8,
+    "candidates": 2,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2065010730978738577",
+    "code_file": "corpus/tsubuyaki/code/2065010730978738577.js",
+    "total_literals": 13,
+    "candidates": 1,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2065191020049113405",
+    "code_file": "corpus/tsubuyaki/code/2065191020049113405.js",
+    "total_literals": 8,
+    "candidates": 2,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2065329447247745209",
+    "code_file": "corpus/tsubuyaki/code/2065329447247745209.js",
+    "total_literals": 17,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2065560398875824568",
+    "code_file": "corpus/tsubuyaki/code/2065560398875824568.js",
+    "total_literals": 14,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2065676799758258365",
+    "code_file": "corpus/tsubuyaki/code/2065676799758258365.js",
+    "total_literals": 14,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2065922503365857344",
+    "code_file": "corpus/tsubuyaki/code/2065922503365857344.js",
+    "total_literals": 20,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2065944751849996333",
+    "code_file": "corpus/tsubuyaki/code/2065944751849996333.js",
+    "total_literals": 12,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2066055989439451149",
+    "code_file": "corpus/tsubuyaki/code/2066055989439451149.js",
+    "total_literals": 16,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2066094192431116763",
+    "code_file": "corpus/tsubuyaki/code/2066094192431116763.js",
+    "total_literals": 14,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2066164351745372563",
+    "code_file": "corpus/tsubuyaki/code/2066164351745372563.js",
+    "total_literals": 17,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2066274261107618062",
+    "code_file": "corpus/tsubuyaki/code/2066274261107618062.js",
+    "total_literals": 14,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2066391828509966530",
+    "code_file": "corpus/tsubuyaki/code/2066391828509966530.js",
+    "total_literals": 13,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2066461532918358382",
+    "code_file": "corpus/tsubuyaki/code/2066461532918358382.js",
+    "total_literals": 16,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2066996223807254564",
+    "code_file": "corpus/tsubuyaki/code/2066996223807254564.js",
+    "total_literals": 23,
+    "candidates": 16,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2067013732300165317",
+    "code_file": "corpus/tsubuyaki/code/2067013732300165317.js",
+    "total_literals": 7,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2067202581500407822",
+    "code_file": "corpus/tsubuyaki/code/2067202581500407822.js",
+    "total_literals": 7,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2067204705378529416",
+    "code_file": "corpus/tsubuyaki/code/2067204705378529416.js",
+    "total_literals": 7,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2067229671469838843",
+    "code_file": "corpus/tsubuyaki/code/2067229671469838843.js",
+    "total_literals": 10,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2067358370890482171",
+    "code_file": "corpus/tsubuyaki/code/2067358370890482171.js",
+    "total_literals": 11,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2067385417465495566",
+    "code_file": "corpus/tsubuyaki/code/2067385417465495566.js",
+    "total_literals": 14,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2067500370981785994",
+    "code_file": "corpus/tsubuyaki/code/2067500370981785994.js",
+    "total_literals": 10,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2067501930025467922",
+    "code_file": "corpus/tsubuyaki/code/2067501930025467922.js",
+    "total_literals": 7,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2068319923747856604",
+    "code_file": "corpus/tsubuyaki/code/2068319923747856604.js",
+    "total_literals": 21,
+    "candidates": 14,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2068564058752868797",
+    "code_file": "corpus/tsubuyaki/code/2068564058752868797.js",
+    "total_literals": 13,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2069180902324969796",
+    "code_file": "corpus/tsubuyaki/code/2069180902324969796.js",
+    "total_literals": 17,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2069240722746999061",
+    "code_file": "corpus/tsubuyaki/code/2069240722746999061.js",
+    "total_literals": 10,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2069364524814352875",
+    "code_file": "corpus/tsubuyaki/code/2069364524814352875.js",
+    "total_literals": 16,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2069379464765817154",
+    "code_file": "corpus/tsubuyaki/code/2069379464765817154.js",
+    "total_literals": 10,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2069548193105564115",
+    "code_file": "corpus/tsubuyaki/code/2069548193105564115.js",
+    "total_literals": 10,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2069724671596269861",
+    "code_file": "corpus/tsubuyaki/code/2069724671596269861.js",
+    "total_literals": 11,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2070266976602362254",
+    "code_file": "corpus/tsubuyaki/code/2070266976602362254.js",
+    "total_literals": 11,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2071724510789927306",
+    "code_file": "corpus/tsubuyaki/code/2071724510789927306.js",
+    "total_literals": 13,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2071775628131500154",
+    "code_file": "corpus/tsubuyaki/code/2071775628131500154.js",
+    "total_literals": 11,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2071903464909910396",
+    "code_file": "corpus/tsubuyaki/code/2071903464909910396.js",
+    "total_literals": 20,
+    "candidates": 15,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2072085368036618458",
+    "code_file": "corpus/tsubuyaki/code/2072085368036618458.js",
+    "total_literals": 10,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2072116181453156740",
+    "code_file": "corpus/tsubuyaki/code/2072116181453156740.js",
+    "total_literals": 13,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2072313852038173059",
+    "code_file": "corpus/tsubuyaki/code/2072313852038173059.js",
+    "total_literals": 14,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2072427055053209607",
+    "code_file": "corpus/tsubuyaki/code/2072427055053209607.js",
+    "total_literals": 11,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2072460580930437547",
+    "code_file": "corpus/tsubuyaki/code/2072460580930437547.js",
+    "total_literals": 22,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2072550435735642461",
+    "code_file": "corpus/tsubuyaki/code/2072550435735642461.js",
+    "total_literals": 15,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2072551613064265865",
+    "code_file": "corpus/tsubuyaki/code/2072551613064265865.js",
+    "total_literals": 14,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2072606822046064946",
+    "code_file": "corpus/tsubuyaki/code/2072606822046064946.js",
+    "total_literals": 13,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2072683266180846052",
+    "code_file": "corpus/tsubuyaki/code/2072683266180846052.js",
+    "total_literals": 19,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2072790792960442851",
+    "code_file": "corpus/tsubuyaki/code/2072790792960442851.js",
+    "total_literals": 14,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2072810868677750986",
+    "code_file": "corpus/tsubuyaki/code/2072810868677750986.js",
+    "total_literals": 15,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2072952775953281502",
+    "code_file": "corpus/tsubuyaki/code/2072952775953281502.js",
+    "total_literals": 22,
+    "candidates": 16,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2072956411894767754",
+    "code_file": "corpus/tsubuyaki/code/2072956411894767754.js",
+    "total_literals": 11,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2072990510004961631",
+    "code_file": "corpus/tsubuyaki/code/2072990510004961631.js",
+    "total_literals": 20,
+    "candidates": 16,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2073022002475184542",
+    "code_file": "corpus/tsubuyaki/code/2073022002475184542.js",
+    "total_literals": 13,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2073032189877583948",
+    "code_file": "corpus/tsubuyaki/code/2073032189877583948.js",
+    "total_literals": 16,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2073045784447345089",
+    "code_file": "corpus/tsubuyaki/code/2073045784447345089.js",
+    "total_literals": 12,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2073166766235349040",
+    "code_file": "corpus/tsubuyaki/code/2073166766235349040.js",
+    "total_literals": 14,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2073169893042909599",
+    "code_file": "corpus/tsubuyaki/code/2073169893042909599.js",
+    "total_literals": 22,
+    "candidates": 17,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2073286178523279835",
+    "code_file": "corpus/tsubuyaki/code/2073286178523279835.js",
+    "total_literals": 13,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2073442497284682143",
+    "code_file": "corpus/tsubuyaki/code/2073442497284682143.js",
+    "total_literals": 14,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2073520185181671489",
+    "code_file": "corpus/tsubuyaki/code/2073520185181671489.js",
+    "total_literals": 6,
+    "candidates": 3,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2073522159079792986",
+    "code_file": "corpus/tsubuyaki/code/2073522159079792986.js",
+    "total_literals": 6,
+    "candidates": 3,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2073531764530921664",
+    "code_file": "corpus/tsubuyaki/code/2073531764530921664.js",
+    "total_literals": 13,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2073759382605881545",
+    "code_file": "corpus/tsubuyaki/code/2073759382605881545.js",
+    "total_literals": 14,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2073896044103131298",
+    "code_file": "corpus/tsubuyaki/code/2073896044103131298.js",
+    "total_literals": 15,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2073918583919476895",
+    "code_file": "corpus/tsubuyaki/code/2073918583919476895.js",
+    "total_literals": 22,
+    "candidates": 18,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2073961005768720768",
+    "code_file": "corpus/tsubuyaki/code/2073961005768720768.js",
+    "total_literals": 17,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2074062463642010083",
+    "code_file": "corpus/tsubuyaki/code/2074062463642010083.js",
+    "total_literals": 16,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2074113977962184715",
+    "code_file": "corpus/tsubuyaki/code/2074113977962184715.js",
+    "total_literals": 19,
+    "candidates": 15,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2074120252552884554",
+    "code_file": "corpus/tsubuyaki/code/2074120252552884554.js",
+    "total_literals": 13,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2074260666052170070",
+    "code_file": "corpus/tsubuyaki/code/2074260666052170070.js",
+    "total_literals": 12,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2074327065189310515",
+    "code_file": "corpus/tsubuyaki/code/2074327065189310515.js",
+    "total_literals": 6,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2074507702286602452",
+    "code_file": "corpus/tsubuyaki/code/2074507702286602452.js",
+    "total_literals": 14,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2074546466719416392",
+    "code_file": "corpus/tsubuyaki/code/2074546466719416392.js",
+    "total_literals": 15,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2074639095893254462",
+    "code_file": "corpus/tsubuyaki/code/2074639095893254462.js",
+    "total_literals": 8,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2074673485222387858",
+    "code_file": "corpus/tsubuyaki/code/2074673485222387858.js",
+    "total_literals": 10,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2074836433370816586",
+    "code_file": "corpus/tsubuyaki/code/2074836433370816586.js",
+    "total_literals": 15,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2074865367663673825",
+    "code_file": "corpus/tsubuyaki/code/2074865367663673825.js",
+    "total_literals": 16,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2074980250791076117",
+    "code_file": "corpus/tsubuyaki/code/2074980250791076117.js",
+    "total_literals": 11,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2074981767275307501",
+    "code_file": "corpus/tsubuyaki/code/2074981767275307501.js",
+    "total_literals": 13,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2074995611599098277",
+    "code_file": "corpus/tsubuyaki/code/2074995611599098277.js",
+    "total_literals": 18,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2075165064378962226",
+    "code_file": "corpus/tsubuyaki/code/2075165064378962226.js",
+    "total_literals": 12,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2075165608988299441",
+    "code_file": "corpus/tsubuyaki/code/2075165608988299441.js",
+    "total_literals": 23,
+    "candidates": 19,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2075184106107965733",
+    "code_file": "corpus/tsubuyaki/code/2075184106107965733.js",
+    "total_literals": 13,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2075214387615580373",
+    "code_file": "corpus/tsubuyaki/code/2075214387615580373.js",
+    "total_literals": 12,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2075246434732151085",
+    "code_file": "corpus/tsubuyaki/code/2075246434732151085.js",
+    "total_literals": 18,
+    "candidates": 14,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2075349871096373434",
+    "code_file": "corpus/tsubuyaki/code/2075349871096373434.js",
+    "total_literals": 13,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2075541329749430300",
+    "code_file": "corpus/tsubuyaki/code/2075541329749430300.js",
+    "total_literals": 12,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2075542543765553291",
+    "code_file": "corpus/tsubuyaki/code/2075542543765553291.js",
+    "total_literals": 11,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2075710138116350217",
+    "code_file": "corpus/tsubuyaki/code/2075710138116350217.js",
+    "total_literals": 13,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2075731082910310694",
+    "code_file": "corpus/tsubuyaki/code/2075731082910310694.js",
+    "total_literals": 17,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2075843415481405463",
+    "code_file": "corpus/tsubuyaki/code/2075843415481405463.js",
+    "total_literals": 12,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2075921039813668932",
+    "code_file": "corpus/tsubuyaki/code/2075921039813668932.js",
+    "total_literals": 18,
+    "candidates": 14,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2076074072749084753",
+    "code_file": "corpus/tsubuyaki/code/2076074072749084753.js",
+    "total_literals": 10,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2076103984876765477",
+    "code_file": "corpus/tsubuyaki/code/2076103984876765477.js",
+    "total_literals": 16,
+    "candidates": 11,
+    "parser": "acorn-loose"
+  },
+  {
+    "seed_id": "tsubuyaki-2076331358117675421",
+    "code_file": "corpus/tsubuyaki/code/2076331358117675421.js",
+    "total_literals": 18,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2076438197819814288",
+    "code_file": "corpus/tsubuyaki/code/2076438197819814288.js",
+    "total_literals": 17,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2076620254965617033",
+    "code_file": "corpus/tsubuyaki/code/2076620254965617033.js",
+    "total_literals": 21,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2076794512710766685",
+    "code_file": "corpus/tsubuyaki/code/2076794512710766685.js",
+    "total_literals": 13,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2076805409642615035",
+    "code_file": "corpus/tsubuyaki/code/2076805409642615035.js",
+    "total_literals": 23,
+    "candidates": 18,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2076819084210016403",
+    "code_file": "corpus/tsubuyaki/code/2076819084210016403.js",
+    "total_literals": 12,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2076888652735812069",
+    "code_file": "corpus/tsubuyaki/code/2076888652735812069.js",
+    "total_literals": 16,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2077038122869891517",
+    "code_file": "corpus/tsubuyaki/code/2077038122869891517.js",
+    "total_literals": 14,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2077049873481052229",
+    "code_file": "corpus/tsubuyaki/code/2077049873481052229.js",
+    "total_literals": 14,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2077154383968850151",
+    "code_file": "corpus/tsubuyaki/code/2077154383968850151.js",
+    "total_literals": 13,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2077290860757364851",
+    "code_file": "corpus/tsubuyaki/code/2077290860757364851.js",
+    "total_literals": 18,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2077358770838257751",
+    "code_file": "corpus/tsubuyaki/code/2077358770838257751.js",
+    "total_literals": 10,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2077375087217656133",
+    "code_file": "corpus/tsubuyaki/code/2077375087217656133.js",
+    "total_literals": 14,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2077521853128835402",
+    "code_file": "corpus/tsubuyaki/code/2077521853128835402.js",
+    "total_literals": 20,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2077773228454596724",
+    "code_file": "corpus/tsubuyaki/code/2077773228454596724.js",
+    "total_literals": 13,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2077878700532736013",
+    "code_file": "corpus/tsubuyaki/code/2077878700532736013.js",
+    "total_literals": 22,
+    "candidates": 14,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2077888406311608446",
+    "code_file": "corpus/tsubuyaki/code/2077888406311608446.js",
+    "total_literals": 15,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2078066850479604016",
+    "code_file": "corpus/tsubuyaki/code/2078066850479604016.js",
+    "total_literals": 18,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2078141740251533449",
+    "code_file": "corpus/tsubuyaki/code/2078141740251533449.js",
+    "total_literals": 14,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2078246063778205874",
+    "code_file": "corpus/tsubuyaki/code/2078246063778205874.js",
+    "total_literals": 11,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2078250648337035336",
+    "code_file": "corpus/tsubuyaki/code/2078250648337035336.js",
+    "total_literals": 10,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2078333885730189565",
+    "code_file": "corpus/tsubuyaki/code/2078333885730189565.js",
+    "total_literals": 11,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2078370413898518610",
+    "code_file": "corpus/tsubuyaki/code/2078370413898518610.js",
+    "total_literals": 10,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2078460272621326664",
+    "code_file": "corpus/tsubuyaki/code/2078460272621326664.js",
+    "total_literals": 16,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2078604525540356231",
+    "code_file": "corpus/tsubuyaki/code/2078604525540356231.js",
+    "total_literals": 11,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2078778223568326886",
+    "code_file": "corpus/tsubuyaki/code/2078778223568326886.js",
+    "total_literals": 23,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2078808256022225256",
+    "code_file": "corpus/tsubuyaki/code/2078808256022225256.js",
+    "total_literals": 19,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2079008475263483986",
+    "code_file": "corpus/tsubuyaki/code/2079008475263483986.js",
+    "total_literals": 21,
+    "candidates": 16,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2079098374486405237",
+    "code_file": "corpus/tsubuyaki/code/2079098374486405237.js",
+    "total_literals": 23,
+    "candidates": 17,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2079169178314178987",
+    "code_file": "corpus/tsubuyaki/code/2079169178314178987.js",
+    "total_literals": 15,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2079178198026424684",
+    "code_file": "corpus/tsubuyaki/code/2079178198026424684.js",
+    "total_literals": 15,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2079328572695814312",
+    "code_file": "corpus/tsubuyaki/code/2079328572695814312.js",
+    "total_literals": 12,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2079390255074222547",
+    "code_file": "corpus/tsubuyaki/code/2079390255074222547.js",
+    "total_literals": 14,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2079584057319715062",
+    "code_file": "corpus/tsubuyaki/code/2079584057319715062.js",
+    "total_literals": 18,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2079689725980639514",
+    "code_file": "corpus/tsubuyaki/code/2079689725980639514.js",
+    "total_literals": 14,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2079699456212258954",
+    "code_file": "corpus/tsubuyaki/code/2079699456212258954.js",
+    "total_literals": 16,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2079839851395043600",
+    "code_file": "corpus/tsubuyaki/code/2079839851395043600.js",
+    "total_literals": 15,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2079949911249043727",
+    "code_file": "corpus/tsubuyaki/code/2079949911249043727.js",
+    "total_literals": 16,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2080052447553450246",
+    "code_file": "corpus/tsubuyaki/code/2080052447553450246.js",
+    "total_literals": 13,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2080119007190081568",
+    "code_file": "corpus/tsubuyaki/code/2080119007190081568.js",
+    "total_literals": 11,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2080150720192684403",
+    "code_file": "corpus/tsubuyaki/code/2080150720192684403.js",
+    "total_literals": 9,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2080157603053842467",
+    "code_file": "corpus/tsubuyaki/code/2080157603053842467.js",
+    "total_literals": 13,
+    "candidates": 6,
+    "parser": "acorn-loose"
+  },
+  {
+    "seed_id": "tsubuyaki-2080178419078488452",
+    "code_file": "corpus/tsubuyaki/code/2080178419078488452.js",
+    "total_literals": 15,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2080178983417811314",
+    "code_file": "corpus/tsubuyaki/code/2080178983417811314.js",
+    "total_literals": 10,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2080181577087410681",
+    "code_file": "corpus/tsubuyaki/code/2080181577087410681.js",
+    "total_literals": 12,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2080237715824705605",
+    "code_file": "corpus/tsubuyaki/code/2080237715824705605.js",
+    "total_literals": 16,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2080272321303228430",
+    "code_file": "corpus/tsubuyaki/code/2080272321303228430.js",
+    "total_literals": 13,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2080420955097378892",
+    "code_file": "corpus/tsubuyaki/code/2080420955097378892.js",
+    "total_literals": 11,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2080598208745714007",
+    "code_file": "corpus/tsubuyaki/code/2080598208745714007.js",
+    "total_literals": 10,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2080602349752783226",
+    "code_file": "corpus/tsubuyaki/code/2080602349752783226.js",
+    "total_literals": 11,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2080677794439393704",
+    "code_file": "corpus/tsubuyaki/code/2080677794439393704.js",
+    "total_literals": 29,
+    "candidates": 26,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2080688849643307361",
+    "code_file": "corpus/tsubuyaki/code/2080688849643307361.js",
+    "total_literals": 13,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2080782969707589720",
+    "code_file": "corpus/tsubuyaki/code/2080782969707589720.js",
+    "total_literals": 11,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2080873713290088873",
+    "code_file": "corpus/tsubuyaki/code/2080873713290088873.js",
+    "total_literals": 10,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2080898723815842103",
+    "code_file": "corpus/tsubuyaki/code/2080898723815842103.js",
+    "total_literals": 11,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2080901723833696654",
+    "code_file": "corpus/tsubuyaki/code/2080901723833696654.js",
+    "total_literals": 11,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2080977918914969636",
+    "code_file": "corpus/tsubuyaki/code/2080977918914969636.js",
+    "total_literals": 25,
+    "candidates": 22,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2081002160846999902",
+    "code_file": "corpus/tsubuyaki/code/2081002160846999902.js",
+    "total_literals": 23,
+    "candidates": 20,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2081149538593808885",
+    "code_file": "corpus/tsubuyaki/code/2081149538593808885.js",
+    "total_literals": 10,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2081198702761582701",
+    "code_file": "corpus/tsubuyaki/code/2081198702761582701.js",
+    "total_literals": 13,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2081221614616941015",
+    "code_file": "corpus/tsubuyaki/code/2081221614616941015.js",
+    "total_literals": 10,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2081275005820932214",
+    "code_file": "corpus/tsubuyaki/code/2081275005820932214.js",
+    "total_literals": 10,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2081288800626790474",
+    "code_file": "corpus/tsubuyaki/code/2081288800626790474.js",
+    "total_literals": 17,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2081317441091883227",
+    "code_file": "corpus/tsubuyaki/code/2081317441091883227.js",
+    "total_literals": 11,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2081372355256111355",
+    "code_file": "corpus/tsubuyaki/code/2081372355256111355.js",
+    "total_literals": 17,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2081379074896007587",
+    "code_file": "corpus/tsubuyaki/code/2081379074896007587.js",
+    "total_literals": 17,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2081379077387334071",
+    "code_file": "corpus/tsubuyaki/code/2081379077387334071.js",
+    "total_literals": 18,
+    "candidates": 14,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2081527157118144581",
+    "code_file": "corpus/tsubuyaki/code/2081527157118144581.js",
+    "total_literals": 18,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2081680532619010174",
+    "code_file": "corpus/tsubuyaki/code/2081680532619010174.js",
+    "total_literals": 12,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2081699554840518719",
+    "code_file": "corpus/tsubuyaki/code/2081699554840518719.js",
+    "total_literals": 13,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2081715128379277805",
+    "code_file": "corpus/tsubuyaki/code/2081715128379277805.js",
+    "total_literals": 13,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2081753706534719703",
+    "code_file": "corpus/tsubuyaki/code/2081753706534719703.js",
+    "total_literals": 16,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2081874149597966676",
+    "code_file": "corpus/tsubuyaki/code/2081874149597966676.js",
+    "total_literals": 14,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2081901430789804157",
+    "code_file": "corpus/tsubuyaki/code/2081901430789804157.js",
+    "total_literals": 14,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2081982983540752485",
+    "code_file": "corpus/tsubuyaki/code/2081982983540752485.js",
+    "total_literals": 12,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2081992699562074509",
+    "code_file": "corpus/tsubuyaki/code/2081992699562074509.js",
+    "total_literals": 7,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2082128874796900735",
+    "code_file": "corpus/tsubuyaki/code/2082128874796900735.js",
+    "total_literals": 19,
+    "candidates": 14,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2082235600535683095",
+    "code_file": "corpus/tsubuyaki/code/2082235600535683095.js",
+    "total_literals": 10,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2082303260501979182",
+    "code_file": "corpus/tsubuyaki/code/2082303260501979182.js",
+    "total_literals": 23,
+    "candidates": 18,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2082366798540993022",
+    "code_file": "corpus/tsubuyaki/code/2082366798540993022.js",
+    "total_literals": 16,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2082438727226544611",
+    "code_file": "corpus/tsubuyaki/code/2082438727226544611.js",
+    "total_literals": 14,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2082474544644985022",
+    "code_file": "corpus/tsubuyaki/code/2082474544644985022.js",
+    "total_literals": 29,
+    "candidates": 26,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2082487818908311789",
+    "code_file": "corpus/tsubuyaki/code/2082487818908311789.js",
+    "total_literals": 14,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2082594366477291973",
+    "code_file": "corpus/tsubuyaki/code/2082594366477291973.js",
+    "total_literals": 13,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2082720375587373240",
+    "code_file": "corpus/tsubuyaki/code/2082720375587373240.js",
+    "total_literals": 11,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2082847380836385097",
+    "code_file": "corpus/tsubuyaki/code/2082847380836385097.js",
+    "total_literals": 21,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2082951006560956761",
+    "code_file": "corpus/tsubuyaki/code/2082951006560956761.js",
+    "total_literals": 8,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2082978550626529693",
+    "code_file": "corpus/tsubuyaki/code/2082978550626529693.js",
+    "total_literals": 28,
+    "candidates": 27,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2083185617345921400",
+    "code_file": "corpus/tsubuyaki/code/2083185617345921400.js",
+    "total_literals": 28,
+    "candidates": 25,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2083247790168400034",
+    "code_file": "corpus/tsubuyaki/code/2083247790168400034.js",
+    "total_literals": 14,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2083317303681425565",
+    "code_file": "corpus/tsubuyaki/code/2083317303681425565.js",
+    "total_literals": 10,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2083323730152096190",
+    "code_file": "corpus/tsubuyaki/code/2083323730152096190.js",
+    "total_literals": 9,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2083571114543046898",
+    "code_file": "corpus/tsubuyaki/code/2083571114543046898.js",
+    "total_literals": 28,
+    "candidates": 25,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2083575676557516804",
+    "code_file": "corpus/tsubuyaki/code/2083575676557516804.js",
+    "total_literals": 21,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2083584397744447538",
+    "code_file": "corpus/tsubuyaki/code/2083584397744447538.js",
+    "total_literals": 19,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2083676849381724588",
+    "code_file": "corpus/tsubuyaki/code/2083676849381724588.js",
+    "total_literals": 9,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2083683895850209379",
+    "code_file": "corpus/tsubuyaki/code/2083683895850209379.js",
+    "total_literals": 22,
+    "candidates": 20,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2083901966326153269",
+    "code_file": "corpus/tsubuyaki/code/2083901966326153269.js",
+    "total_literals": 11,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2083935680011645357",
+    "code_file": "corpus/tsubuyaki/code/2083935680011645357.js",
+    "total_literals": 17,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2084062804697592238",
+    "code_file": "corpus/tsubuyaki/code/2084062804697592238.js",
+    "total_literals": 9,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2084082619537383566",
+    "code_file": "corpus/tsubuyaki/code/2084082619537383566.js",
+    "total_literals": 24,
+    "candidates": 22,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2084154812913095021",
+    "code_file": "corpus/tsubuyaki/code/2084154812913095021.js",
+    "total_literals": 17,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2084303122181296228",
+    "code_file": "corpus/tsubuyaki/code/2084303122181296228.js",
+    "total_literals": 14,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2084319958599700553",
+    "code_file": "corpus/tsubuyaki/code/2084319958599700553.js",
+    "total_literals": 24,
+    "candidates": 18,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2084438185044746311",
+    "code_file": "corpus/tsubuyaki/code/2084438185044746311.js",
+    "total_literals": 13,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2084667801516777721",
+    "code_file": "corpus/tsubuyaki/code/2084667801516777721.js",
+    "total_literals": 11,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2084767455218659597",
+    "code_file": "corpus/tsubuyaki/code/2084767455218659597.js",
+    "total_literals": 12,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2084978444115616239",
+    "code_file": "corpus/tsubuyaki/code/2084978444115616239.js",
+    "total_literals": 12,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2085019557580955732",
+    "code_file": "corpus/tsubuyaki/code/2085019557580955732.js",
+    "total_literals": 16,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2085121163039269183",
+    "code_file": "corpus/tsubuyaki/code/2085121163039269183.js",
+    "total_literals": 9,
+    "candidates": 3,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2085386587740012602",
+    "code_file": "corpus/tsubuyaki/code/2085386587740012602.js",
+    "total_literals": 14,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2085497717531541940",
+    "code_file": "corpus/tsubuyaki/code/2085497717531541940.js",
+    "total_literals": 8,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2085856900617523417",
+    "code_file": "corpus/tsubuyaki/code/2085856900617523417.js",
+    "total_literals": 13,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2085858671582654827",
+    "code_file": "corpus/tsubuyaki/code/2085858671582654827.js",
+    "total_literals": 21,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2086109779559379017",
+    "code_file": "corpus/tsubuyaki/code/2086109779559379017.js",
+    "total_literals": 22,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2086109782570828045",
+    "code_file": "corpus/tsubuyaki/code/2086109782570828045.js",
+    "total_literals": 18,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2086123857967190062",
+    "code_file": "corpus/tsubuyaki/code/2086123857967190062.js",
+    "total_literals": 27,
+    "candidates": 24,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2086124813534605701",
+    "code_file": "corpus/tsubuyaki/code/2086124813534605701.js",
+    "total_literals": 25,
+    "candidates": 22,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2086219873106145651",
+    "code_file": "corpus/tsubuyaki/code/2086219873106145651.js",
+    "total_literals": 4,
+    "candidates": 2,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2086221273030599029",
+    "code_file": "corpus/tsubuyaki/code/2086221273030599029.js",
+    "total_literals": 5,
+    "candidates": 3,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2086351311059169563",
+    "code_file": "corpus/tsubuyaki/code/2086351311059169563.js",
+    "total_literals": 10,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2086353716240908734",
+    "code_file": "corpus/tsubuyaki/code/2086353716240908734.js",
+    "total_literals": 11,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2086381472848695523",
+    "code_file": "corpus/tsubuyaki/code/2086381472848695523.js",
+    "total_literals": 12,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2086394603067093150",
+    "code_file": "corpus/tsubuyaki/code/2086394603067093150.js",
+    "total_literals": 13,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2086396764580634879",
+    "code_file": "corpus/tsubuyaki/code/2086396764580634879.js",
+    "total_literals": 25,
+    "candidates": 22,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2086405262936768716",
+    "code_file": "corpus/tsubuyaki/code/2086405262936768716.js",
+    "total_literals": 24,
+    "candidates": 20,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2086436555535900844",
+    "code_file": "corpus/tsubuyaki/code/2086436555535900844.js",
+    "total_literals": 12,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2086473918681059826",
+    "code_file": "corpus/tsubuyaki/code/2086473918681059826.js",
+    "total_literals": 16,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2086598068758340023",
+    "code_file": "corpus/tsubuyaki/code/2086598068758340023.js",
+    "total_literals": 11,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2086730532965216608",
+    "code_file": "corpus/tsubuyaki/code/2086730532965216608.js",
+    "total_literals": 12,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2086786699221451141",
+    "code_file": "corpus/tsubuyaki/code/2086786699221451141.js",
+    "total_literals": 14,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2086940557197316197",
+    "code_file": "corpus/tsubuyaki/code/2086940557197316197.js",
+    "total_literals": 14,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2087125958272909624",
+    "code_file": "corpus/tsubuyaki/code/2087125958272909624.js",
+    "total_literals": 26,
+    "candidates": 23,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2087204495008969047",
+    "code_file": "corpus/tsubuyaki/code/2087204495008969047.js",
+    "total_literals": 9,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2087204497219350904",
+    "code_file": "corpus/tsubuyaki/code/2087204497219350904.js",
+    "total_literals": 13,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2087294356273455328",
+    "code_file": "corpus/tsubuyaki/code/2087294356273455328.js",
+    "total_literals": 13,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2087436608459157605",
+    "code_file": "corpus/tsubuyaki/code/2087436608459157605.js",
+    "total_literals": 14,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2087523995294044260",
+    "code_file": "corpus/tsubuyaki/code/2087523995294044260.js",
+    "total_literals": 15,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2087567380755226774",
+    "code_file": "corpus/tsubuyaki/code/2087567380755226774.js",
+    "total_literals": 17,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2087663518221017372",
+    "code_file": "corpus/tsubuyaki/code/2087663518221017372.js",
+    "total_literals": 14,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2087726340317589931",
+    "code_file": "corpus/tsubuyaki/code/2087726340317589931.js",
+    "total_literals": 13,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2087915361710866700",
+    "code_file": "corpus/tsubuyaki/code/2087915361710866700.js",
+    "total_literals": 17,
+    "candidates": 14,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2088006783843676631",
+    "code_file": "corpus/tsubuyaki/code/2088006783843676631.js",
+    "total_literals": 14,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2088276148094673096",
+    "code_file": "corpus/tsubuyaki/code/2088276148094673096.js",
+    "total_literals": 30,
+    "candidates": 27,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2088392871762354656",
+    "code_file": "corpus/tsubuyaki/code/2088392871762354656.js",
+    "total_literals": 12,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2088428202939298250",
+    "code_file": "corpus/tsubuyaki/code/2088428202939298250.js",
+    "total_literals": 14,
+    "candidates": 14,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2088503121307938881",
+    "code_file": "corpus/tsubuyaki/code/2088503121307938881.js",
+    "total_literals": 11,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2088542990155522147",
+    "code_file": "corpus/tsubuyaki/code/2088542990155522147.js",
+    "total_literals": 7,
+    "candidates": 3,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2088551275633750186",
+    "code_file": "corpus/tsubuyaki/code/2088551275633750186.js",
+    "total_literals": 16,
+    "candidates": 15,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2088590074179117447",
+    "code_file": "corpus/tsubuyaki/code/2088590074179117447.js",
+    "total_literals": 8,
+    "candidates": 3,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2088626015614747055",
+    "code_file": "corpus/tsubuyaki/code/2088626015614747055.js",
+    "total_literals": 30,
+    "candidates": 27,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2088648180707762364",
+    "code_file": "corpus/tsubuyaki/code/2088648180707762364.js",
+    "total_literals": 15,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2088648184038129927",
+    "code_file": "corpus/tsubuyaki/code/2088648184038129927.js",
+    "total_literals": 13,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2088754000237838656",
+    "code_file": "corpus/tsubuyaki/code/2088754000237838656.js",
+    "total_literals": 11,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2088902386786169001",
+    "code_file": "corpus/tsubuyaki/code/2088902386786169001.js",
+    "total_literals": 28,
+    "candidates": 25,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2088904112436023549",
+    "code_file": "corpus/tsubuyaki/code/2088904112436023549.js",
+    "total_literals": 28,
+    "candidates": 25,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2088932314558705830",
+    "code_file": "corpus/tsubuyaki/code/2088932314558705830.js",
+    "total_literals": 9,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2088971006643974448",
+    "code_file": "corpus/tsubuyaki/code/2088971006643974448.js",
+    "total_literals": 18,
+    "candidates": 15,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2088971973728870452",
+    "code_file": "corpus/tsubuyaki/code/2088971973728870452.js",
+    "total_literals": 11,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2089113456326930445",
+    "code_file": "corpus/tsubuyaki/code/2089113456326930445.js",
+    "total_literals": 18,
+    "candidates": 14,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2089255782508528072",
+    "code_file": "corpus/tsubuyaki/code/2089255782508528072.js",
+    "total_literals": 17,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2089359441976229970",
+    "code_file": "corpus/tsubuyaki/code/2089359441976229970.js",
+    "total_literals": 19,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2089478979682246678",
+    "code_file": "corpus/tsubuyaki/code/2089478979682246678.js",
+    "total_literals": 7,
+    "candidates": 3,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2089742258124017711",
+    "code_file": "corpus/tsubuyaki/code/2089742258124017711.js",
+    "total_literals": 17,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2089840767460417709",
+    "code_file": "corpus/tsubuyaki/code/2089840767460417709.js",
+    "total_literals": 11,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2089841301063946503",
+    "code_file": "corpus/tsubuyaki/code/2089841301063946503.js",
+    "total_literals": 11,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2089961857385906445",
+    "code_file": "corpus/tsubuyaki/code/2089961857385906445.js",
+    "total_literals": 5,
+    "candidates": 3,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2089962835719893440",
+    "code_file": "corpus/tsubuyaki/code/2089962835719893440.js",
+    "total_literals": 11,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2090056351968088456",
+    "code_file": "corpus/tsubuyaki/code/2090056351968088456.js",
+    "total_literals": 15,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2090089224611758331",
+    "code_file": "corpus/tsubuyaki/code/2090089224611758331.js",
+    "total_literals": 10,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2090101693228982698",
+    "code_file": "corpus/tsubuyaki/code/2090101693228982698.js",
+    "total_literals": 14,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2090221566110077324",
+    "code_file": "corpus/tsubuyaki/code/2090221566110077324.js",
+    "total_literals": 18,
+    "candidates": 16,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2090237899543613892",
+    "code_file": "corpus/tsubuyaki/code/2090237899543613892.js",
+    "total_literals": 19,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2090382575529550082",
+    "code_file": "corpus/tsubuyaki/code/2090382575529550082.js",
+    "total_literals": 19,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2090449848877359167",
+    "code_file": "corpus/tsubuyaki/code/2090449848877359167.js",
+    "total_literals": 29,
+    "candidates": 26,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2090461437185630330",
+    "code_file": "corpus/tsubuyaki/code/2090461437185630330.js",
+    "total_literals": 15,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2090558079851171946",
+    "code_file": "corpus/tsubuyaki/code/2090558079851171946.js",
+    "total_literals": 18,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2090569663248035850",
+    "code_file": "corpus/tsubuyaki/code/2090569663248035850.js",
+    "total_literals": 10,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2090622249305002081",
+    "code_file": "corpus/tsubuyaki/code/2090622249305002081.js",
+    "total_literals": 7,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2090692209670857172",
+    "code_file": "corpus/tsubuyaki/code/2090692209670857172.js",
+    "total_literals": 11,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2090700975313191093",
+    "code_file": "corpus/tsubuyaki/code/2090700975313191093.js",
+    "total_literals": 15,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2090749967115968688",
+    "code_file": "corpus/tsubuyaki/code/2090749967115968688.js",
+    "total_literals": 13,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2090829008980373646",
+    "code_file": "corpus/tsubuyaki/code/2090829008980373646.js",
+    "total_literals": 26,
+    "candidates": 23,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2090830861780627533",
+    "code_file": "corpus/tsubuyaki/code/2090830861780627533.js",
+    "total_literals": 18,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2090832898488459699",
+    "code_file": "corpus/tsubuyaki/code/2090832898488459699.js",
+    "total_literals": 26,
+    "candidates": 23,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2090926085722841557",
+    "code_file": "corpus/tsubuyaki/code/2090926085722841557.js",
+    "total_literals": 13,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2091035405407961166",
+    "code_file": "corpus/tsubuyaki/code/2091035405407961166.js",
+    "total_literals": 19,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2091055617452740663",
+    "code_file": "corpus/tsubuyaki/code/2091055617452740663.js",
+    "total_literals": 10,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2091058670008406408",
+    "code_file": "corpus/tsubuyaki/code/2091058670008406408.js",
+    "total_literals": 12,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2091131138538610757",
+    "code_file": "corpus/tsubuyaki/code/2091131138538610757.js",
+    "total_literals": 13,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2091191600814907612",
+    "code_file": "corpus/tsubuyaki/code/2091191600814907612.js",
+    "total_literals": 28,
+    "candidates": 25,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2091201954823454835",
+    "code_file": "corpus/tsubuyaki/code/2091201954823454835.js",
+    "total_literals": 27,
+    "candidates": 24,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2091203263811199186",
+    "code_file": "corpus/tsubuyaki/code/2091203263811199186.js",
+    "total_literals": 27,
+    "candidates": 24,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2091292131646459994",
+    "code_file": "corpus/tsubuyaki/code/2091292131646459994.js",
+    "total_literals": 8,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2091379092151316750",
+    "code_file": "corpus/tsubuyaki/code/2091379092151316750.js",
+    "total_literals": 5,
+    "candidates": 2,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2091469857632186773",
+    "code_file": "corpus/tsubuyaki/code/2091469857632186773.js",
+    "total_literals": 11,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2091536763152142373",
+    "code_file": "corpus/tsubuyaki/code/2091536763152142373.js",
+    "total_literals": 30,
+    "candidates": 27,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2091540720628932622",
+    "code_file": "corpus/tsubuyaki/code/2091540720628932622.js",
+    "total_literals": 26,
+    "candidates": 23,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2091559995796279338",
+    "code_file": "corpus/tsubuyaki/code/2091559995796279338.js",
+    "total_literals": 16,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2091652161189056626",
+    "code_file": "corpus/tsubuyaki/code/2091652161189056626.js",
+    "total_literals": 8,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2091892503293419814",
+    "code_file": "corpus/tsubuyaki/code/2091892503293419814.js",
+    "total_literals": 14,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2091907118580576571",
+    "code_file": "corpus/tsubuyaki/code/2091907118580576571.js",
+    "total_literals": 28,
+    "candidates": 25,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2092014458331910226",
+    "code_file": "corpus/tsubuyaki/code/2092014458331910226.js",
+    "total_literals": 10,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2092158782193459217",
+    "code_file": "corpus/tsubuyaki/code/2092158782193459217.js",
+    "total_literals": 10,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2092258811566583841",
+    "code_file": "corpus/tsubuyaki/code/2092258811566583841.js",
+    "total_literals": 28,
+    "candidates": 25,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2092274649833046180",
+    "code_file": "corpus/tsubuyaki/code/2092274649833046180.js",
+    "total_literals": 22,
+    "candidates": 15,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2092374667369865433",
+    "code_file": "corpus/tsubuyaki/code/2092374667369865433.js",
+    "total_literals": 15,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2092742128808181771",
+    "code_file": "corpus/tsubuyaki/code/2092742128808181771.js",
+    "total_literals": 17,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2092779079334518977",
+    "code_file": "corpus/tsubuyaki/code/2092779079334518977.js",
+    "total_literals": 16,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2092922613169541501",
+    "code_file": "corpus/tsubuyaki/code/2092922613169541501.js",
+    "total_literals": 13,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2092925274770063567",
+    "code_file": "corpus/tsubuyaki/code/2092925274770063567.js",
+    "total_literals": 13,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2093035482280305146",
+    "code_file": "corpus/tsubuyaki/code/2093035482280305146.js",
+    "total_literals": 17,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2093035484448792942",
+    "code_file": "corpus/tsubuyaki/code/2093035484448792942.js",
+    "total_literals": 21,
+    "candidates": 14,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2093101587703193693",
+    "code_file": "corpus/tsubuyaki/code/2093101587703193693.js",
+    "total_literals": 9,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2093306413926019526",
+    "code_file": "corpus/tsubuyaki/code/2093306413926019526.js",
+    "total_literals": 9,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2093313502933041433",
+    "code_file": "corpus/tsubuyaki/code/2093313502933041433.js",
+    "total_literals": 9,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2093450298417463706",
+    "code_file": "corpus/tsubuyaki/code/2093450298417463706.js",
+    "total_literals": 11,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2093570551625449588",
+    "code_file": "corpus/tsubuyaki/code/2093570551625449588.js",
+    "total_literals": 14,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2093645854322430439",
+    "code_file": "corpus/tsubuyaki/code/2093645854322430439.js",
+    "total_literals": 20,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2093710258120331463",
+    "code_file": "corpus/tsubuyaki/code/2093710258120331463.js",
+    "total_literals": 25,
+    "candidates": 22,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2093711731084415124",
+    "code_file": "corpus/tsubuyaki/code/2093711731084415124.js",
+    "total_literals": 29,
+    "candidates": 26,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2093712395386728715",
+    "code_file": "corpus/tsubuyaki/code/2093712395386728715.js",
+    "total_literals": 27,
+    "candidates": 24,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2093737938500960442",
+    "code_file": "corpus/tsubuyaki/code/2093737938500960442.js",
+    "total_literals": 18,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2093737941063606616",
+    "code_file": "corpus/tsubuyaki/code/2093737941063606616.js",
+    "total_literals": 17,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2093823396346003824",
+    "code_file": "corpus/tsubuyaki/code/2093823396346003824.js",
+    "total_literals": 8,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2093845593181519981",
+    "code_file": "corpus/tsubuyaki/code/2093845593181519981.js",
+    "total_literals": 8,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2093973728585822305",
+    "code_file": "corpus/tsubuyaki/code/2093973728585822305.js",
+    "total_literals": 9,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2093974658752405988",
+    "code_file": "corpus/tsubuyaki/code/2093974658752405988.js",
+    "total_literals": 9,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2093992971108864391",
+    "code_file": "corpus/tsubuyaki/code/2093992971108864391.js",
+    "total_literals": 9,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2094186116031377831",
+    "code_file": "corpus/tsubuyaki/code/2094186116031377831.js",
+    "total_literals": 15,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2094271639034933644",
+    "code_file": "corpus/tsubuyaki/code/2094271639034933644.js",
+    "total_literals": 14,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2094271641157247135",
+    "code_file": "corpus/tsubuyaki/code/2094271641157247135.js",
+    "total_literals": 14,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2094294173285483002",
+    "code_file": "corpus/tsubuyaki/code/2094294173285483002.js",
+    "total_literals": 14,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2094385493823942873",
+    "code_file": "corpus/tsubuyaki/code/2094385493823942873.js",
+    "total_literals": 20,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2094551530041114678",
+    "code_file": "corpus/tsubuyaki/code/2094551530041114678.js",
+    "total_literals": 10,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2094571800873370092",
+    "code_file": "corpus/tsubuyaki/code/2094571800873370092.js",
+    "total_literals": 12,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2094710951786553620",
+    "code_file": "corpus/tsubuyaki/code/2094710951786553620.js",
+    "total_literals": 12,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2094768723219652836",
+    "code_file": "corpus/tsubuyaki/code/2094768723219652836.js",
+    "total_literals": 23,
+    "candidates": 15,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2094913368679497949",
+    "code_file": "corpus/tsubuyaki/code/2094913368679497949.js",
+    "total_literals": 12,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2094934811467255821",
+    "code_file": "corpus/tsubuyaki/code/2094934811467255821.js",
+    "total_literals": 11,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2094998460399587537",
+    "code_file": "corpus/tsubuyaki/code/2094998460399587537.js",
+    "total_literals": 11,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2095064468120342962",
+    "code_file": "corpus/tsubuyaki/code/2095064468120342962.js",
+    "total_literals": 11,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2095150281134862834",
+    "code_file": "corpus/tsubuyaki/code/2095150281134862834.js",
+    "total_literals": 11,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2095193362022494340",
+    "code_file": "corpus/tsubuyaki/code/2095193362022494340.js",
+    "total_literals": 20,
+    "candidates": 15,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2095193364211863923",
+    "code_file": "corpus/tsubuyaki/code/2095193364211863923.js",
+    "total_literals": 13,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2095266586047516698",
+    "code_file": "corpus/tsubuyaki/code/2095266586047516698.js",
+    "total_literals": 17,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2095397595963437382",
+    "code_file": "corpus/tsubuyaki/code/2095397595963437382.js",
+    "total_literals": 15,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2095458301492576585",
+    "code_file": "corpus/tsubuyaki/code/2095458301492576585.js",
+    "total_literals": 16,
+    "candidates": 13,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2095459193503514961",
+    "code_file": "corpus/tsubuyaki/code/2095459193503514961.js",
+    "total_literals": 10,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2095485135428931814",
+    "code_file": "corpus/tsubuyaki/code/2095485135428931814.js",
+    "total_literals": 16,
+    "candidates": 14,
+    "parser": "acorn-loose"
+  },
+  {
+    "seed_id": "tsubuyaki-2095616915498848720",
+    "code_file": "corpus/tsubuyaki/code/2095616915498848720.js",
+    "total_literals": 10,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2095794489403265026",
+    "code_file": "corpus/tsubuyaki/code/2095794489403265026.js",
+    "total_literals": 11,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2095933051230679511",
+    "code_file": "corpus/tsubuyaki/code/2095933051230679511.js",
+    "total_literals": 12,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2095989071739060631",
+    "code_file": "corpus/tsubuyaki/code/2095989071739060631.js",
+    "total_literals": 10,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2096035515648917751",
+    "code_file": "corpus/tsubuyaki/code/2096035515648917751.js",
+    "total_literals": 8,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2096113061010845902",
+    "code_file": "corpus/tsubuyaki/code/2096113061010845902.js",
+    "total_literals": 11,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2096116420165943401",
+    "code_file": "corpus/tsubuyaki/code/2096116420165943401.js",
+    "total_literals": 13,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2096116937315192993",
+    "code_file": "corpus/tsubuyaki/code/2096116937315192993.js",
+    "total_literals": 13,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2096341606232383534",
+    "code_file": "corpus/tsubuyaki/code/2096341606232383534.js",
+    "total_literals": 7,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2096465055567245436",
+    "code_file": "corpus/tsubuyaki/code/2096465055567245436.js",
+    "total_literals": 14,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2096516712481054839",
+    "code_file": "corpus/tsubuyaki/code/2096516712481054839.js",
+    "total_literals": 14,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2096543667897212952",
+    "code_file": "corpus/tsubuyaki/code/2096543667897212952.js",
+    "total_literals": 9,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2096554953095676122",
+    "code_file": "corpus/tsubuyaki/code/2096554953095676122.js",
+    "total_literals": 5,
+    "candidates": 3,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2096568969671119111",
+    "code_file": "corpus/tsubuyaki/code/2096568969671119111.js",
+    "total_literals": 8,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2096596618254623195",
+    "code_file": "corpus/tsubuyaki/code/2096596618254623195.js",
+    "total_literals": 17,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2096702194028585298",
+    "code_file": "corpus/tsubuyaki/code/2096702194028585298.js",
+    "total_literals": 10,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2096709621457313882",
+    "code_file": "corpus/tsubuyaki/code/2096709621457313882.js",
+    "total_literals": 12,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2096746811788808504",
+    "code_file": "corpus/tsubuyaki/code/2096746811788808504.js",
+    "total_literals": 11,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2096874710814638467",
+    "code_file": "corpus/tsubuyaki/code/2096874710814638467.js",
+    "total_literals": 18,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2096909368013082996",
+    "code_file": "corpus/tsubuyaki/code/2096909368013082996.js",
+    "total_literals": 9,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2096910747532202143",
+    "code_file": "corpus/tsubuyaki/code/2096910747532202143.js",
+    "total_literals": 13,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2096975739992305696",
+    "code_file": "corpus/tsubuyaki/code/2096975739992305696.js",
+    "total_literals": 14,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2097071876363505997",
+    "code_file": "corpus/tsubuyaki/code/2097071876363505997.js",
+    "total_literals": 10,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2097073532769566770",
+    "code_file": "corpus/tsubuyaki/code/2097073532769566770.js",
+    "total_literals": 14,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2097079365482017162",
+    "code_file": "corpus/tsubuyaki/code/2097079365482017162.js",
+    "total_literals": 14,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2097126018704392699",
+    "code_file": "corpus/tsubuyaki/code/2097126018704392699.js",
+    "total_literals": 14,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2097236025127084486",
+    "code_file": "corpus/tsubuyaki/code/2097236025127084486.js",
+    "total_literals": 15,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2097276127345864883",
+    "code_file": "corpus/tsubuyaki/code/2097276127345864883.js",
+    "total_literals": 14,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2097278062933254597",
+    "code_file": "corpus/tsubuyaki/code/2097278062933254597.js",
+    "total_literals": 9,
+    "candidates": 3,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2097281250314907803",
+    "code_file": "corpus/tsubuyaki/code/2097281250314907803.js",
+    "total_literals": 9,
+    "candidates": 3,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2097282042845389096",
+    "code_file": "corpus/tsubuyaki/code/2097282042845389096.js",
+    "total_literals": 9,
+    "candidates": 3,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2097283066326868336",
+    "code_file": "corpus/tsubuyaki/code/2097283066326868336.js",
+    "total_literals": 14,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2097284882724737333",
+    "code_file": "corpus/tsubuyaki/code/2097284882724737333.js",
+    "total_literals": 14,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2097427179693056061",
+    "code_file": "corpus/tsubuyaki/code/2097427179693056061.js",
+    "total_literals": 15,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2097535460591747339",
+    "code_file": "corpus/tsubuyaki/code/2097535460591747339.js",
+    "total_literals": 17,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2097573750459998447",
+    "code_file": "corpus/tsubuyaki/code/2097573750459998447.js",
+    "total_literals": 12,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2097580821414850905",
+    "code_file": "corpus/tsubuyaki/code/2097580821414850905.js",
+    "total_literals": 12,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2097590255331533306",
+    "code_file": "corpus/tsubuyaki/code/2097590255331533306.js",
+    "total_literals": 12,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2097658839260872995",
+    "code_file": "corpus/tsubuyaki/code/2097658839260872995.js",
+    "total_literals": 9,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2097713744977809449",
+    "code_file": "corpus/tsubuyaki/code/2097713744977809449.js",
+    "total_literals": 16,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2097713747309756787",
+    "code_file": "corpus/tsubuyaki/code/2097713747309756787.js",
+    "total_literals": 15,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2097809942241849736",
+    "code_file": "corpus/tsubuyaki/code/2097809942241849736.js",
+    "total_literals": 13,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2098070701597192431",
+    "code_file": "corpus/tsubuyaki/code/2098070701597192431.js",
+    "total_literals": 27,
+    "candidates": 24,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2098075684593893667",
+    "code_file": "corpus/tsubuyaki/code/2098075684593893667.js",
+    "total_literals": 28,
+    "candidates": 25,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2098078464863875295",
+    "code_file": "corpus/tsubuyaki/code/2098078464863875295.js",
+    "total_literals": 14,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2098161944666800419",
+    "code_file": "corpus/tsubuyaki/code/2098161944666800419.js",
+    "total_literals": 14,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2098173288312905933",
+    "code_file": "corpus/tsubuyaki/code/2098173288312905933.js",
+    "total_literals": 12,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2098193966453903715",
+    "code_file": "corpus/tsubuyaki/code/2098193966453903715.js",
+    "total_literals": 14,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2098232966610817084",
+    "code_file": "corpus/tsubuyaki/code/2098232966610817084.js",
+    "total_literals": 12,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2098259954532782502",
+    "code_file": "corpus/tsubuyaki/code/2098259954532782502.js",
+    "total_literals": 12,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2098435044373405786",
+    "code_file": "corpus/tsubuyaki/code/2098435044373405786.js",
+    "total_literals": 28,
+    "candidates": 25,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2098435630368006217",
+    "code_file": "corpus/tsubuyaki/code/2098435630368006217.js",
+    "total_literals": 28,
+    "candidates": 25,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2098437824714596619",
+    "code_file": "corpus/tsubuyaki/code/2098437824714596619.js",
+    "total_literals": 26,
+    "candidates": 23,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2098519124301558008",
+    "code_file": "corpus/tsubuyaki/code/2098519124301558008.js",
+    "total_literals": 16,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2098527802954047778",
+    "code_file": "corpus/tsubuyaki/code/2098527802954047778.js",
+    "total_literals": 15,
+    "candidates": 10,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2098662857546276895",
+    "code_file": "corpus/tsubuyaki/code/2098662857546276895.js",
+    "total_literals": 16,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2098663716472705289",
+    "code_file": "corpus/tsubuyaki/code/2098663716472705289.js",
+    "total_literals": 13,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2098674544152342607",
+    "code_file": "corpus/tsubuyaki/code/2098674544152342607.js",
+    "total_literals": 13,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2098681975720890741",
+    "code_file": "corpus/tsubuyaki/code/2098681975720890741.js",
+    "total_literals": 15,
+    "candidates": 9,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2098800086558138709",
+    "code_file": "corpus/tsubuyaki/code/2098800086558138709.js",
+    "total_literals": 29,
+    "candidates": 26,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2098800913431597109",
+    "code_file": "corpus/tsubuyaki/code/2098800913431597109.js",
+    "total_literals": 30,
+    "candidates": 27,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2098901465863700939",
+    "code_file": "corpus/tsubuyaki/code/2098901465863700939.js",
+    "total_literals": 11,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2098938668094525902",
+    "code_file": "corpus/tsubuyaki/code/2098938668094525902.js",
+    "total_literals": 13,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2098995559252251072",
+    "code_file": "corpus/tsubuyaki/code/2098995559252251072.js",
+    "total_literals": 10,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2099034104797000004",
+    "code_file": "corpus/tsubuyaki/code/2099034104797000004.js",
+    "total_literals": 10,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2099035060548813184",
+    "code_file": "corpus/tsubuyaki/code/2099035060548813184.js",
+    "total_literals": 10,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2099064135950782848",
+    "code_file": "corpus/tsubuyaki/code/2099064135950782848.js",
+    "total_literals": 13,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2099069212098781688",
+    "code_file": "corpus/tsubuyaki/code/2099069212098781688.js",
+    "total_literals": 14,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2099081988527546652",
+    "code_file": "corpus/tsubuyaki/code/2099081988527546652.js",
+    "total_literals": 10,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2099138054770544662",
+    "code_file": "corpus/tsubuyaki/code/2099138054770544662.js",
+    "total_literals": 18,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2099149181474750888",
+    "code_file": "corpus/tsubuyaki/code/2099149181474750888.js",
+    "total_literals": 25,
+    "candidates": 22,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2099152192204951950",
+    "code_file": "corpus/tsubuyaki/code/2099152192204951950.js",
+    "total_literals": 27,
+    "candidates": 24,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2099265091199971757",
+    "code_file": "corpus/tsubuyaki/code/2099265091199971757.js",
+    "total_literals": 11,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2099266091453411654",
+    "code_file": "corpus/tsubuyaki/code/2099266091453411654.js",
+    "total_literals": 11,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2099267827433877955",
+    "code_file": "corpus/tsubuyaki/code/2099267827433877955.js",
+    "total_literals": 12,
+    "candidates": 6,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2099295520183439596",
+    "code_file": "corpus/tsubuyaki/code/2099295520183439596.js",
+    "total_literals": 13,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2099387412615208979",
+    "code_file": "corpus/tsubuyaki/code/2099387412615208979.js",
+    "total_literals": 14,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2099404746545401971",
+    "code_file": "corpus/tsubuyaki/code/2099404746545401971.js",
+    "total_literals": 14,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2099405740788334899",
+    "code_file": "corpus/tsubuyaki/code/2099405740788334899.js",
+    "total_literals": 14,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2099445699205361769",
+    "code_file": "corpus/tsubuyaki/code/2099445699205361769.js",
+    "total_literals": 13,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2099463642974704024",
+    "code_file": "corpus/tsubuyaki/code/2099463642974704024.js",
+    "total_literals": 14,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2099497339841106253",
+    "code_file": "corpus/tsubuyaki/code/2099497339841106253.js",
+    "total_literals": 26,
+    "candidates": 23,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2099498760871301564",
+    "code_file": "corpus/tsubuyaki/code/2099498760871301564.js",
+    "total_literals": 26,
+    "candidates": 23,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2099512490376015958",
+    "code_file": "corpus/tsubuyaki/code/2099512490376015958.js",
+    "total_literals": 18,
+    "candidates": 11,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2099602237802901532",
+    "code_file": "corpus/tsubuyaki/code/2099602237802901532.js",
+    "total_literals": 13,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2099616458536071383",
+    "code_file": "corpus/tsubuyaki/code/2099616458536071383.js",
+    "total_literals": 16,
+    "candidates": 12,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2099781900550406193",
+    "code_file": "corpus/tsubuyaki/code/2099781900550406193.js",
+    "total_literals": 12,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2099987768227279133",
+    "code_file": "corpus/tsubuyaki/code/2099987768227279133.js",
+    "total_literals": 14,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2100074674256294304",
+    "code_file": "corpus/tsubuyaki/code/2100074674256294304.js",
+    "total_literals": 9,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2100146793506075086",
+    "code_file": "corpus/tsubuyaki/code/2100146793506075086.js",
+    "total_literals": 14,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2100179447966285928",
+    "code_file": "corpus/tsubuyaki/code/2100179447966285928.js",
+    "total_literals": 12,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2100192987410248174",
+    "code_file": "corpus/tsubuyaki/code/2100192987410248174.js",
+    "total_literals": 25,
+    "candidates": 21,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2100230050063024467",
+    "code_file": "corpus/tsubuyaki/code/2100230050063024467.js",
+    "total_literals": 23,
+    "candidates": 20,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2100251512262058278",
+    "code_file": "corpus/tsubuyaki/code/2100251512262058278.js",
+    "total_literals": 11,
+    "candidates": 7,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2100251514367582252",
+    "code_file": "corpus/tsubuyaki/code/2100251514367582252.js",
+    "total_literals": 12,
+    "candidates": 8,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2100325830551593261",
+    "code_file": "corpus/tsubuyaki/code/2100325830551593261.js",
+    "total_literals": 9,
+    "candidates": 4,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2100472551512404405",
+    "code_file": "corpus/tsubuyaki/code/2100472551512404405.js",
+    "total_literals": 11,
+    "candidates": 5,
+    "parser": "acorn"
+  },
+  {
+    "seed_id": "tsubuyaki-2100481433668383127",
+    "code_file": "corpus/tsubuyaki/code/2100481433668383127.js",
+    "total_literals": 7,
+    "candidates": 4,
+    "parser": "acorn"
+  }
+]

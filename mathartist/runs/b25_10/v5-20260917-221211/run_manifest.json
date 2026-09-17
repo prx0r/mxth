@@ -1,0 +1,9 @@
+{
+  "run_id": "v5-20260917-221211",
+  "source_manifest": "seeds/B25_FERTILE.json",
+  "source_manifest_sha256": "2c69ba52250b06cd2a133d70449876ffab5c826ed8695d95242957f1d4aa02bc",
+  "descendants_per_seed": 10,
+  "workers": 2,
+  "frame": 20,
+  "jobs_this_invocation": 250
+}
