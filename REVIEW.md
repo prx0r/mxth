@@ -4,7 +4,11 @@
 
 MathArtist's strongest architectural choice is the boundary between immutable scientific source material and the parameters exposed for artistic exploration. The v3 line makes that boundary explicit: freeze the source-backed model `M(theta)`, search only the evidence-backed control surface `theta`, and keep observation separate from generation. This is a sound foundation for reproducible mathematical art.
 
-The latest archive, `mathartist-suite-v3.3.0.zip`, should be treated as the canonical working snapshot. Older releases remain useful as design history and regression references.
+The latest runnable archive, `mathartist-suite-v3.3.0.zip`, remains the canonical working snapshot. `mathartist-v4-coding-agent-correction-pack.zip` is the implementation and acceptance plan for the next release, not a completed runtime. Older releases remain useful as design history and regression references.
+
+## V4 direction
+
+The correction pack focuses development on the actual emergence experiment rather than further source or dashboard expansion. Its hard gates require at least 25 attributed executable seeds, at least 1,000 blind descendants per seed, evidence for every mutable control, stronger morphology coverage, browser-tested human branching, retained failures and fully reproducible lineage/runtime identity. This directly addresses the most important gap in v3.3: strong infrastructure without yet demonstrating the complete large-scale experiment.
 
 ## Verification performed
 
@@ -41,4 +45,3 @@ The direct suite test counts above were obtained by loading each test module and
 ## Recommended next step
 
 Make v3.3 the clean baseline: correct version strings, remove generated caches, declare test dependencies, and add one reproducible end-to-end adapter fixture with a recorded source bundle and expected render hash. That would turn the current strong conceptual boundary into a release process that is equally rigorous.
-

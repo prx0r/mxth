@@ -1,12 +1,13 @@
 # mxth — Mathematical Art Processor archive
 
-This repository preserves the complete set of downloadable MathArtist artifacts recovered from the project conversation: 11 original ZIP archives and 9 associated image assets. Filenames are unchanged.
+This repository preserves the downloadable MathArtist artifacts recovered from the project conversation, the expanded v3.3 source tree, and the latest v4 correction pack. Filenames are unchanged.
 
 The project evolved from a small deterministic generative-art web app into a research-oriented mathematical art system. Its central design principle is to keep the scientific model or source immutable while searching only parameters and interventions that the source itself permits.
 
 ## Start here
 
-- Latest full suite: [`archives/mathartist-suite-v3.3.0.zip`](archives/mathartist-suite-v3.3.0.zip)
+- Latest implementation plan: [`mathartist-v4-coding-agent-correction-pack.zip`](mathartist-v4-coding-agent-correction-pack.zip)
+- Latest full runnable suite: [`mathartist-suite-v3.3.0.zip`](mathartist-suite-v3.3.0.zip)
 - Resource bundle: [`archives/mathartist-v3.2-resource-megapack.zip`](archives/mathartist-v3.2-resource-megapack.zip)
 - Technical assessment: [`REVIEW.md`](REVIEW.md)
 - Reconstructed project context: [`CHAT_CONTEXT.md`](CHAT_CONTEXT.md)
@@ -25,8 +26,8 @@ The project evolved from a small deterministic generative-art web app into a res
 | Suite `v3.1.0` | First native end-to-end TINYMAPS family; discovery remains blind to human taste |
 | Suite `v3.2.0` | Discovery and morphology expansion |
 | Suite `v3.3.0` | Corpus tooling, including Tsubuyaki resources |
+| V4 correction pack | Converts the v3.3 scaffold into a gated emergence experiment: real executable seeds, evidenced controls, 25K blind descendants, richer morphology, browser-tested human branching and reproducible lineages |
 
 ## Integrity
 
 Every ZIP passes `unzip -t`. The manifest records SHA-256 hashes for every preserved artifact. Duplicate images are intentionally retained because preserving original filenames and chat outputs is part of this archive.
-

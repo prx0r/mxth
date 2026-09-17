@@ -15,6 +15,7 @@ All hashes are SHA-256. Sizes are bytes.
 | `archives/mathartist-suite-v3.2.0.zip` | 8,341,241 | `9a24199ef4e8bb47e96c6c71bbd5d7a8b6445deb1e0fb41d7094ce4fc6d4aa02` | Discovery and morphology expansion |
 | `archives/mathartist-v3.2-resource-megapack.zip` | 8,351,423 | `84902fcfa8d5e5a12bce6291ee4d89d572b66b61dc398d7cdea007a4fd5586ad` | V3.2 release plus repository/resource manifests |
 | `archives/mathartist-suite-v3.3.0.zip` | 8,425,766 | `e19fd684f35d1af27b19c431e500b8cb8edc11da1ee4c3ec81c979bada726c18` | Latest recovered suite with corpus tooling |
+| `mathartist-v4-coding-agent-correction-pack.zip` | 21,111 | `d491eabc26e494d590ff53da5bc928f4740325e6b2b17f549a5a465a657ca189` | V4 peer review, architecture delta, machine-readable backlog, schemas and acceptance gates targeting v3.3 commit `3d5ac3f` |
 | `chat-assets/fedf8a65-181d-453e-83a2-efa82da359d5.png` | 51,124 | `f757fb44d692cee28ff68e1db1f3a2da95fe88a742d973a935eb13c4b795a5af` | Original user reference image |
 | `chat-assets/preview.png` | 912,189 | `a54578d1d62ba9381f270ffa9f47831ad00b2e7dd5169f7b3a003d7030231994` | Generated preview |
 | `chat-assets/preview(1).png` | 912,189 | `a54578d1d62ba9381f270ffa9f47831ad00b2e7dd5169f7b3a003d7030231994` | Duplicate preview preserved under original filename |
@@ -24,4 +25,3 @@ All hashes are SHA-256. Sizes are bytes.
 | `chat-assets/contact-sheet(3).png` | 1,455,597 | `151ba66170ecd94c31283cf44d4d44444fff3e50e2206d145bec1919048aec21` | Generated contact sheet |
 | `chat-assets/contact-sheet(4).png` | 1,455,597 | `151ba66170ecd94c31283cf44d4d44444fff3e50e2206d145bec1919048aec21` | Duplicate contact sheet preserved under original filename |
 | `chat-assets/contact-sheet(5).png` | 1,548,739 | `537f5ef3368b17ec784edffbaa9f5f874897e527cfbd619d06a6e0502f1bc04a` | Generated contact sheet |
-

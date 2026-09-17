@@ -23,9 +23,9 @@ The recurring design rule was:
 - v3.1 introduced a native end-to-end TINYMAPS family.
 - v3.2 expanded discovery and morphology resources; its companion megapack records external repositories and resources without pretending to vendor them.
 - v3.3 added corpus tooling and is the latest recovered suite.
+- The v4 correction pack peer-reviewed the v3.3 build and defined the next executable milestone. It deliberately prioritizes real attributed seeds, defensible controls, 25,000 blind descendants, morphology coverage and reproducible human-selected lineages over adding more sources or interface tabs.
 - Preview, chart and contact-sheet PNGs record the visual outputs attached to the same project thread. The UUID-named PNG is the original user reference image.
 
 ## Preservation scope
 
 The `archives/` and `chat-assets/` directories contain all recoverable downloadable content associated with this project thread. Original filenames are preserved. Temporary partial-download files and unrelated images from an interleaved caffeine discussion were excluded.
-
