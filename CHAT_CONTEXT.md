@@ -25,6 +25,7 @@ The recurring design rule was:
 - v3.3 added corpus tooling and is the latest recovered suite.
 - The v4 correction pack peer-reviewed the v3.3 build and defined the next executable milestone. It deliberately prioritizes real attributed seeds, defensible controls, 25,000 blind descendants, morphology coverage and reproducible human-selected lineages over adding more sources or interface tabs.
 - The v4 human-aesthetic dashboard then supplied a working mock UI for the human stepping-stone loop. It keeps analytical attention, rasa and YouTube metrics downstream rather than leaking them into blind generation.
+- The v5 agent rescue pack reviewed the first B25 implementation, identified specific reproducibility and throughput defects, and constrained the next cycle to completing the real emergence experiment without another replatform or architecture expansion.
 - Preview, chart and contact-sheet PNGs record the visual outputs attached to the same project thread. The UUID-named PNG is the original user reference image.
 
 ## Preservation scope

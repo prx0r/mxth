@@ -12,6 +12,10 @@ The correction pack focuses development on the actual emergence experiment rathe
 
 The companion human-aesthetic dashboard is a working static interaction prototype, not a replacement for the real generators. It cleanly separates the creative loop—mark potential, inspect, choose stepping stones, select mutation pressure and branch—from downstream Study/Analysis metrics. Production integration still needs to connect it to the real `OPEN_BLIND`, branch and fresh-root endpoints.
 
+## V5 rescue direction
+
+The V5 pack reviews repository head `248034f` and identifies concrete blockers in the emerging B25 implementation: regex-based literal classification presented as AST-based, an unverified seed list with silent filling, one Chromium launch per descendant, a non-Sobol sampler, unstable Python-hash seeding, inverted negative-literal ranges, full-page rather than canvas hashing, timing-field mismatch, missing image/embedding artifacts and incorrect p5 loading order. Its instruction is deliberately narrow: fix these issues without replatforming, then complete the 25-seed/25,000-descendant experiment and connect its outputs to the human branch loop.
+
 ## Verification performed
 
 | Check | Result |
@@ -24,6 +28,7 @@ The companion human-aesthetic dashboard is a working static interaction prototyp
 | Embedded release hashes | Megapack hashes for v3.0, v3.1 and v3.2 match the preserved archives exactly |
 | Common secret patterns | No GitHub token, private-key, or AWS-secret pattern found in the archives |
 | V4 dashboard static validation | ZIP integrity, JavaScript syntax and JSON manifest validation passed |
+| V5 rescue-pack validation | ZIP integrity, JSON and JavaScript validation passed; packaged report records 4/4 tests passing |
 
 The direct suite test counts above were obtained by loading each test module and invoking every no-fixture `test_*` function. This validates the bundled unit logic without changing the releases.
 

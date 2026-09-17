@@ -17,6 +17,7 @@ All hashes are SHA-256. Sizes are bytes.
 | `archives/mathartist-suite-v3.3.0.zip` | 8,425,766 | `e19fd684f35d1af27b19c431e500b8cb8edc11da1ee4c3ec81c979bada726c18` | Latest recovered suite with corpus tooling |
 | `mathartist-v4-coding-agent-correction-pack.zip` | 21,111 | `d491eabc26e494d590ff53da5bc928f4740325e6b2b17f549a5a465a657ca189` | V4 peer review, architecture delta, machine-readable backlog, schemas and acceptance gates targeting v3.3 commit `3d5ac3f` |
 | `mathartist-v4-human-aesthetic-dashboard.zip` | 8,700 | `c498242475e46ac0062e44c1b454514e0700a3efb12d3cf9d62a3ad82fabf295` | Working V4 static dashboard prototype for the human open-ended branching loop; intended for integration with real `OPEN_BLIND` and `HUMAN_OPEN_ENDED` APIs |
+| `mathartist-v5-agent-rescue-pack.zip` | 37,944 | `3af88e365e503563e16d44553b85322450ecbb34d25b3d1ef17ad1cc06a96c07` | V5 rescue pack targeting commit `248034f`: peer review, anti-drift plan, schemas, research references and implementation tools for finishing the emergence experiment |
 | `chat-assets/fedf8a65-181d-453e-83a2-efa82da359d5.png` | 51,124 | `f757fb44d692cee28ff68e1db1f3a2da95fe88a742d973a935eb13c4b795a5af` | Original user reference image |
 | `chat-assets/preview.png` | 912,189 | `a54578d1d62ba9381f270ffa9f47831ad00b2e7dd5169f7b3a003d7030231994` | Generated preview |
 | `chat-assets/preview(1).png` | 912,189 | `a54578d1d62ba9381f270ffa9f47831ad00b2e7dd5169f7b3a003d7030231994` | Duplicate preview preserved under original filename |
