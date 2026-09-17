@@ -9,6 +9,7 @@ from experiment_store import (init_experiment_db, list_experiments, get_experime
 
 ROOT=Path(__file__).resolve().parents[1]
 STATIC=ROOT/"app"/"static"
+V4DASH=ROOT/"v4-dashboard"
 
 class Handler(SimpleHTTPRequestHandler):
     def log_message(self, fmt, *args):
@@ -71,9 +72,34 @@ class Handler(SimpleHTTPRequestHandler):
                                       session_id=body.get("session_id"),seed=body.get("seed"))
                 return self._json(out)
             except Exception as e:return self._json({"error":str(e)},400)
+        if u.path=="/api/branch":
+            try:
+                parent_ids=body.get("parent_ids",[])
+                sigma=float(body.get("sigma",0.35))
+                count=min(128,max(1,int(body.get("count",24))))
+                source_id=body.get("source_id","TINYMAPS")
+                channel=body.get("lineage_channel","HUMAN_OPEN_ENDED")
+                out=create_population(source_id,"frontier",count,selected_ids=parent_ids,
+                                      session_id=body.get("session_id"),seed=body.get("seed"),
+                                      lineage_channel=channel)
+                return self._json(out)
+            except Exception as e:return self._json({"error":str(e)},400)
+        if u.path=="/api/root":
+            try:
+                source_id=body.get("source_id","TINYMAPS")
+                count=min(128,max(1,int(body.get("count",24))))
+                out=create_population(source_id,"frontier",count,seed=body.get("seed"),
+                                      lineage_channel="OPEN_BLIND")
+                return self._json(out)
+            except Exception as e:return self._json({"error":str(e)},400)
         return self._json({"error":"not found"},404)
     def _serve_static(self,path):
         if path=="/": path="/index.html"
+        if path.startswith("/v4/"):
+            p=(V4DASH/path.lstrip('/v4/')).resolve()
+            if p.is_file():
+                b=p.read_bytes();ctype=mimetypes.guess_type(str(p))[0] or "application/octet-stream"
+                self.send_response(200);self.send_header("Content-Type",ctype);self.send_header("Content-Length",str(len(b)));self.send_header("Cache-Control","no-cache");self.end_headers();self.wfile.write(b);return
         p=(STATIC/path.lstrip('/')).resolve()
         if not str(p).startswith(str(STATIC.resolve())) or not p.is_file():
             p=STATIC/"index.html"

@@ -1,0 +1,32 @@
+[
+  {
+    "path": "DESIGN.md",
+    "bytes": 1532,
+    "sha256": "298ca38af757a30f0e05b45f0abc05084ce239a9bd9c158b3d5cd279bacfe2ad"
+  },
+  {
+    "path": "INTEGRATION.md",
+    "bytes": 1098,
+    "sha256": "283e8ff7a07638c3e0d5ab0dc20d2908dad005f663465b8b70b7dab22906d5fb"
+  },
+  {
+    "path": "README.md",
+    "bytes": 576,
+    "sha256": "b72211c48b8d719f36d43625816116b5ac5b29a7c05ed10cc0b4dd767d3669d8"
+  },
+  {
+    "path": "app.js",
+    "bytes": 4677,
+    "sha256": "89c36f6dc87d855d465b0e12a865e050592cc359613d59a10db3602f66f5b427"
+  },
+  {
+    "path": "index.html",
+    "bytes": 2472,
+    "sha256": "909368e978731ce6bd81d0ddf75c5d0dd557bc6a4306df387fcfc552f0866859"
+  },
+  {
+    "path": "style.css",
+    "bytes": 5579,
+    "sha256": "a9ab111d59a55f2eff931e01cd51010d10562401f078345a21840d6b92a4d148"
+  }
+]

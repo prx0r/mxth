@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>MathArtist V4</title><link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header class="top"><div class="brand">MATHARTIST <em>V4</em></div><nav>
+<button class="active">OPEN</button><button>POTENTIAL</button><button>LINEAGE</button><button>SAVED</button><button>STUDY</button>
+</nav><div class="status">TINYMAPS · <span id="gen">G0</span></div></header>
+<section class="sub">
+<div><button id="root">NEW ROOT</button><button id="undo">UNDO</button></div>
+<div id="hint">Choose anything with potential. Beauty is not required.</div>
+<div><button id="shuffle">SHUFFLE</button><button id="evolve" class="primary" disabled>EVOLVE SELECTED</button></div>
+</section>
+<main id="grid"></main>
+<section id="dock" class="dock hidden">
+<div><b><span id="count">0</span> SELECTED</b><small>Pick how hard to push the lineage</small></div>
+<div id="temps"><button data-s=".15">MICRO<small>.15σ</small></button><button data-s=".35" class="on">SMALL<small>.35σ</small></button><button data-s=".70">MEDIUM<small>.70σ</small></button><button data-s="1.25">WILD<small>1.25σ</small></button></div>
+<button id="branch" class="primary big">BRANCH</button>
+</section>
+<div id="detail" class="detail hidden">
+<section class="stage"><button id="close">×</button><canvas id="hero" width="900" height="900"></canvas>
+<div class="actions"><button id="potential">POTENTIAL</button><button id="save">SAVE</button><button id="branchOne">BRANCH</button></div></section>
+<aside><div class="eyebrow" id="eyebrow"></div><h1 id="title"></h1><p>Blind mathematical specimen. Inspect first; interpret later.</p>
+<h3>LINEAGE</h3><div class="kv"><span>generation</span><b id="dg"></b></div><div class="kv"><span>parent</span><b id="dp"></b></div>
+<h3>CONTROL SURFACE</h3><pre id="params"></pre>
+<h3>YOUR ACTION</h3><div class="responses"><button>POTENTIAL</button><button>BEAUTIFUL</button><button>STRANGE</button><button>DEAD END</button></div>
+<textarea placeholder="optional note — what did you notice?"></textarea>
+<button id="reflect">REFLECT AFTER VIEWING</button><div id="reflection" class="hidden"><label>VALENCE <input type="range" min="-1" max="1" step=".1"></label><label>ABSORPTION <input type="range" min="-1" max="1" step=".1"></label></div>
+</aside></div><div id="toast"></div>
+<script type="module">
+// Load real MathArtist renderers
+import{initLenia,renderLenia}from'../app/static/js/sources/lenia.js';
+import{renderNS}from'../app/static/js/sources/ns26.js';
+import{renderChladni}from'../app/static/js/sources/chladni.js';
+import{initBioelectric,renderBioelectric}from'../app/static/js/sources/bioelectric.js';
+import{renderTinyMaps}from'../app/static/js/sources/tiny_maps.js';
+await Promise.allSettled([initLenia(),initBioelectric()]);
+window._renderers={
+  LENIA:renderLenia,NS26:renderNS,CHLADNI:renderChladni,
+  BIOELECTRIC:renderBioelectric,TINYMAPS:renderTinyMaps
+};
+</script>
+<script type="module" src="./app.js"></script>
+</body></html>
