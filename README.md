@@ -7,6 +7,7 @@ The project evolved from a small deterministic generative-art web app into a res
 ## Start here
 
 - Latest implementation plan: [`mathartist-v4-coding-agent-correction-pack.zip`](mathartist-v4-coding-agent-correction-pack.zip)
+- Latest dashboard prototype: [`mathartist-v4-human-aesthetic-dashboard.zip`](mathartist-v4-human-aesthetic-dashboard.zip)
 - Latest full runnable suite: [`mathartist-suite-v3.3.0.zip`](mathartist-suite-v3.3.0.zip)
 - Resource bundle: [`archives/mathartist-v3.2-resource-megapack.zip`](archives/mathartist-v3.2-resource-megapack.zip)
 - Technical assessment: [`REVIEW.md`](REVIEW.md)
@@ -27,6 +28,7 @@ The project evolved from a small deterministic generative-art web app into a res
 | Suite `v3.2.0` | Discovery and morphology expansion |
 | Suite `v3.3.0` | Corpus tooling, including Tsubuyaki resources |
 | V4 correction pack | Converts the v3.3 scaffold into a gated emergence experiment: real executable seeds, evidenced controls, 25K blind descendants, richer morphology, browser-tested human branching and reproducible lineages |
+| V4 human-aesthetic dashboard | Working static interaction prototype for POTENTIAL selection, fullscreen inspection, mutation pressure, branching, parent preservation, undo, fresh roots and delayed retrospective response |
 
 ## Integrity
 

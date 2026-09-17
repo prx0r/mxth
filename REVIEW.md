@@ -10,6 +10,8 @@ The latest runnable archive, `mathartist-suite-v3.3.0.zip`, remains the canonica
 
 The correction pack focuses development on the actual emergence experiment rather than further source or dashboard expansion. Its hard gates require at least 25 attributed executable seeds, at least 1,000 blind descendants per seed, evidence for every mutable control, stronger morphology coverage, browser-tested human branching, retained failures and fully reproducible lineage/runtime identity. This directly addresses the most important gap in v3.3: strong infrastructure without yet demonstrating the complete large-scale experiment.
 
+The companion human-aesthetic dashboard is a working static interaction prototype, not a replacement for the real generators. It cleanly separates the creative loop—mark potential, inspect, choose stepping stones, select mutation pressure and branch—from downstream Study/Analysis metrics. Production integration still needs to connect it to the real `OPEN_BLIND`, branch and fresh-root endpoints.
+
 ## Verification performed
 
 | Check | Result |
@@ -21,6 +23,7 @@ The correction pack focuses development on the actual emergence experiment rathe
 | Lab V2 JSON | All JSON files parsed successfully |
 | Embedded release hashes | Megapack hashes for v3.0, v3.1 and v3.2 match the preserved archives exactly |
 | Common secret patterns | No GitHub token, private-key, or AWS-secret pattern found in the archives |
+| V4 dashboard static validation | ZIP integrity, JavaScript syntax and JSON manifest validation passed |
 
 The direct suite test counts above were obtained by loading each test module and invoking every no-fixture `test_*` function. This validates the bundled unit logic without changing the releases.
 
