@@ -1,0 +1,10 @@
+{
+  "id": "integrity-gate-v3.1",
+  "purpose": "Reject only technically unreadable observations. This is not an aesthetic house style, beauty score, valence model, or composition preference.",
+  "limits": {
+    "occupancy": [0.0005, 0.92],
+    "mean": [0.0002, 0.50],
+    "contrast_min": 0.0005,
+    "saturation_fraction_max": 0.15
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "id": "VORTEX_DECAY_DEMO",
+  "short": "VORTEX_DECAY",
+  "title": "Decaying vortex-pair demonstrator",
+  "description": "Locally generated synthetic vorticity-style field (two decaying Gaussian vortices + meandering jet). Demonstrator for the array-sequence import path; not a scientific claim.",
+  "provenance_level": "EXACT-DATA",
+  "core_statement": "imported trajectory bytes fixed; observation only evolves",
+  "upstream": "source_artifacts/VORTEX_DECAY_DEMO/vortex_decay.npy (locally generated demonstrator)",
+  "renderer": "array-sequence",
+  "immutable_core": {
+    "original_sha256": "537f699831fbeab7532368de4dbc7f380839628c84c63d3b4bba158eaf74201d",
+    "shape": [
+      40,
+      48,
+      48,
+      1
+    ],
+    "source_min": -1.485259226148191,
+    "source_max": 1.3453816152372178
+  },
+  "source_variants": [
+    {
+      "id": "trajectory-0"
+    }
+  ],
+  "source_bundle": {
+    "files": [
+      "app/static/data/imported/VORTEX_DECAY_DEMO.json",
+      "source_artifacts/VORTEX_DECAY_DEMO/vortex_decay.npy"
+    ]
+  },
+  "interpretation_genes": {
+    "rotation": {
+      "type": "float",
+      "min": -3.1416,
+      "max": 3.1416,
+      "default": 0,
+      "sigma": 0.2
+    },
+    "zoom": {
+      "type": "float",
+      "min": 0.55,
+      "max": 2.1,
+      "default": 1,
+      "sigma": 0.1
+    },
+    "threshold": {
+      "type": "float",
+      "min": 0,
+      "max": 0.85,
+      "default": 0.08,
+      "sigma": 0.06
+    },
+    "gamma": {
+      "type": "float",
+      "min": 0.25,
+      "max": 3,
+      "default": 1,
+      "sigma": 0.18
+    },
+    "exposure": {
+      "type": "float",
+      "min": 0.2,
+      "max": 1,
+      "default": 0.75,
+      "sigma": 0.08
+    },
+    "trail": {
+      "type": "float",
+      "min": 0,
+      "max": 0.92,
+      "default": 0.2,
+      "sigma": 0.08
+    },
+    "sample": {
+      "type": "float",
+      "min": 0.25,
+      "max": 1.5,
+      "default": 1,
+      "sigma": 0.12
+    },
+    "point_size": {
+      "type": "float",
+      "min": 0.45,
+      "max": 2.4,
+      "default": 1,
+      "sigma": 0.13
+    },
+    "time_rate": {
+      "type": "float",
+      "min": 0.2,
+      "max": 2.4,
+      "default": 1,
+      "sigma": 0.12
+    },
+    "contours": {
+      "type": "float",
+      "min": 1,
+      "max": 14,
+      "default": 5,
+      "sigma": 0.7
+    },
+    "channel": {
+      "type": "int",
+      "min": 0,
+      "max": 0,
+      "default": 0
+    },
+    "observable": {
+      "type": "enum",
+      "values": [
+        "field",
+        "contour",
+        "edge"
+      ],
+      "default": "field"
+    }
+  }
+}

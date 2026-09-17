@@ -1,0 +1,158 @@
+{
+  "id": "BIOELECTRIC",
+  "short": "BIO",
+  "title": "Manicka\u2013Levin bioelectric field morphogenesis",
+  "description": "Equation-level deterministic reimplementation of the cellular field network documented in Manicka & Levin (2025): voltage-gated ion channels, voltage-gated gap junctions, Coulomb-like extracellular field and field-to-channel feedback. The trained clamp pickle is not bundled; roots use fixed initial conditions explicitly demonstrated in the authors' repository.",
+  "provenance_level": "EXACT-EQUATIONS",
+  "core_statement": "bioelectric equations, physical parameters and initial condition are frozen per lineage; only observation evolves",
+  "upstream": "https://github.com/santamanicka/ElectricMorphogenesis",
+  "paper": "Field-mediated bioelectric basis of morphogenetic prepatterning (Manicka & Levin, 2025)",
+  "immutable_core": {
+    "lattice": "11x11 non-periodic cellular lattice",
+    "ion_channels": "voltage-gated hyperpolarizing/depolarizing currents",
+    "gap_junction": "G_res + 2 G_0/(1+cosh((Vi-Vj)/V0))",
+    "field": "Coulomb-like extracellular field from Q=C*Vmem with documented screening",
+    "field_feedback": "documented sigmoid field transduction into G_pol",
+    "dt": 0.01,
+    "GJStrength": 0.05,
+    "fieldScreenSize": 4
+  },
+  "source_variants": [
+    {
+      "id": "center-hyperpolarized",
+      "label": "single hyperpolarized center cell"
+    },
+    {
+      "id": "french-flag",
+      "label": "three-band Vmem initial condition"
+    },
+    {
+      "id": "uniform-bistable",
+      "label": "uniform -9.2mV baseline"
+    }
+  ],
+  "interpretation_genes": {
+    "rotation": {
+      "type": "float",
+      "min": -3.1416,
+      "max": 3.1416,
+      "default": 0,
+      "sigma": 0.25
+    },
+    "zoom": {
+      "type": "float",
+      "min": 0.55,
+      "max": 2.0,
+      "default": 1.05,
+      "sigma": 0.12
+    },
+    "threshold": {
+      "type": "float",
+      "min": 0,
+      "max": 0.92,
+      "default": 0.08,
+      "sigma": 0.08
+    },
+    "gamma": {
+      "type": "float",
+      "min": 0.2,
+      "max": 3.2,
+      "default": 0.8,
+      "sigma": 0.18
+    },
+    "exposure": {
+      "type": "float",
+      "min": 0.2,
+      "max": 1.8,
+      "default": 0.9,
+      "sigma": 0.15
+    },
+    "trail": {
+      "type": "float",
+      "min": 0,
+      "max": 0.97,
+      "default": 0.38,
+      "sigma": 0.13
+    },
+    "point_size": {
+      "type": "float",
+      "min": 0.45,
+      "max": 4.5,
+      "default": 1.6,
+      "sigma": 0.28
+    },
+    "time_rate": {
+      "type": "float",
+      "min": 0.05,
+      "max": 2.6,
+      "default": 0.65,
+      "sigma": 0.18
+    },
+    "contours": {
+      "type": "float",
+      "min": 1,
+      "max": 14,
+      "default": 5,
+      "sigma": 1.1
+    },
+    "vector_scale": {
+      "type": "float",
+      "min": 0.2,
+      "max": 2.8,
+      "default": 1,
+      "sigma": 0.2
+    },
+    "observable": {
+      "type": "enum",
+      "values": [
+        "vmem",
+        "field",
+        "field-vector",
+        "current",
+        "contour",
+        "streamline",
+        "equipotential"
+      ],
+      "default": "streamline"
+    },
+    "projection": {
+      "type": "enum",
+      "values": [
+        "native",
+        "polar",
+        "fold",
+        "tetra"
+      ],
+      "default": "native"
+    },
+    "sample": {
+      "type": "float",
+      "min": 0.18,
+      "max": 1.25,
+      "default": 0.78,
+      "sigma": 0.1
+    },
+    "folds": {
+      "type": "int",
+      "min": 2,
+      "max": 12,
+      "default": 4
+    },
+    "iso_levels": {
+      "type": "int",
+      "min": 3,
+      "max": 12,
+      "default": 6
+    }
+  },
+  "source_bundle": {
+    "upstream_commit": "3ed313f811b3550ba0de80ab74c1a45f4426c2c5",
+    "files": [
+      "app/static/data/bioelectric/{variant}.json",
+      "app/static/data/bioelectric/{variant}.f32.bin",
+      "tools/generate_trajectories.py",
+      "third_party/electric_morphogenesis/PROVENANCE.md"
+    ]
+  },
+  "interpretation_grammar": "specimen-grammar-v1"
+}

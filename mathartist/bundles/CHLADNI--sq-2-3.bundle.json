@@ -1,0 +1,31 @@
+{
+  "bundle_sha256": "7721b9d772bec21dfc4ecbb92e173d857759bc4c9b94065315092f576e40fa00",
+  "files": [
+    {
+      "bytes": 1214,
+      "path": "app/static/js/sources/cymatics.js",
+      "sha256": "c3552e40ef891f15807bf80fed9110a5cefe1be01011b2821f51db70490e638d"
+    },
+    {
+      "bytes": 1073,
+      "path": "third_party/cymatics/LICENSE",
+      "sha256": "29f39f7f41c687dbf17dc690a52d9bb60ac930b9a623a58204d5a4165cfa136f"
+    },
+    {
+      "bytes": 231,
+      "path": "third_party/cymatics/PROVENANCE.md",
+      "sha256": "be5fe24a82737e76ca6e68b12eae9e906612aa64cf5e7272d2a79613a0deadb2"
+    }
+  ],
+  "format": "mathartist.source-bundle.v2",
+  "immutable_core": {
+    "circle": "J_n(alpha_ns r) cos(n theta)",
+    "square": "cos(n\u03c0x)cos(m\u03c0y)-cos(m\u03c0x)cos(n\u03c0y)"
+  },
+  "paper": null,
+  "provenance_level": "EXACT-EQUATION",
+  "source_id": "CHLADNI",
+  "upstream": "https://github.com/evoluteur/cymatics",
+  "upstream_commit": "3389c0e94fb6f041ffe216c03ca7a01724c8ed0e",
+  "variant": "sq-2-3"
+}

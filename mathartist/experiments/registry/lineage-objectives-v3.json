@@ -1,0 +1,15 @@
+{
+  "id":"lineage-objectives-v3",
+  "title":"Orthogonal response lineages",
+  "status":"exploratory",
+  "principle":"Never collapse discovery, attention, valence, absorption, rasa response, and structural hypotheses into one beauty score.",
+  "lineages":[
+    {"id":"open","signal":"novelty/coverage/fertility","causal_role":"search ecology"},
+    {"id":"attention","signal":"5s, 10|5, 20|10, replay","causal_role":"behavioral response"},
+    {"id":"valence","signal":"signed self-report","causal_role":"reported affect"},
+    {"id":"absorption","signal":"self-report","causal_role":"reported absorption"},
+    {"id":"rasa","signal":"retrospective optional category","causal_role":"Abhinavagupta-inspired exploratory response taxonomy"},
+    {"id":"qri-hypothesis","signal":"symmetry/spectrum/recurrence/compressibility descriptors","causal_role":"structural predictors only"}
+  ],
+  "firewall":"Adaptive discovery results require a frozen hypothesis and fresh phenotypes/viewers for confirmation."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "commonization-v1",
+  "title": "Context removal / commonization framing study",
+  "status": "exploratory",
+  "environment": "first-party randomized lab",
+  "duration_s": 30,
+  "arms": [
+    {"id":"particular","description":"Scientific source, variant and provenance are visible."},
+    {"id":"commonized","description":"The identical phenotype is shown without source identity/provenance until after response."}
+  ],
+  "principle": "Operational analogy to sadharanikarana/commonization: test the effect of removing particularizing scientific context. This is not a claim to directly measure rasa or Abhinavagupta's construct.",
+  "outcomes": ["horizon_5","horizon_10","horizon_20","dwell","replay","favorite","valence","arousal","absorption","rasa_label"],
+  "analysis": ["arm difference in attention", "arm difference in absorption", "arm difference in valence", "arm difference in semantic-response convergence"],
+  "notes": [
+    "The underlying source bundle and interpretation genome are identical across framing conditions.",
+    "Rasa response is retrospective and optional.",
+    "Confirmatory runs require fresh viewers and fresh phenotypes after hypotheses are frozen."
+  ]
+}

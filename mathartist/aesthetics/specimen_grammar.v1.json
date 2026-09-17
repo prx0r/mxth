@@ -1,0 +1,51 @@
+{
+  "id": "specimen-grammar-v1",
+  "purpose": "A presentation/viability grammar derived from the original monochrome specimen-grid reference. It rejects broken or compositionally unusable phenotypes; it is not a beauty score.",
+  "background": "near-black",
+  "palette": "grayscale-only",
+  "preferred_primitives": [
+    "subpixel-particles",
+    "short-trails",
+    "streamlines",
+    "thin-contours",
+    "trajectory-traces",
+    "density-surfaces"
+  ],
+  "composition": {
+    "foreground_occupancy": [
+      0.002,
+      0.4
+    ],
+    "bbox_area_ratio": [
+      0.008,
+      0.72
+    ],
+    "centroid_offset_max": 0.52,
+    "mean_luminance": [
+      0.0015,
+      0.18
+    ],
+    "contrast_min": 0.0015,
+    "saturation_fraction_max": 0.035,
+    "edge_density": [
+      0.00012,
+      0.14
+    ]
+  },
+  "reject_reasons": [
+    "blank",
+    "tiny",
+    "full-frame-texture",
+    "off-center",
+    "overexposed",
+    "low-contrast",
+    "severely-clipped",
+    "near-static"
+  ],
+  "notes": [
+    "The gate should be source-agnostic and should not reward a specific morphology.",
+    "OPEN evolution must preserve rejected stepping stones in the archive even when the gallery hides them.",
+    "Human preference and YouTube attention are never part of this viability gate.",
+    "Foreground is measured above an adaptive threshold relative to the near-black background, because the target reference aesthetic uses deliberately faint marks."
+  ]
+}

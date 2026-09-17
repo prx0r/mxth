@@ -1,0 +1,10 @@
+{
+  "status":"exploratory until explicitly preregistered for a named run",
+  "principle":"structural descriptors are candidate predictors, not definitions of beauty, rasa or valence",
+  "hypotheses":[
+    {"id":"H-symmetry","predictor":"approximate image symmetry","outcomes":["5s survival","favorite rate"],"direction":"to be estimated"},
+    {"id":"H-complexity","predictor":"entropy / occupancy","outcomes":["10s conditional survival","20s conditional survival"],"shape":"test linear and inverted-U"},
+    {"id":"H-coherence","predictor":"edge density + future recurrence/coherence descriptors","outcomes":["dwell","replay"],"direction":"to be estimated"},
+    {"id":"H-rasa-separation","claim":"liking and absorption are not assumed identical","test":"compare favorite vs dwell/replay associations"}
+  ]
+}

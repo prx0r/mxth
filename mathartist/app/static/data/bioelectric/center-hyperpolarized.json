@@ -1,0 +1,36 @@
+{
+  "id": "center-hyperpolarized",
+  "cells": 121,
+  "cell_side": 11,
+  "field_points": 144,
+  "field_side": 12,
+  "frames": 200,
+  "dtype": "float32-le",
+  "stride_steps": 12,
+  "source_dt": 0.01,
+  "record": [
+    "Vmem:121",
+    "eV:144",
+    "Ex:144",
+    "Ey:144",
+    "current:121"
+  ],
+  "source": "Manicka & Levin 2025 ElectricMorphogenesis equation-level reimplementation",
+  "parameters": {
+    "Z": 3,
+    "V_th": -0.027,
+    "V_T": 0.027,
+    "V_0": 0.012,
+    "C": 1e-10,
+    "E_pol": -0.055,
+    "E_dep": -0.005,
+    "G_ref": 1e-09,
+    "GJStrength": 0.05,
+    "fieldStrength": 1.0,
+    "fieldScreenSize": 4,
+    "fieldTransductionBias": 0.0005,
+    "fieldTransductionWeight": 1000.0,
+    "fieldTransductionGain": -1.0,
+    "fieldTransductionTimeConstant": 10.0
+  }
+}

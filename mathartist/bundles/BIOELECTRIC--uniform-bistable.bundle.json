@@ -1,0 +1,42 @@
+{
+  "bundle_sha256": "fc59202d3521d3e99f931ec35030510b5b81cf783e515edcf15e9956f16ccf17",
+  "files": [
+    {
+      "bytes": 776,
+      "path": "app/static/data/bioelectric/uniform-bistable.json",
+      "sha256": "06767ede0b8d766986f5d0bd00a72d1cc65b9c8cbbe1be25bd2040c1da370a93"
+    },
+    {
+      "bytes": 539200,
+      "path": "app/static/data/bioelectric/uniform-bistable.f32.bin",
+      "sha256": "aa80c7948fa229672ac7917a0570644c156f8026354d11706aa20ad390818d70"
+    },
+    {
+      "bytes": 10944,
+      "path": "tools/generate_trajectories.py",
+      "sha256": "510a0f7c43b1fcfc4b0dfa4e675714f6a7fa8fb334f6fb3bd3d21e25e0929be7"
+    },
+    {
+      "bytes": 707,
+      "path": "third_party/electric_morphogenesis/PROVENANCE.md",
+      "sha256": "d5c5fc2bfd8308f5c34b7b35e5ecf46e5dde28ca4fd91157c55b8826c79124fd"
+    }
+  ],
+  "format": "mathartist.source-bundle.v2",
+  "immutable_core": {
+    "GJStrength": 0.05,
+    "dt": 0.01,
+    "field": "Coulomb-like extracellular field from Q=C*Vmem with documented screening",
+    "fieldScreenSize": 4,
+    "field_feedback": "documented sigmoid field transduction into G_pol",
+    "gap_junction": "G_res + 2 G_0/(1+cosh((Vi-Vj)/V0))",
+    "ion_channels": "voltage-gated hyperpolarizing/depolarizing currents",
+    "lattice": "11x11 non-periodic cellular lattice"
+  },
+  "paper": "Field-mediated bioelectric basis of morphogenetic prepatterning (Manicka & Levin, 2025)",
+  "provenance_level": "EXACT-EQUATIONS",
+  "source_id": "BIOELECTRIC",
+  "upstream": "https://github.com/santamanicka/ElectricMorphogenesis",
+  "upstream_commit": "3ed313f811b3550ba0de80ab74c1a45f4426c2c5",
+  "variant": "uniform-bistable"
+}

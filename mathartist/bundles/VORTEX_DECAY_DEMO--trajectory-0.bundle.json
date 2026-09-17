@@ -1,0 +1,33 @@
+{
+  "bundle_sha256": "8f3b0a685c4e5407820b62df89e50aa438f4d9d1a9ba6b869f4d593547cad5e5",
+  "files": [
+    {
+      "bytes": 123183,
+      "path": "app/static/data/imported/VORTEX_DECAY_DEMO.json",
+      "sha256": "d4bbf237f833a2d8910866e2ff6e1436bff4a2713cd485a3089ae82f707aa650"
+    },
+    {
+      "bytes": 737408,
+      "path": "source_artifacts/VORTEX_DECAY_DEMO/vortex_decay.npy",
+      "sha256": "537f699831fbeab7532368de4dbc7f380839628c84c63d3b4bba158eaf74201d"
+    }
+  ],
+  "format": "mathartist.source-bundle.v2",
+  "immutable_core": {
+    "original_sha256": "537f699831fbeab7532368de4dbc7f380839628c84c63d3b4bba158eaf74201d",
+    "shape": [
+      40,
+      48,
+      48,
+      1
+    ],
+    "source_max": 1.3453816152372178,
+    "source_min": -1.485259226148191
+  },
+  "paper": null,
+  "provenance_level": "EXACT-DATA",
+  "source_id": "VORTEX_DECAY_DEMO",
+  "upstream": "source_artifacts/VORTEX_DECAY_DEMO/vortex_decay.npy (locally generated demonstrator)",
+  "upstream_commit": null,
+  "variant": "trajectory-0"
+}

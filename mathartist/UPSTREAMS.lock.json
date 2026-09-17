@@ -1,0 +1,11 @@
+{
+  "captured":"2026-09-17",
+  "upstreams":[
+    {"repo":"Chakazul/Lenia","commit":"adfc542939266de7f4bb7ebb552e8499701ee107","use":"reference equations, Orbium seed, morphology/statistics lineage","license":"MIT"},
+    {"repo":"evoluteur/cymatics","commit":"3389c0e94fb6f041ffe216c03ca7a01724c8ed0e","use":"Bessel functions and Chladni/membrane eigenmode math","license":"MIT"},
+    {"repo":"SakanaAI/ShinkaEvolve","commit":"9912af12d423504b8d580f4179fd15f5f88b8c50","use":"optional open-ended program-evolution backend for interpretation code","license":"Apache-2.0"},
+    {"repo":"jmiao24/Paper2Agent","commit":"c5ce59cc726eddebd6623cc70ad2a80ae55c224e","use":"paper/code/supplement ingestion into executable tools","license":"MIT"},
+    {"repo":"icaros-usc/pyribs","commit":"7bd723cf9863d480c8f2fec5ba9aa36f3b68c083","use":"optional quality-diversity backend","license":"BSD-3-Clause"},
+    {"repo":"santamanicka/ElectricMorphogenesis","commit":"3ed313f811b3550ba0de80ab74c1a45f4426c2c5","use":"bioelectric cellular-field equations and future pretrained-trajectory adapter","license_note":"repository LICENSE inspected as CC BY 4.0; README text currently says MIT; treat conservatively"}
+  ]
+}

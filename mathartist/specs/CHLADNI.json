@@ -1,0 +1,143 @@
+{
+  "id": "CHLADNI",
+  "short": "CYMATICS",
+  "title": "Chladni / membrane eigenmodes",
+  "description": "Wave-equation eigenmodes using the Bessel and plate-mode mathematics from evoluteur/cymatics (MIT). A root selects a valid mode; that mode is frozen through its lineage.",
+  "provenance_level": "EXACT-EQUATION",
+  "core_statement": "eigenmode fixed per lineage; only observation evolves",
+  "upstream": "https://github.com/evoluteur/cymatics",
+  "immutable_core": {
+    "square": "cos(n\u03c0x)cos(m\u03c0y)-cos(m\u03c0x)cos(n\u03c0y)",
+    "circle": "J_n(alpha_ns r) cos(n theta)"
+  },
+  "source_variants": [
+    {
+      "id": "sq-2-3"
+    },
+    {
+      "id": "sq-3-5"
+    },
+    {
+      "id": "sq-4-7"
+    },
+    {
+      "id": "sq-5-8"
+    },
+    {
+      "id": "ci-2-2"
+    },
+    {
+      "id": "ci-3-2"
+    },
+    {
+      "id": "ci-5-1"
+    },
+    {
+      "id": "ci-6-2"
+    }
+  ],
+  "interpretation_genes": {
+    "rotation": {
+      "type": "float",
+      "min": -3.1416,
+      "max": 3.1416,
+      "default": 0,
+      "sigma": 0.3
+    },
+    "zoom": {
+      "type": "float",
+      "min": 0.6,
+      "max": 1.7,
+      "default": 1,
+      "sigma": 0.1
+    },
+    "threshold": {
+      "type": "float",
+      "min": 0.0,
+      "max": 0.85,
+      "default": 0.18,
+      "sigma": 0.08
+    },
+    "gamma": {
+      "type": "float",
+      "min": 0.25,
+      "max": 2.8,
+      "default": 0.75,
+      "sigma": 0.15
+    },
+    "exposure": {
+      "type": "float",
+      "min": 0.2,
+      "max": 1.5,
+      "default": 0.85,
+      "sigma": 0.12
+    },
+    "trail": {
+      "type": "float",
+      "min": 0.0,
+      "max": 0.94,
+      "default": 0.12,
+      "sigma": 0.12
+    },
+    "sample": {
+      "type": "float",
+      "min": 0.25,
+      "max": 1,
+      "default": 0.8,
+      "sigma": 0.08
+    },
+    "point_size": {
+      "type": "float",
+      "min": 0.45,
+      "max": 2.4,
+      "default": 1,
+      "sigma": 0.14
+    },
+    "time_rate": {
+      "type": "float",
+      "min": 0,
+      "max": 2.4,
+      "default": 0.5,
+      "sigma": 0.18
+    },
+    "node_sharpness": {
+      "type": "float",
+      "min": 2,
+      "max": 40,
+      "default": 15,
+      "sigma": 3
+    },
+    "contours": {
+      "type": "float",
+      "min": 1,
+      "max": 12,
+      "default": 5,
+      "sigma": 1
+    },
+    "observable": {
+      "type": "enum",
+      "values": [
+        "nodes",
+        "bands",
+        "nodal-lines"
+      ],
+      "default": "nodal-lines"
+    },
+    "line_width": {
+      "type": "float",
+      "min": 0.005,
+      "max": 0.12,
+      "default": 0.03,
+      "sigma": 0.012
+    }
+  },
+  "source_bundle": {
+    "upstream_commit": "3389c0e94fb6f041ffe216c03ca7a01724c8ed0e",
+    "files": [
+      "app/static/js/sources/cymatics.js",
+      "third_party/cymatics/LICENSE",
+      "third_party/cymatics/PROVENANCE.md"
+    ]
+  },
+  "interpretation_grammar": "specimen-grammar-v1"
+}

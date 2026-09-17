@@ -1,0 +1,12 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "type":"object",
+  "required":["video_id","phenotype_id","duration_s","points"],
+  "properties":{
+    "video_id":{"type":"string"},"phenotype_id":{"type":"string"},"duration_s":{"type":"number","exclusiveMinimum":0},
+    "points":{"type":"array","items":{"type":"object","required":["elapsed_ratio","audience_watch_ratio"],"properties":{
+      "elapsed_ratio":{"type":"number","minimum":0,"maximum":1},"audience_watch_ratio":{"type":"number","minimum":0},
+      "relative_retention":{"type":["number","null"]}
+    }}},"metadata":{"type":"object"}
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "bundle_sha256": "31a4a33ced7d549a19e6dc15fd44675ea6f0bcb66caadec12474bd27613eed68",
+  "files": [
+    {
+      "bytes": 4994,
+      "path": "app/static/js/sources/tiny_maps.js",
+      "sha256": "d58687d175e40051d2241e820a721e8411cd1c6c23c0ad99023450b5a5312bd4"
+    }
+  ],
+  "format": "mathartist.source-bundle.v2",
+  "immutable_core": {
+    "latent-19": "trig latent orbit -> norm-derived d -> coupled phase/exponent -> point",
+    "observer": "evaluate fixed program -> robust 1%-99% bbox fit -> 1px white point",
+    "polar-warp": "latent k,e -> norm-derived d -> radial q + angle c -> polar point",
+    "radial-warp": "latent k,e -> d=norm(k,e)^p/div+bias -> coupled q/phase -> point",
+    "torus-lattice": "parametric toroidal lattice -> fixed perspective projection -> point"
+  },
+  "paper": null,
+  "provenance_level": "EXACT-PARAMETRIC-FAMILY",
+  "source_id": "TINYMAPS",
+  "upstream": "conversation:2026-09-17:user-supplied-processing-sketches",
+  "upstream_commit": null,
+  "variant": "latent-19"
+}

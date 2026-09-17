@@ -1,0 +1,743 @@
+{
+  "id": "TINYMAPS",
+  "short": "TINYMAPS",
+  "title": "Compact mathematical maps",
+  "description": "Three compact mathematical programs distilled from user-supplied Processing sketches. V3.1 evolves only numeric controls already present in each formula family. The observer only robustly fits the resulting point set and plots white points on black.",
+  "provenance_level": "EXACT-PARAMETRIC-FAMILY",
+  "core_statement": "program topology fixed per lineage; only declared coefficients/phase controls vary",
+  "upstream": "conversation:2026-09-17:user-supplied-processing-sketches",
+  "immutable_core": {
+    "observer": "evaluate fixed program -> robust 1%-99% bbox fit -> 1px white point",
+    "radial-warp": "latent k,e -> d=norm(k,e)^p/div+bias -> coupled q/phase -> point",
+    "latent-19": "trig latent orbit -> norm-derived d -> coupled phase/exponent -> point",
+    "torus-lattice": "parametric toroidal lattice -> fixed perspective projection -> point",
+    "polar-warp": "latent k,e -> norm-derived d -> radial q + angle c -> polar point"
+  },
+  "source_variants": [
+    {
+      "id": "radial-warp",
+      "label": "radial warp / coupled norm"
+    },
+    {
+      "id": "polar-warp",
+      "label": "polar warp / coupled norm"
+    },
+    {
+      "id": "latent-19",
+      "label": "latent 19 / coupled orbit"
+    },
+    {
+      "id": "torus-lattice",
+      "label": "toroidal lattice"
+    }
+  ],
+  "control_surfaces": {
+    "radial-warp": {
+      "i_div": {
+        "type": "float",
+        "min": 70,
+        "max": 150,
+        "default": 100,
+        "sigma": 7,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: y=i/99; denominator promoted to family coefficient"
+      },
+      "k_base": {
+        "type": "float",
+        "min": 3,
+        "max": 14,
+        "default": 8,
+        "sigma": 0.7,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: k=(8+sin(...))*cos(...); additive constant"
+      },
+      "k_freq": {
+        "type": "float",
+        "min": 8,
+        "max": 45,
+        "default": 19,
+        "sigma": 2.2,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: sin(i/19+t); frequency denominator"
+      },
+      "k_freq2": {
+        "type": "float",
+        "min": 18,
+        "max": 90,
+        "default": 49,
+        "sigma": 4,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: cos(i/49); frequency denominator"
+      },
+      "e_div": {
+        "type": "float",
+        "min": 4,
+        "max": 14,
+        "default": 8,
+        "sigma": 0.7,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: e=y/8-12; divisor"
+      },
+      "e_bias": {
+        "type": "float",
+        "min": 5,
+        "max": 22,
+        "default": 12,
+        "sigma": 1.1,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: e=y/8-12; offset"
+      },
+      "d_power": {
+        "type": "float",
+        "min": 1.2,
+        "max": 3.4,
+        "default": 2,
+        "sigma": 0.18,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: mag(k,e)^2/79+1; norm exponent"
+      },
+      "d_div": {
+        "type": "float",
+        "min": 28,
+        "max": 180,
+        "default": 79,
+        "sigma": 9,
+        "mutation": "log",
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: mag(k,e)^2/79+1; scale denominator"
+      },
+      "d_bias": {
+        "type": "float",
+        "min": 0.25,
+        "max": 3.2,
+        "default": 1,
+        "sigma": 0.16,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: +1 in d"
+      },
+      "k_over_d": {
+        "type": "float",
+        "min": 1,
+        "max": 8,
+        "default": 4,
+        "sigma": 0.5,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: k/d*4"
+      },
+      "inner_bias": {
+        "type": "float",
+        "min": 2,
+        "max": 24,
+        "default": 12,
+        "sigma": 1.4,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: (12+d*6*sin(...))"
+      },
+      "inner_scale": {
+        "type": "float",
+        "min": 1,
+        "max": 12,
+        "default": 6,
+        "sigma": 0.8,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: d*6*sin(...)"
+      },
+      "phase_slow": {
+        "type": "float",
+        "min": 1.2,
+        "max": 8,
+        "default": 3,
+        "sigma": 0.35,
+        "role": "phase",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: cos(t/3)"
+      },
+      "e_phase": {
+        "type": "float",
+        "min": 0,
+        "max": 1.2,
+        "default": 0.3,
+        "sigma": 0.08,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: .3*sin(e)"
+      },
+      "y_wave": {
+        "type": "float",
+        "min": 2,
+        "max": 28,
+        "default": 12,
+        "sigma": 1.5,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: 12*sin(...)"
+      },
+      "y_freq": {
+        "type": "float",
+        "min": 0.7,
+        "max": 5.5,
+        "default": 2.6,
+        "sigma": 0.25,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: sin(d*2.6-t)"
+      },
+      "y_scale": {
+        "type": "float",
+        "min": 20,
+        "max": 120,
+        "default": 66,
+        "sigma": 6,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: d*66"
+      },
+      "e_y": {
+        "type": "float",
+        "min": -6,
+        "max": 6,
+        "default": 0,
+        "sigma": 0.5,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "V3.1 family extension: coefficient on already-computed latent e; zero recovers supplied sketch topology"
+      },
+      "time_rate": {
+        "type": "float",
+        "min": 0.08,
+        "max": 1.4,
+        "default": 0.45,
+        "sigma": 0.08,
+        "role": "phase",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: t increment controls phase speed"
+      }
+    },
+    "latent-19": {
+      "m_mod": {
+        "type": "int",
+        "min": 5,
+        "max": 37,
+        "default": 19,
+        "step": 2,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: a(i%19); modulus"
+      },
+      "k_amp": {
+        "type": "float",
+        "min": 3,
+        "max": 16,
+        "default": 9,
+        "sigma": 0.8,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: k=9*cos(i*5)*sin(i)"
+      },
+      "k_f1": {
+        "type": "float",
+        "min": 1.5,
+        "max": 9.5,
+        "default": 5,
+        "sigma": 0.45,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: cos(i*5)"
+      },
+      "k_f2": {
+        "type": "float",
+        "min": 0.35,
+        "max": 3.5,
+        "default": 1,
+        "sigma": 0.2,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: sin(i)"
+      },
+      "e_amp": {
+        "type": "float",
+        "min": 3,
+        "max": 16,
+        "default": 9,
+        "sigma": 0.8,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: e=cos(i*7)*cos(i)*9"
+      },
+      "e_f1": {
+        "type": "float",
+        "min": 2,
+        "max": 12,
+        "default": 7,
+        "sigma": 0.55,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: cos(i*7)"
+      },
+      "e_f2": {
+        "type": "float",
+        "min": 0.35,
+        "max": 3.5,
+        "default": 1,
+        "sigma": 0.2,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: cos(i)"
+      },
+      "e_gate": {
+        "type": "float",
+        "min": -4,
+        "max": 4,
+        "default": 0,
+        "sigma": 0.35,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: e>0 gate; threshold generalized within same inequality family"
+      },
+      "d_power": {
+        "type": "float",
+        "min": 1.4,
+        "max": 4.4,
+        "default": 3,
+        "sigma": 0.2,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: mag(k,e)^3/999"
+      },
+      "d_div": {
+        "type": "float",
+        "min": 250,
+        "max": 2600,
+        "default": 999,
+        "sigma": 120,
+        "mutation": "log",
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: /999"
+      },
+      "d_bias": {
+        "type": "float",
+        "min": 1.5,
+        "max": 8,
+        "default": 4.6,
+        "sigma": 0.35,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: +4.6"
+      },
+      "slow": {
+        "type": "float",
+        "min": 1.2,
+        "max": 9,
+        "default": 4,
+        "sigma": 0.4,
+        "role": "phase",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: cos(t/4+m)"
+      },
+      "phase_depth": {
+        "type": "float",
+        "min": 0.05,
+        "max": 1.2,
+        "default": 0.333,
+        "sigma": 0.07,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: cos(...)^3/3"
+      },
+      "radius": {
+        "type": "float",
+        "min": 35,
+        "max": 170,
+        "default": 99,
+        "sigma": 8,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: 99*sin/99*cos"
+      },
+      "c_div": {
+        "type": "float",
+        "min": 2.5,
+        "max": 16,
+        "default": 8,
+        "sigma": 0.7,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: c=d/8-..."
+      },
+      "t_div": {
+        "type": "float",
+        "min": 8,
+        "max": 80,
+        "default": 32,
+        "sigma": 4,
+        "role": "phase",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: -t/32"
+      },
+      "k_div": {
+        "type": "float",
+        "min": 1,
+        "max": 8,
+        "default": 3,
+        "sigma": 0.4,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: k/3 term"
+      },
+      "c_y_div": {
+        "type": "float",
+        "min": 1,
+        "max": 7,
+        "default": 3,
+        "sigma": 0.35,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: cos(c/3)"
+      },
+      "d_y": {
+        "type": "float",
+        "min": 10,
+        "max": 80,
+        "default": 39,
+        "sigma": 4,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: d*39"
+      },
+      "time_rate": {
+        "type": "float",
+        "min": 0.08,
+        "max": 1.6,
+        "default": 0.62,
+        "sigma": 0.08,
+        "role": "phase",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: t increment controls phase speed"
+      }
+    },
+    "torus-lattice": {
+      "rows": {
+        "type": "int",
+        "min": 18,
+        "max": 72,
+        "default": 40,
+        "step": 2,
+        "role": "sampling",
+        "claim_scope": "observation-only",
+        "provenance": "user sketch: y=40 lattice samples"
+      },
+      "cols": {
+        "type": "int",
+        "min": 30,
+        "max": 120,
+        "default": 80,
+        "step": 4,
+        "role": "sampling",
+        "claim_scope": "observation-only",
+        "provenance": "user sketch: x=80 lattice samples"
+      },
+      "p_div": {
+        "type": "float",
+        "min": 18,
+        "max": 80,
+        "default": 40,
+        "sigma": 3,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: p=PI/40"
+      },
+      "major": {
+        "type": "float",
+        "min": 0.8,
+        "max": 3.8,
+        "default": 2,
+        "sigma": 0.18,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: (2+sin(v)) torus major term"
+      },
+      "minor": {
+        "type": "float",
+        "min": 0.2,
+        "max": 2,
+        "default": 1,
+        "sigma": 0.12,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: sin(v) coefficient"
+      },
+      "z_amp": {
+        "type": "float",
+        "min": 0.2,
+        "max": 2.3,
+        "default": 1,
+        "sigma": 0.14,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: z=cos(v)*r; normalized z coefficient"
+      },
+      "u_freq": {
+        "type": "float",
+        "min": 0.35,
+        "max": 3.4,
+        "default": 1,
+        "sigma": 0.16,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: u=(x+t)*p; frequency multiplier"
+      },
+      "v_freq": {
+        "type": "float",
+        "min": 0.35,
+        "max": 3.4,
+        "default": 1,
+        "sigma": 0.16,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: v=(y+t)*p*2; frequency multiplier around fixed factor 2"
+      },
+      "time_rate": {
+        "type": "float",
+        "min": 0.04,
+        "max": 0.8,
+        "default": 0.22,
+        "sigma": 0.05,
+        "role": "phase",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: t=(t+.02)%1; phase speed generalized"
+      }
+    },
+    "polar-warp": {
+      "i_div": {
+        "type": "float",
+        "min": 80,
+        "max": 145,
+        "default": 110,
+        "sigma": 6,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: a(i/110); sampling coordinate divisor"
+      },
+      "switch_y": {
+        "type": "float",
+        "min": 35,
+        "max": 90,
+        "default": 59,
+        "sigma": 4,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: y<59 branch threshold"
+      },
+      "k_amp": {
+        "type": "float",
+        "min": 3,
+        "max": 15,
+        "default": 8,
+        "sigma": 0.7,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: k=8*cos(...)"
+      },
+      "k_mod": {
+        "type": "int",
+        "min": 3,
+        "max": 17,
+        "default": 9,
+        "step": 1,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: i%9 branch"
+      },
+      "k_mult": {
+        "type": "float",
+        "min": 1,
+        "max": 8,
+        "default": 4,
+        "sigma": 0.4,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: i*4 branch"
+      },
+      "e_div": {
+        "type": "float",
+        "min": 3,
+        "max": 11,
+        "default": 6,
+        "sigma": 0.5,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: e=y/6-16"
+      },
+      "e_bias": {
+        "type": "float",
+        "min": 8,
+        "max": 26,
+        "default": 16,
+        "sigma": 1.2,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: e=y/6-16"
+      },
+      "d_power": {
+        "type": "float",
+        "min": 1.4,
+        "max": 3.1,
+        "default": 2,
+        "sigma": 0.16,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: mag(k,e)^2/79+1.1"
+      },
+      "d_div": {
+        "type": "float",
+        "min": 35,
+        "max": 160,
+        "default": 79,
+        "sigma": 8,
+        "mutation": "log",
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: /79"
+      },
+      "d_bias": {
+        "type": "float",
+        "min": 0.45,
+        "max": 2.5,
+        "default": 1.1,
+        "sigma": 0.12,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: +1.1"
+      },
+      "k_over_d": {
+        "type": "float",
+        "min": 1,
+        "max": 6,
+        "default": 3,
+        "sigma": 0.35,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: k/d*3"
+      },
+      "inner_bias": {
+        "type": "float",
+        "min": 3,
+        "max": 18,
+        "default": 9,
+        "sigma": 1,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: (9-d*4*sin(...))"
+      },
+      "inner_scale": {
+        "type": "float",
+        "min": 1,
+        "max": 8,
+        "default": 4,
+        "sigma": 0.45,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: d*4*sin(...)"
+      },
+      "e_phase": {
+        "type": "float",
+        "min": 0,
+        "max": 1.3,
+        "default": 0.5,
+        "sigma": 0.08,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: sin(e)/2"
+      },
+      "q_bias": {
+        "type": "float",
+        "min": 25,
+        "max": 120,
+        "default": 70,
+        "sigma": 6,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: +70 before polar projection"
+      },
+      "c_div": {
+        "type": "float",
+        "min": 0.8,
+        "max": 5,
+        "default": 2,
+        "sigma": 0.2,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: c=d/2-..."
+      },
+      "t_div": {
+        "type": "float",
+        "min": 5,
+        "max": 35,
+        "default": 12,
+        "sigma": 1.4,
+        "role": "phase",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: -t/12"
+      },
+      "parity": {
+        "type": "int",
+        "min": 2,
+        "max": 7,
+        "default": 2,
+        "step": 1,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: i%2 phase branch"
+      },
+      "parity_phase": {
+        "type": "float",
+        "min": 1,
+        "max": 7,
+        "default": 4,
+        "sigma": 0.35,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: i%2*4"
+      },
+      "e_y": {
+        "type": "float",
+        "min": 0.2,
+        "max": 3,
+        "default": 1,
+        "sigma": 0.15,
+        "role": "family",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: +e in y coordinate; coefficient generalized"
+      },
+      "time_rate": {
+        "type": "float",
+        "min": 0.08,
+        "max": 1.4,
+        "default": 0.5,
+        "sigma": 0.07,
+        "role": "phase",
+        "claim_scope": "same-family",
+        "provenance": "user sketch: t increment controls phase speed"
+      }
+    }
+  },
+  "source_bundle": {
+    "upstream_commit": null,
+    "files": [
+      "app/static/js/sources/tiny_maps.js"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "attention-rasa-v2",
+  "title": "Attention, valence and aesthetic absorption",
+  "status": "exploratory",
+  "environment": "first-party randomized lab",
+  "duration_s": 30,
+  "principle": "Attention, valence, liking and absorption are separate measurements. None is defined as rasa.",
+  "outcomes": ["horizon_5", "horizon_10", "horizon_20", "dwell", "replay", "favorite", "valence", "arousal", "absorption", "rasa_label"],
+  "rasa_labels": [
+    {"id":"adbhuta","label":"wonder / astonishment"},
+    {"id":"shanta","label":"tranquility / repose"},
+    {"id":"karuna","label":"tender sadness / pathos"},
+    {"id":"bhayanaka","label":"unease / fear"},
+    {"id":"bibhatsa","label":"revulsion / aversion"},
+    {"id":"hasya","label":"amusement"},
+    {"id":"vira","label":"energy / courage"},
+    {"id":"shringara","label":"attraction / intimacy"},
+    {"id":"raudra","label":"anger / intensity"},
+    {"id":"other","label":"other / none"}
+  ],
+  "notes": [
+    "Rasa labels are retrospective response categories, never optimization targets.",
+    "QRI-inspired structural variables are predictors, not definitions of valence.",
+    "Discovery and confirmatory datasets must remain separate."
+  ]
+}

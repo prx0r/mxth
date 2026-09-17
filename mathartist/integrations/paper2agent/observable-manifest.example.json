@@ -1,0 +1,1 @@
+{"paper_id":"example","provenance":"EXACT","source_files":[{"path":"model.py","sha256":"..."}],"immutable":{"parameters":{},"equations":[]},"observables":[{"name":"state","shape":"..."}],"tests":["pytest -q"]}

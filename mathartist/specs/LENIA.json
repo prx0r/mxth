@@ -1,0 +1,150 @@
+{
+  "id": "LENIA",
+  "short": "LENIA",
+  "title": "Orbium bicaudatus / continuous artificial life",
+  "description": "Exact classic Lenia update law and Orbium bicaudatus seed/parameters ported from Bert Chan's MIT-licensed reference implementation. The source trajectory is fixed; descendants change only observation.",
+  "provenance_level": "EXACT-RUNTIME",
+  "core_statement": "Orbium law + seed fixed; interpretation only evolves",
+  "upstream": "https://github.com/Chakazul/Lenia",
+  "immutable_core": {
+    "R": 13,
+    "mu": 0.15,
+    "sigma": 0.014,
+    "dt": 0.1,
+    "kernel": "polynomial fourth-power shell",
+    "delta": "quartic compact growth",
+    "seed": "Orbium bicaudatus 20x20 reference seed"
+  },
+  "source_variants": [
+    {
+      "id": "orbium",
+      "label": "Orbium bicaudatus"
+    }
+  ],
+  "interpretation_genes": {
+    "rotation": {
+      "type": "float",
+      "min": -3.1416,
+      "max": 3.1416,
+      "default": 0,
+      "sigma": 0.22
+    },
+    "zoom": {
+      "type": "float",
+      "min": 0.6,
+      "max": 2.0,
+      "default": 1.15,
+      "sigma": 0.12
+    },
+    "threshold": {
+      "type": "float",
+      "min": 0.0,
+      "max": 0.75,
+      "default": 0.06,
+      "sigma": 0.07
+    },
+    "gamma": {
+      "type": "float",
+      "min": 0.25,
+      "max": 2.8,
+      "default": 0.85,
+      "sigma": 0.16
+    },
+    "exposure": {
+      "type": "float",
+      "min": 0.25,
+      "max": 1.4,
+      "default": 0.8,
+      "sigma": 0.12
+    },
+    "trail": {
+      "type": "float",
+      "min": 0.0,
+      "max": 0.94,
+      "default": 0.2,
+      "sigma": 0.12
+    },
+    "sample": {
+      "type": "float",
+      "min": 0.35,
+      "max": 1,
+      "default": 1,
+      "sigma": 0.08
+    },
+    "point_size": {
+      "type": "float",
+      "min": 0.45,
+      "max": 2.2,
+      "default": 1,
+      "sigma": 0.14
+    },
+    "time_rate": {
+      "type": "float",
+      "min": 0,
+      "max": 2.2,
+      "default": 0.5,
+      "sigma": 0.18
+    },
+    "contours": {
+      "type": "float",
+      "min": 1,
+      "max": 12,
+      "default": 5,
+      "sigma": 1.0
+    },
+    "observable": {
+      "type": "enum",
+      "values": [
+        "field",
+        "contour",
+        "edge"
+      ],
+      "default": "field"
+    },
+    "projection": {
+      "type": "enum",
+      "values": [
+        "native",
+        "polar",
+        "fold"
+      ],
+      "default": "native"
+    },
+    "copies": {
+      "type": "int",
+      "min": 1,
+      "max": 8,
+      "default": 1
+    },
+    "folds": {
+      "type": "int",
+      "min": 2,
+      "max": 12,
+      "default": 5
+    },
+    "temporal_depth": {
+      "type": "float",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.28,
+      "sigma": 0.12
+    },
+    "temporal_stride": {
+      "type": "int",
+      "min": 1,
+      "max": 8,
+      "default": 3
+    }
+  },
+  "source_bundle": {
+    "upstream_commit": "adfc542939266de7f4bb7ebb552e8499701ee107",
+    "files": [
+      "app/static/data/lenia/{variant}.json",
+      "app/static/data/lenia/{variant}.u8.bin",
+      "tools/generate_trajectories.py",
+      "third_party/lenia/LICENSE.md",
+      "third_party/lenia/PROVENANCE.md"
+    ]
+  },
+  "interpretation_grammar": "specimen-grammar-v1"
+}

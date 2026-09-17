@@ -1,0 +1,18 @@
+{
+  "paper2agent_output": "/path/to/dist/project-agent",
+  "source": {
+    "paper": "Paper title / DOI / arXiv",
+    "upstream": "https://github.com/author/repo",
+    "description": "Validated executable observable exported from a Paper2Agent-generated agent."
+  },
+  "observables": [
+    {
+      "id": "PAPER26_FIELD",
+      "title": "Paper 2026 / field observable",
+      "file": "exports/field.npy",
+      "fps": 12,
+      "provenance_level": "EXACT-RUNTIME",
+      "channel_names": ["field"]
+    }
+  ]
+}

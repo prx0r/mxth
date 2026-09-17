@@ -1,0 +1,22 @@
+# External upstreams (fetched, not vendored)
+external/
+
+# Local corpus code (license-unknown, never shipped)
+corpus/tsubuyaki/code/
+
+# Runtime DB + WAL
+data/mathartist.sqlite3
+data/mathartist.sqlite3-shm
+data/mathartist.sqlite3-wal
+data/selfcheck.sqlite3*
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# OS
+.DS_Store

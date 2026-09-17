@@ -1,0 +1,46 @@
+{
+  "bundle_sha256": "0e1f45da92a7460a9b5e6f716707c11034339337f3efcf80dd9435cb5f371d44",
+  "files": [
+    {
+      "bytes": 10434,
+      "path": "app/static/data/ns26/schedule.json",
+      "sha256": "9cdf94bba7c08e7b49fc5a13efb78d906e17573f4b0d1fa8ead9841b22981c66"
+    },
+    {
+      "bytes": 98304,
+      "path": "app/static/data/ns26/base.f32.bin",
+      "sha256": "4df67fedd75ad2dc44242d541265e20393348080a37a402de2c9d8bf00b82450"
+    },
+    {
+      "bytes": 1880,
+      "path": "app/static/js/sources/ns26_core.js",
+      "sha256": "63139ba5c7a9b8ad903c8ecc34a1ce13d293b017a6eddd060e94838ceae6e9dc"
+    },
+    {
+      "bytes": 2851,
+      "path": "app/static/js/sources/ns26.js",
+      "sha256": "37f5bded565ac6c78bef0f6f85b953300c075b97b8b38797d41e838177b90daa"
+    },
+    {
+      "bytes": 10944,
+      "path": "tools/generate_trajectories.py",
+      "sha256": "510a0f7c43b1fcfc4b0dfa4e675714f6a7fa8fb334f6fb3bd3d21e25e0929be7"
+    }
+  ],
+  "format": "mathartist.source-bundle.v2",
+  "immutable_core": {
+    "axial_scale": "tau^(1/2-h)",
+    "h_demo": 0.006,
+    "mechanism": "app/static/js/sources/ns26_core.js scaffoldPoint (frozen)",
+    "radial_scale": "tau^(1/2)",
+    "scaffold": "8192-point quasi-random (u, eta, X) base in app/static/data/ns26/base.f32.bin",
+    "schedule": "120-frame tau/rs/zs/vel schedule in app/static/data/ns26/schedule.json",
+    "velocity_scale": "tau^(-1/2-h)"
+  },
+  "paper": null,
+  "provenance_level": "DERIVED",
+  "source_id": "NS26",
+  "upstream": "https://openai.com/index/navier-stokes-solution/",
+  "upstream_commit": null,
+  "variant": "pulse-view"
+}

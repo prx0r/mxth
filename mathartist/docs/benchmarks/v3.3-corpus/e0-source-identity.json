@@ -1,0 +1,109 @@
+{
+  "features": [
+    "symmetry",
+    "entropy",
+    "occupancy",
+    "edge",
+    "mean",
+    "spectral_entropy"
+  ],
+  "count_per_source": 24,
+  "sources": {
+    "BIOELECTRIC": {
+      "intra_mean": 1.1639,
+      "inter_nn_mean": 0.223,
+      "separation_ratio": 0.192,
+      "nn_accuracy": 0.5,
+      "distinct": false
+    },
+    "CHLADNI": {
+      "intra_mean": 1.1713,
+      "inter_nn_mean": 0.1742,
+      "separation_ratio": 0.149,
+      "nn_accuracy": 0.5,
+      "distinct": false
+    },
+    "LENIA": {
+      "intra_mean": 0.8911,
+      "inter_nn_mean": 0.1197,
+      "separation_ratio": 0.134,
+      "nn_accuracy": 0.333,
+      "distinct": false
+    },
+    "NS26": {
+      "intra_mean": 2.5171,
+      "inter_nn_mean": 0.7268,
+      "separation_ratio": 0.289,
+      "nn_accuracy": 0.75,
+      "distinct": true
+    },
+    "TINYMAPS": {
+      "intra_mean": 1.6559,
+      "inter_nn_mean": 0.5279,
+      "separation_ratio": 0.319,
+      "nn_accuracy": 0.708,
+      "distinct": true
+    },
+    "VORTEX_DECAY_DEMO": {
+      "intra_mean": 2.4254,
+      "inter_nn_mean": 0.6278,
+      "separation_ratio": 0.259,
+      "nn_accuracy": 0.5,
+      "distinct": false
+    }
+  },
+  "overall_nn_accuracy": 0.549,
+  "chance": 0.167,
+  "confusion": {
+    "BIOELECTRIC": {
+      "BIOELECTRIC": 12,
+      "CHLADNI": 4,
+      "LENIA": 3,
+      "NS26": 0,
+      "TINYMAPS": 0,
+      "VORTEX_DECAY_DEMO": 5
+    },
+    "CHLADNI": {
+      "BIOELECTRIC": 4,
+      "CHLADNI": 12,
+      "LENIA": 5,
+      "NS26": 0,
+      "TINYMAPS": 2,
+      "VORTEX_DECAY_DEMO": 1
+    },
+    "LENIA": {
+      "BIOELECTRIC": 4,
+      "CHLADNI": 7,
+      "LENIA": 8,
+      "NS26": 0,
+      "TINYMAPS": 0,
+      "VORTEX_DECAY_DEMO": 5
+    },
+    "NS26": {
+      "BIOELECTRIC": 0,
+      "CHLADNI": 0,
+      "LENIA": 0,
+      "NS26": 18,
+      "TINYMAPS": 5,
+      "VORTEX_DECAY_DEMO": 1
+    },
+    "TINYMAPS": {
+      "BIOELECTRIC": 2,
+      "CHLADNI": 2,
+      "LENIA": 0,
+      "NS26": 3,
+      "TINYMAPS": 17,
+      "VORTEX_DECAY_DEMO": 0
+    },
+    "VORTEX_DECAY_DEMO": {
+      "BIOELECTRIC": 2,
+      "CHLADNI": 1,
+      "LENIA": 7,
+      "NS26": 0,
+      "TINYMAPS": 2,
+      "VORTEX_DECAY_DEMO": 12
+    }
+  },
+  "pass": false,
+  "note": "E0 source-identity: 1-NN LOO accuracy 0.549 vs 0.167 chance. NS26/TINYMAPS separate cleanly; BIOELECTRIC/CHLADNI/LENIA/VORTEX overlap in this coarse 6-descriptor space under frontier-wide observation sampling. Contact sheets retain obvious family character, so this reads as descriptor coarseness, not proof that interpretation overpowers source math. Descriptive only."
+}

@@ -1,0 +1,21 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"https://mathartist.local/schema/mathartist-spec-v1.json",
+  "title":"MathArtistSpec v1",
+  "type":"object",
+  "required":["id","title","description","provenance_level","core_statement","immutable_core","source_variants","interpretation_genes"],
+  "properties":{
+    "id":{"type":"string","pattern":"^[A-Z0-9_]+$"},
+    "short":{"type":"string"},
+    "title":{"type":"string"},
+    "description":{"type":"string"},
+    "provenance_level":{"type":"string"},
+    "core_statement":{"type":"string"},
+    "upstream":{"type":"string"},
+    "paper":{"type":"string"},
+    "renderer":{"type":"string"},
+    "immutable_core":{"type":"object"},
+    "source_variants":{"type":"array","minItems":1,"items":{"type":"object","required":["id"],"properties":{"id":{"type":"string"}}}},
+    "interpretation_genes":{"type":"object","additionalProperties":{"type":"object","required":["type"],"properties":{"type":{"enum":["float","int","enum"]}}}}
+  }
+}

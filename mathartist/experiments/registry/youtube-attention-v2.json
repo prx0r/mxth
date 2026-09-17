@@ -1,0 +1,12 @@
+{
+  "id": "youtube-attention-v2",
+  "title": "Wild attention replication on YouTube",
+  "status": "observational",
+  "environment": "YouTube recommendation/distribution environment",
+  "duration_s": 30,
+  "outcomes": ["audienceWatchRatio", "relativeRetentionPerformance", "startedWatching", "stoppedWatching", "totalSegmentImpressions", "likes", "comments"],
+  "notes": [
+    "YouTube distribution is not randomized; treat results as ecological/observational replication.",
+    "Use first-party randomized study for causal claims."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "schema": "mathartist.seed-corpus.v1",
+  "policy": "metadata-first; do not vendor third-party code without compatible license/permission",
+  "sources": [
+    {"id":"tsubuyaki-archive","url":"https://tsubuyaki.art/","kind":"runnable-archive","notes":"tweet-sized p5.js sketches, previews, original attribution"},
+    {"id":"tweetprocessing-portal","url":"https://tweetprocessing.projectroom.jp/","kind":"official-community-portal","notes":"challenge definition, tools, participation statistics"},
+    {"id":"haukun-roundups","url":"https://haukun.projectroom.jp/","kind":"historical-roundups","notes":"code plus mechanism notes"},
+    {"id":"neort-pchj03","url":"https://medium.com/neort/pchj03-challenge-picks-526dccf4c19a","kind":"curated-picks","notes":"root bone, Downdraft2, Cyber Honeycomb, blue dragon, Sea"}
+  ],
+  "priority_mechanisms": ["coupled-latent-map","point-predicate","parametric-orbit","recurrence","bitwise-geometry","fluid-dynamics","curve-growth","wave-eigenmode","cellular-dynamics"],
+  "ingestion_rule": "freeze program topology; expose only evidenced controls; preserve original default exactly"
+}

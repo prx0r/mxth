@@ -1,0 +1,17 @@
+{
+  "examples": [
+    {
+      "domain":"bioelectric",
+      "controls": {
+        "gap_junction_scale":{"type":"float","min":0.1,"max":70.0,"default":1.0,"mutation":"log","sigma":0.18,"role":"family","claim_scope":"same-family","provenance":"Example only: replace with exact equation/config citation from registered model."},
+        "time":{"type":"float","min":0.0,"max":100.0,"default":20.0,"sigma":4.0,"role":"time","claim_scope":"same-family","provenance":"Example only: model time domain."}
+      }
+    },
+    {
+      "domain":"structure_prediction",
+      "controls": {
+        "model_seed":{"type":"int","min":1,"max":999999,"default":1,"sigma":10,"role":"seed","claim_scope":"same-family","provenance":"Example only: bind to documented inference seed for concrete adapter."}
+      }
+    }
+  ]
+}

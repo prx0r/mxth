@@ -1,0 +1,46 @@
+{
+  "bundle_sha256": "dd598ad9e64f8225aca54cfdb346fe1aa5dbda315cbec94281502319a05ec409",
+  "files": [
+    {
+      "bytes": 293,
+      "path": "app/static/data/lenia/orbium.json",
+      "sha256": "ee7f9cd7b08380445c10c4faa1efac6e2ead89897fabbf11e28e789792a69585"
+    },
+    {
+      "bytes": 491520,
+      "path": "app/static/data/lenia/orbium.u8.bin",
+      "sha256": "8c31ae23d0ca1ff6a69e781f10d6b8e0658b5b1fc3f0c66450d59637a3418435"
+    },
+    {
+      "bytes": 10944,
+      "path": "tools/generate_trajectories.py",
+      "sha256": "510a0f7c43b1fcfc4b0dfa4e675714f6a7fa8fb334f6fb3bd3d21e25e0929be7"
+    },
+    {
+      "bytes": 1066,
+      "path": "third_party/lenia/LICENSE.md",
+      "sha256": "2b44d8d9a71aead092d67a6c365ed7c3ca54e8bbb265b1f4a8393aa66ef2cd80"
+    },
+    {
+      "bytes": 349,
+      "path": "third_party/lenia/PROVENANCE.md",
+      "sha256": "b79a35c2b4f30ce0e323df99ff9382c39ff2c486e72ae4ef8b7d983880eb88df"
+    }
+  ],
+  "format": "mathartist.source-bundle.v2",
+  "immutable_core": {
+    "R": 13,
+    "delta": "quartic compact growth",
+    "dt": 0.1,
+    "kernel": "polynomial fourth-power shell",
+    "mu": 0.15,
+    "seed": "Orbium bicaudatus 20x20 reference seed",
+    "sigma": 0.014
+  },
+  "paper": null,
+  "provenance_level": "EXACT-RUNTIME",
+  "source_id": "LENIA",
+  "upstream": "https://github.com/Chakazul/Lenia",
+  "upstream_commit": "adfc542939266de7f4bb7ebb552e8499701ee107",
+  "variant": "orbium"
+}

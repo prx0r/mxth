@@ -1,0 +1,9 @@
+{
+  "name": "mathartist-suite",
+  "version": "3.3.0",
+  "private": true,
+  "description": "MathArtist V3.3: provenance-backed parameter-space discovery with exact browser rendering",
+  "dependencies": {
+    "skia-canvas": "^2.0.2"
+  }
+}
