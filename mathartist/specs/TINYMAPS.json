@@ -739,5 +739,8 @@
     "files": [
       "app/static/js/sources/tiny_maps.js"
     ]
-  }
+  },
+  "status": "EXACT_EXECUTABLE",
+  "mutable": true,
+  "strict_surface": true
 }

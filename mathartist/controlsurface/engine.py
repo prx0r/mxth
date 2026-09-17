@@ -3,13 +3,20 @@ import math
 
 SAFE_ROLES={"family","initial_condition","boundary_condition","phase","time","scale","seed","branch","sampling","numerical","observation"}
 
+class LegacySourceError(Exception):
+    """Raised when a source has no evidence-backed control_surface in strict mode."""
+    pass
 
-def surface_for_spec(spec, variant=None):
+
+def surface_for_spec(spec, variant=None, strict=False):
     """Return the admitted V3 control surface.
 
     V3.1 supports variant-specific surfaces so one source can expose several fixed
     mathematical programs without pretending they share the same free variables.
-    Legacy V2 interpretation genes remain a compatibility fallback only.
+    Legacy V2 interpretation_genes remain a compatibility fallback only.
+
+    In strict mode, missing control_surface raises LegacySourceError instead of
+    silently falling back to interpretation_genes.
     """
     if variant and spec.get("control_surfaces"):
         return spec["control_surfaces"].get(variant, {})
@@ -18,6 +25,8 @@ def surface_for_spec(spec, variant=None):
     if spec.get("control_surfaces"):
         # Without a chosen variant there is no honest merged surface.
         return {}
+    if strict:
+        raise LegacySourceError(f"{spec.get('id','?')} has no evidence-backed control_surface")
     return spec.get("interpretation_genes",{})
 
 

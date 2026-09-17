@@ -146,5 +146,8 @@
       "third_party/lenia/PROVENANCE.md"
     ]
   },
-  "interpretation_grammar": "specimen-grammar-v1"
+  "interpretation_grammar": "specimen-grammar-v1",
+  "status": "EXACT_EXECUTABLE",
+  "mutable": true,
+  "strict_surface": false
 }

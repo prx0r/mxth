@@ -1,0 +1,613 @@
+{
+  "id": "B25_REFERENCE",
+  "version": "v4",
+  "descendants_per_seed": 1000,
+  "sampling": {
+    "sobol_global": 600,
+    "local": 300,
+    "boundary_stress": 100
+  },
+  "seeds": [
+    {
+      "seed_id": "tsubuyaki-2100481433668383127",
+      "artist": "\u304d\u3093\u305e",
+      "original_url": "https://x.com/TakagiHitoshi/status/2100481433668383127",
+      "archive_url": "https://tsubuyaki.art/sketch.html?id=2100481433668383127",
+      "code_hash": "4eda99ed009dee9521f632b3e540536d740cca73be8bd5c7fb3a5aedd580b36f",
+      "code_file": "/home/ubuntu/mxth/mathartist/corpus/tsubuyaki/code/2100481433668383127.js",
+      "license_status": "unknown \u2014 do not republish; local research cache only",
+      "runtime": {
+        "engine": "p5.js",
+        "engine_version": "1.11.3",
+        "status": "runs",
+        "canvas_count": 1,
+        "verified_at": "2026-09-17T13:28:24Z"
+      },
+      "mechanism_class": "coupled-latent-map",
+      "controls": [],
+      "default_render_hash": "2b3945b9630187de4e95d7536d930d0e88f79079584829ee9cbac41ed45fcf8e",
+      "reproduction": {
+        "ok": true,
+        "frame": 26,
+        "error": null
+      }
+    },
+    {
+      "seed_id": "tsubuyaki-2062895277028295152",
+      "artist": "zadgy5534",
+      "original_url": "https://x.com/sxolastikos/status/2062895277028295152",
+      "archive_url": "https://tsubuyaki.art/sketch.html?id=2062895277028295152",
+      "code_hash": "000834a806fc1b816ec6094a9fdd53e7101b9b199ea2dddab888d20875eef0b0",
+      "code_file": "/home/ubuntu/mxth/mathartist/corpus/tsubuyaki/code/2062895277028295152.js",
+      "license_status": "unknown \u2014 do not republish; local research cache only",
+      "runtime": {
+        "engine": "p5.js",
+        "engine_version": "1.11.3",
+        "status": "runs",
+        "canvas_count": 1,
+        "verified_at": "2026-07-13T18:42:53Z"
+      },
+      "mechanism_class": "coupled-latent-map",
+      "controls": [],
+      "default_render_hash": "b229d28e141b6073539635a1e44491680e7e85d4b9121e0113bb019a23357b52",
+      "reproduction": {
+        "ok": true,
+        "frame": 22,
+        "error": null
+      }
+    },
+    {
+      "seed_id": "tsubuyaki-2053603142563180707",
+      "artist": "\u304d\u3093\u305e",
+      "original_url": "https://x.com/TakagiHitoshi/status/2053603142563180707",
+      "archive_url": "https://tsubuyaki.art/sketch.html?id=2053603142563180707",
+      "code_hash": "008f2beca456c055f2f9c8842f768f99f1307e492a16c7addb5e54ac17ea4f29",
+      "code_file": "/home/ubuntu/mxth/mathartist/corpus/tsubuyaki/code/2053603142563180707.js",
+      "license_status": "unknown \u2014 do not republish; local research cache only",
+      "runtime": {
+        "engine": "p5.js",
+        "engine_version": "1.11.3",
+        "status": "runs",
+        "canvas_count": 1,
+        "verified_at": "2026-07-13T18:41:19Z"
+      },
+      "mechanism_class": "coupled-latent-map",
+      "controls": [],
+      "default_render_hash": "863866889aa6593c5a2dfc845dabe6ee34b645cca72e9d43ba05e2add313a3b7",
+      "reproduction": {
+        "ok": true,
+        "frame": 24,
+        "error": null
+      }
+    },
+    {
+      "seed_id": "tsubuyaki-2098161944666800419",
+      "artist": "\u304d\u3093\u305e",
+      "original_url": "https://x.com/TakagiHitoshi/status/2098161944666800419",
+      "archive_url": "https://tsubuyaki.art/sketch.html?id=2098161944666800419",
+      "code_hash": "009034fe6cbc5efeeb8d75f7715086661e3032b0c44f9f620f5ddfea42abe451",
+      "code_file": "/home/ubuntu/mxth/mathartist/corpus/tsubuyaki/code/2098161944666800419.js",
+      "license_status": "unknown \u2014 do not republish; local research cache only",
+      "runtime": {
+        "engine": "p5.js",
+        "engine_version": "1.11.3",
+        "status": "runs",
+        "canvas_count": 1,
+        "verified_at": "2026-09-10T22:36:52Z"
+      },
+      "mechanism_class": "coupled-latent-map",
+      "controls": [],
+      "default_render_hash": "a71c6e7edb5cba1214e0d24f3b7fab6588631193f99eab63a522f25d8c29a8a4",
+      "reproduction": {
+        "ok": true,
+        "frame": 21,
+        "error": null
+      }
+    },
+    {
+      "seed_id": "tsubuyaki-2072790792960442851",
+      "artist": "\u304d\u3093\u305e",
+      "original_url": "https://x.com/TakagiHitoshi/status/2072790792960442851",
+      "archive_url": "https://tsubuyaki.art/sketch.html?id=2072790792960442851",
+      "code_hash": "00c341b26d8aea1eff6cf04fe05be90a06825627ff908d1dc0f7a1f9f754c4cc",
+      "code_file": "/home/ubuntu/mxth/mathartist/corpus/tsubuyaki/code/2072790792960442851.js",
+      "license_status": "unknown \u2014 do not republish; local research cache only",
+      "runtime": {
+        "engine": "p5.js",
+        "engine_version": "1.11.3",
+        "status": "runs",
+        "canvas_count": 1,
+        "verified_at": "2026-07-13T04:41:50Z"
+      },
+      "mechanism_class": "bitwise-geometry",
+      "controls": [],
+      "default_render_hash": "312f3fbd148337df4133537d7689b19b76ca9463b0dc1e11fecc5b76f0fb2856",
+      "reproduction": {
+        "ok": true,
+        "frame": 22,
+        "error": null
+      }
+    },
+    {
+      "seed_id": "tsubuyaki-2087915361710866700",
+      "artist": "Snow Esamosc",
+      "original_url": "https://x.com/SnowEsamosc/status/2087915361710866700",
+      "archive_url": "https://tsubuyaki.art/sketch.html?id=2087915361710866700",
+      "code_hash": "01075655e22b0f99bb8127629cd35cc8f4e1a087b6252aeb2a314a806eb820bc",
+      "code_file": "/home/ubuntu/mxth/mathartist/corpus/tsubuyaki/code/2087915361710866700.js",
+      "license_status": "unknown \u2014 do not republish; local research cache only",
+      "runtime": {
+        "engine": "p5.js",
+        "engine_version": "1.11.3",
+        "status": "runs",
+        "canvas_count": 1,
+        "verified_at": "2026-08-13T17:13:36Z"
+      },
+      "mechanism_class": "coupled-latent-map",
+      "controls": [],
+      "default_render_hash": "ba49baee3fbfb9ec543917a88b9cc09b13c097b8d5205c0c3f476e746d2607ce",
+      "reproduction": {
+        "ok": true,
+        "frame": 22,
+        "error": null
+      }
+    },
+    {
+      "seed_id": "tsubuyaki-2097079365482017162",
+      "artist": "\u304d\u3093\u305e",
+      "original_url": "https://x.com/TakagiHitoshi/status/2097079365482017162",
+      "archive_url": "https://tsubuyaki.art/sketch.html?id=2097079365482017162",
+      "code_hash": "0141bd6f68767102d35f10a78f60362297d450d50f2cd5df4ea72a9d8c497065",
+      "code_file": "/home/ubuntu/mxth/mathartist/corpus/tsubuyaki/code/2097079365482017162.js",
+      "license_status": "unknown \u2014 do not republish; local research cache only",
+      "runtime": {
+        "engine": "p5.js",
+        "engine_version": "1.11.3",
+        "status": "runs",
+        "canvas_count": 1,
+        "verified_at": "2026-09-07T22:52:41Z"
+      },
+      "mechanism_class": "coupled-latent-map",
+      "controls": [],
+      "default_render_hash": "f0c1b5302cf18a5aefa2c0e790fe3d2219ef0d72eead4f1985443390fab161fa",
+      "reproduction": {
+        "ok": true,
+        "frame": 27,
+        "error": null
+      }
+    },
+    {
+      "seed_id": "tsubuyaki-2072427055053209607",
+      "artist": "\u304d\u3093\u305e",
+      "original_url": "https://x.com/TakagiHitoshi/status/2072427055053209607",
+      "archive_url": "https://tsubuyaki.art/sketch.html?id=2072427055053209607",
+      "code_hash": "01d0120492a9b8c19131573a5616fb13921e3d28c309e20dcd6ee253ea1cdf91",
+      "code_file": "/home/ubuntu/mxth/mathartist/corpus/tsubuyaki/code/2072427055053209607.js",
+      "license_status": "unknown \u2014 do not republish; local research cache only",
+      "runtime": {
+        "engine": "p5.js",
+        "engine_version": "1.11.3",
+        "status": "runs",
+        "canvas_count": 1,
+        "verified_at": "2026-07-13T04:41:50Z"
+      },
+      "mechanism_class": "wave-eigenmode",
+      "controls": [],
+      "default_render_hash": "feca83b42d0b50022da801f6926f48027bd1ebd0b5fd33fee82344d0745b9231",
+      "reproduction": {
+        "ok": true,
+        "frame": 21,
+        "error": null
+      }
+    },
+    {
+      "seed_id": "tsubuyaki-2011423053779976252",
+      "artist": "Koma Tebe",
+      "original_url": "https://x.com/KomaTebe/status/2011423053779976252",
+      "archive_url": "https://tsubuyaki.art/sketch.html?id=2011423053779976252",
+      "code_hash": "01dfb04fe9718465474055f9cb118219c841c524c6d540f879ac5c9dfc73afd7",
+      "code_file": "/home/ubuntu/mxth/mathartist/corpus/tsubuyaki/code/2011423053779976252.js",
+      "license_status": "unknown \u2014 do not republish; local research cache only",
+      "runtime": {
+        "engine": "p5.js",
+        "engine_version": "1.11.3",
+        "status": "runs",
+        "canvas_count": 1,
+        "verified_at": "2026-07-13T18:09:52Z"
+      },
+      "mechanism_class": "coupled-latent-map",
+      "controls": [],
+      "default_render_hash": "97ee1ef39a6df45355f13ad54447780e014ad6935a2dc35dcc5b77c3d9c61909",
+      "reproduction": {
+        "ok": true,
+        "frame": 23,
+        "error": null
+      }
+    },
+    {
+      "seed_id": "tsubuyaki-2057037166510055641",
+      "artist": "\u304d\u3093\u305e",
+      "original_url": "https://x.com/TakagiHitoshi/status/2057037166510055641",
+      "archive_url": "https://tsubuyaki.art/sketch.html?id=2057037166510055641",
+      "code_hash": "01f42196dcd53d71fb3766d4c3f73d8bc1df46574a2123addc06aaab8503b1e8",
+      "code_file": "/home/ubuntu/mxth/mathartist/corpus/tsubuyaki/code/2057037166510055641.js",
+      "license_status": "unknown \u2014 do not republish; local research cache only",
+      "runtime": {
+        "engine": "p5.js",
+        "engine_version": "1.11.3",
+        "status": "runs",
+        "canvas_count": 1,
+        "verified_at": "2026-07-13T18:41:19Z"
+      },
+      "mechanism_class": "bitwise-geometry",
+      "controls": [],
+      "default_render_hash": "c28e4751ea21e2db632fdcf2989cf0338ec13de88dbb70c7424ee8c721fcba8f",
+      "reproduction": {
+        "ok": true,
+        "frame": 21,
+        "error": null
+      }
+    },
+    {
+      "seed_id": "tsubuyaki-2014681662345642274",
+      "artist": "\u306f\u3045\u541b",
+      "original_url": "https://x.com/Hau_kun/status/2014681662345642274",
+      "archive_url": "https://tsubuyaki.art/sketch.html?id=2014681662345642274",
+      "code_hash": "025f39ae768aca188237d0d2c75f7af7b7e89842f444c782c31489be4d11743d",
+      "code_file": "/home/ubuntu/mxth/mathartist/corpus/tsubuyaki/code/2014681662345642274.js",
+      "license_status": "unknown \u2014 do not republish; local research cache only",
+      "runtime": {
+        "engine": "p5.js",
+        "engine_version": "1.11.3",
+        "status": "runs",
+        "canvas_count": 1,
+        "verified_at": "2026-07-13T18:09:52Z"
+      },
+      "mechanism_class": "coupled-latent-map",
+      "controls": [],
+      "default_render_hash": "a9236e9a790060366e72ae327a19fda2893391425052dab24ddf50b9e6008394",
+      "reproduction": {
+        "ok": true,
+        "frame": 22,
+        "error": null
+      }
+    },
+    {
+      "seed_id": "tsubuyaki-2011221665011941471",
+      "artist": "\u304d\u3093\u305e",
+      "original_url": "https://x.com/TakagiHitoshi/status/2011221665011941471",
+      "archive_url": "https://tsubuyaki.art/sketch.html?id=2011221665011941471",
+      "code_hash": "027b096ef1b650b4c1181534ea718d0aaba94a877337590d49865406eb5109eb",
+      "code_file": "/home/ubuntu/mxth/mathartist/corpus/tsubuyaki/code/2011221665011941471.js",
+      "license_status": "unknown \u2014 do not republish; local research cache only",
+      "runtime": {
+        "engine": "p5.js",
+        "engine_version": "1.11.3",
+        "status": "runs",
+        "canvas_count": 1,
+        "verified_at": "2026-07-13T18:09:52Z"
+      },
+      "mechanism_class": "coupled-latent-map",
+      "controls": [],
+      "default_render_hash": "ff521dc860b4ff485f8abc3d7dde513b063245c95f781c8160ca926d6c4808e2",
+      "reproduction": {
+        "ok": true,
+        "frame": 26,
+        "error": null
+      }
+    },
+    {
+      "seed_id": "tsubuyaki-2081753706534719703",
+      "artist": "Snow Esamosc",
+      "original_url": "https://x.com/SnowEsamosc/status/2081753706534719703",
+      "archive_url": "https://tsubuyaki.art/sketch.html?id=2081753706534719703",
+      "code_hash": "033ffbc5cc4225e0a435d3b9724491dfa28e56f19425ac151bd763fdadce2fa0",
+      "code_file": "/home/ubuntu/mxth/mathartist/corpus/tsubuyaki/code/2081753706534719703.js",
+      "license_status": "unknown \u2014 do not republish; local research cache only",
+      "runtime": {
+        "engine": "p5.js",
+        "engine_version": "1.11.3",
+        "status": "runs",
+        "canvas_count": 1,
+        "verified_at": "2026-07-27T15:14:45Z"
+      },
+      "mechanism_class": "coupled-latent-map",
+      "controls": [],
+      "default_render_hash": "fedb8debe3822cf3948c05b4d54b46817b3f9543ee2bb12bc7d240810bff0353",
+      "reproduction": {
+        "ok": true,
+        "frame": 23,
+        "error": null
+      }
+    },
+    {
+      "seed_id": "tsubuyaki-2030650578758680723",
+      "artist": "\u30a2",
+      "original_url": "https://x.com/yuruyurau/status/2030650578758680723",
+      "archive_url": "https://tsubuyaki.art/sketch.html?id=2030650578758680723",
+      "code_hash": "03448bd2d7774e15233ce2544708b847e3b0ed918f06a97fe0d33649bbc011a5",
+      "code_file": "/home/ubuntu/mxth/mathartist/corpus/tsubuyaki/code/2030650578758680723.js",
+      "license_status": "unknown \u2014 do not republish; local research cache only",
+      "runtime": {
+        "engine": "p5.js",
+        "engine_version": "1.11.3",
+        "status": "runs",
+        "canvas_count": 1,
+        "verified_at": "2026-07-13T18:25:57Z"
+      },
+      "mechanism_class": "coupled-latent-map",
+      "controls": [],
+      "default_render_hash": "434176a9ad9c9e6e8830bb36aea6a567533fb67591ce9a136bbdc5586c9618dd",
+      "reproduction": {
+        "ok": true,
+        "frame": 22,
+        "error": null
+      }
+    },
+    {
+      "seed_id": "tsubuyaki-2053631862682394873",
+      "artist": "\u304d\u3093\u305e",
+      "original_url": "https://x.com/TakagiHitoshi/status/2053631862682394873",
+      "archive_url": "https://tsubuyaki.art/sketch.html?id=2053631862682394873",
+      "code_hash": "0376ccc365a700d2fba30fb77e92dd262051b8d55e82d9030543a2a7cf4df9ef",
+      "code_file": "/home/ubuntu/mxth/mathartist/corpus/tsubuyaki/code/2053631862682394873.js",
+      "license_status": "unknown \u2014 do not republish; local research cache only",
+      "runtime": {
+        "engine": "p5.js",
+        "engine_version": "1.11.3",
+        "status": "runs",
+        "canvas_count": 1,
+        "verified_at": "2026-07-13T18:41:19Z"
+      },
+      "mechanism_class": "bitwise-geometry",
+      "controls": [],
+      "default_render_hash": "cefda7cdfeea43375cef7d5af7f07d9f64cce07a8a07c29c222c18847d2d8871",
+      "reproduction": {
+        "ok": true,
+        "frame": 20,
+        "error": null
+      }
+    },
+    {
+      "seed_id": "tsubuyaki-2093973728585822305",
+      "artist": "\u304d\u3093\u305e",
+      "original_url": "https://x.com/TakagiHitoshi/status/2093973728585822305",
+      "archive_url": "https://tsubuyaki.art/sketch.html?id=2093973728585822305",
+      "code_hash": "03833d70c2ecfad442627e9c3b43cae2e978dd6ce43a7d8c99aaeb99b8a44bb6",
+      "code_file": "/home/ubuntu/mxth/mathartist/corpus/tsubuyaki/code/2093973728585822305.js",
+      "license_status": "unknown \u2014 do not republish; local research cache only",
+      "runtime": {
+        "engine": "p5.js",
+        "engine_version": "1.11.3",
+        "status": "runs",
+        "canvas_count": 1,
+        "verified_at": "2026-08-30T22:46:05Z"
+      },
+      "mechanism_class": "coupled-latent-map",
+      "controls": [],
+      "default_render_hash": "a7210eadb4be12152d3f8fa210d6d70b0567df628e65a722a6a6dd760601d2a2",
+      "reproduction": {
+        "ok": true,
+        "frame": 26,
+        "error": null
+      }
+    },
+    {
+      "seed_id": "tsubuyaki-2036688621949055000",
+      "artist": "\u304d\u3093\u305e",
+      "original_url": "https://x.com/TakagiHitoshi/status/2036688621949055000",
+      "archive_url": "https://tsubuyaki.art/sketch.html?id=2036688621949055000",
+      "code_hash": "0388dd5ad532e2f447b0926f618746432983f58b008bca76dda3e38041507a55",
+      "code_file": "/home/ubuntu/mxth/mathartist/corpus/tsubuyaki/code/2036688621949055000.js",
+      "license_status": "unknown \u2014 do not republish; local research cache only",
+      "runtime": {
+        "engine": "p5.js",
+        "engine_version": "1.11.3",
+        "status": "runs",
+        "canvas_count": 1,
+        "verified_at": "2026-07-13T18:25:57Z"
+      },
+      "mechanism_class": "unknown",
+      "controls": [],
+      "default_render_hash": "0b0d9d8b2ea2be381e1eb3003b2bff4140580807efc297e37575a00fda09188c",
+      "reproduction": {
+        "ok": true,
+        "frame": 21,
+        "error": null
+      }
+    },
+    {
+      "seed_id": "tsubuyaki-2033918791642763605",
+      "artist": "Snow Esamosc",
+      "original_url": "https://x.com/SnowEsamosc/status/2033918791642763605",
+      "archive_url": "https://tsubuyaki.art/sketch.html?id=2033918791642763605",
+      "code_hash": "03f071a27d5c3a2e704dd35eb1506bf9f930ae1a89ba40f8966d265710c8d496",
+      "code_file": "/home/ubuntu/mxth/mathartist/corpus/tsubuyaki/code/2033918791642763605.js",
+      "license_status": "unknown \u2014 do not republish; local research cache only",
+      "runtime": {
+        "engine": "p5.js",
+        "engine_version": "1.11.3",
+        "status": "runs",
+        "canvas_count": 1,
+        "verified_at": "2026-07-13T18:25:57Z"
+      },
+      "mechanism_class": "bitwise-geometry",
+      "controls": [],
+      "default_render_hash": "56f3d75699ef01bf7d59c4d747776f90a6e9d799c234f5e441e1ae5e751db049",
+      "reproduction": {
+        "ok": true,
+        "frame": 20,
+        "error": null
+      }
+    },
+    {
+      "seed_id": "tsubuyaki-2034945823088451873",
+      "artist": "Snow Esamosc",
+      "original_url": "https://x.com/SnowEsamosc/status/2034945823088451873",
+      "archive_url": "https://tsubuyaki.art/sketch.html?id=2034945823088451873",
+      "code_hash": "04759209bde2b569fab8e2274c35842b7a31ffd3e493e2466a72df66e502c406",
+      "code_file": "/home/ubuntu/mxth/mathartist/corpus/tsubuyaki/code/2034945823088451873.js",
+      "license_status": "unknown \u2014 do not republish; local research cache only",
+      "runtime": {
+        "engine": "p5.js",
+        "engine_version": "1.11.3",
+        "status": "runs",
+        "canvas_count": 1,
+        "verified_at": "2026-07-13T18:25:57Z"
+      },
+      "mechanism_class": "bitwise-geometry",
+      "controls": [],
+      "default_render_hash": "ae49d5c2aa0c0301e6e3375aab144ead50b9461b26bfd80d969e09fb0a81dfc7",
+      "reproduction": {
+        "ok": true,
+        "frame": 23,
+        "error": null
+      }
+    },
+    {
+      "seed_id": "tsubuyaki-2075710138116350217",
+      "artist": "\u304d\u3093\u305e",
+      "original_url": "https://x.com/TakagiHitoshi/status/2075710138116350217",
+      "archive_url": "https://tsubuyaki.art/sketch.html?id=2075710138116350217",
+      "code_hash": "04ee2efa39494c702dbbca3abf66ea6184241cddc324a30f3735496331c24581",
+      "code_file": "/home/ubuntu/mxth/mathartist/corpus/tsubuyaki/code/2075710138116350217.js",
+      "license_status": "unknown \u2014 do not republish; local research cache only",
+      "runtime": {
+        "engine": "p5.js",
+        "engine_version": "1.11.3",
+        "status": "runs",
+        "canvas_count": 1,
+        "verified_at": "2026-07-13T04:41:50Z"
+      },
+      "mechanism_class": "coupled-latent-map",
+      "controls": [],
+      "default_render_hash": "5dc9a5d0c7ca7d7f268cf914cdccd6c2db95bef4a8bf0d53fc560c3c06f5a7e3",
+      "reproduction": {
+        "ok": true,
+        "frame": 21,
+        "error": null
+      }
+    },
+    {
+      "seed_id": "tsubuyaki-2028026217774125495",
+      "artist": "\u304d\u3093\u305e",
+      "original_url": "https://x.com/TakagiHitoshi/status/2028026217774125495",
+      "archive_url": "https://tsubuyaki.art/sketch.html?id=2028026217774125495",
+      "code_hash": "05029d3d56f6c8527b6cb841bfab0ff7e8e48cb5c8fa69948978b9223278928f",
+      "code_file": "/home/ubuntu/mxth/mathartist/corpus/tsubuyaki/code/2028026217774125495.js",
+      "license_status": "unknown \u2014 do not republish; local research cache only",
+      "runtime": {
+        "engine": "p5.js",
+        "engine_version": "1.11.3",
+        "status": "runs",
+        "canvas_count": 2,
+        "verified_at": "2026-07-13T18:25:57Z"
+      },
+      "mechanism_class": "bitwise-geometry",
+      "controls": [],
+      "default_render_hash": "9cdc1d4d9b86437a11591c1ad7c60919bde7b045c3b7eb0c881bcc5ff59e0e95",
+      "reproduction": {
+        "ok": true,
+        "frame": 21,
+        "error": null
+      }
+    },
+    {
+      "seed_id": "tsubuyaki-2096113061010845902",
+      "artist": "\u304d\u3093\u305e",
+      "original_url": "https://x.com/TakagiHitoshi/status/2096113061010845902",
+      "archive_url": "https://tsubuyaki.art/sketch.html?id=2096113061010845902",
+      "code_hash": "052411da191a952d515451f1d0392a03be2ca239efe5160fc05c1ab5e63b819a",
+      "code_file": "/home/ubuntu/mxth/mathartist/corpus/tsubuyaki/code/2096113061010845902.js",
+      "license_status": "unknown \u2014 do not republish; local research cache only",
+      "runtime": {
+        "engine": "p5.js",
+        "engine_version": "1.11.3",
+        "status": "runs",
+        "canvas_count": 1,
+        "verified_at": "2026-09-05T11:52:10Z"
+      },
+      "mechanism_class": "coupled-latent-map",
+      "controls": [],
+      "default_render_hash": "593add4c7dca96ef81b0c31225f25304c29c2fb0ab01a4d1895952cc14c7bed6",
+      "reproduction": {
+        "ok": true,
+        "frame": 21,
+        "error": null
+      }
+    },
+    {
+      "seed_id": "tsubuyaki-2082366798540993022",
+      "artist": "\u304d\u3093\u305e",
+      "original_url": "https://x.com/TakagiHitoshi/status/2082366798540993022",
+      "archive_url": "https://tsubuyaki.art/sketch.html?id=2082366798540993022",
+      "code_hash": "057996965fb003a4110f8bb059446c33e0673134765e4403bc7c208f486560ae",
+      "code_file": "/home/ubuntu/mxth/mathartist/corpus/tsubuyaki/code/2082366798540993022.js",
+      "license_status": "unknown \u2014 do not republish; local research cache only",
+      "runtime": {
+        "engine": "p5.js",
+        "engine_version": "1.11.3",
+        "status": "runs",
+        "canvas_count": 1,
+        "verified_at": "2026-07-29T10:50:45Z"
+      },
+      "mechanism_class": "coupled-latent-map",
+      "controls": [],
+      "default_render_hash": "29024a2a2bfae79a3822e97560008407098b4f006bd5a27d1fa6ca5cf8be1abc",
+      "reproduction": {
+        "ok": true,
+        "frame": 21,
+        "error": null
+      }
+    },
+    {
+      "seed_id": "tsubuyaki-2023771772852859014",
+      "artist": "Snow Esamosc",
+      "original_url": "https://x.com/SnowEsamosc/status/2023771772852859014",
+      "archive_url": "https://tsubuyaki.art/sketch.html?id=2023771772852859014",
+      "code_hash": "059d113939562cf50511bc4bb760727e4f655cde5915b24e4e926a29f816bfe8",
+      "code_file": "/home/ubuntu/mxth/mathartist/corpus/tsubuyaki/code/2023771772852859014.js",
+      "license_status": "unknown \u2014 do not republish; local research cache only",
+      "runtime": {
+        "engine": "p5.js",
+        "engine_version": "1.11.3",
+        "status": "runs",
+        "canvas_count": 1,
+        "verified_at": "2026-07-13T18:17:38Z"
+      },
+      "mechanism_class": "coupled-latent-map",
+      "controls": [],
+      "default_render_hash": "9d36c8f7a7afaa2079a691bdccde7a805c763f9963a80cf1d5f98c17781a9a24",
+      "reproduction": {
+        "ok": true,
+        "frame": 21,
+        "error": null
+      }
+    },
+    {
+      "seed_id": "tsubuyaki-2038631117583265819",
+      "artist": "\u3072\u3055\u3060\u3093",
+      "original_url": "https://x.com/hisadan/status/2038631117583265819",
+      "archive_url": "https://tsubuyaki.art/sketch.html?id=2038631117583265819",
+      "code_hash": "05bb1de9178bad52019c02b55f525b30e70ba8672473982ab814c0c8717cc8db",
+      "code_file": "/home/ubuntu/mxth/mathartist/corpus/tsubuyaki/code/2038631117583265819.js",
+      "license_status": "runtime_fetch_only",
+      "runtime": {
+        "engine": "processing.js",
+        "engine_version": "1.6.6",
+        "status": "runs",
+        "canvas_count": 1,
+        "verified_at": "2026-07-13T18:25:57Z"
+      },
+      "mechanism_class": "unknown",
+      "controls": [],
+      "default_render_hash": null,
+      "reproduction": {
+        "ok": false,
+        "frame": 0,
+        "error": null
+      },
+      "runtime_note": "Processing (Java), not p5.js \u2014 cannot reproduce in p5 harness"
+    }
+  ]
+}

@@ -2,8 +2,8 @@
   "id": "VORTEX_DECAY_DEMO",
   "short": "VORTEX_DECAY",
   "title": "Decaying vortex-pair demonstrator",
-  "description": "Locally generated synthetic vorticity-style field (two decaying Gaussian vortices + meandering jet). Demonstrator for the array-sequence import path; not a scientific claim.",
-  "provenance_level": "EXACT-DATA",
+  "description": "SYNTHETIC TEST FIXTURE \u2014 locally generated vortex-pair demonstrator. Not a scientific source. Hidden from normal source browser. For array-sequence import path testing only.",
+  "provenance_level": "SYNTHETIC_TEST_FIXTURE",
   "core_statement": "imported trajectory bytes fixed; observation only evolves",
   "upstream": "source_artifacts/VORTEX_DECAY_DEMO/vortex_decay.npy (locally generated demonstrator)",
   "renderer": "array-sequence",
@@ -115,5 +115,8 @@
       ],
       "default": "field"
     }
-  }
+  },
+  "status": "SYNTHETIC_TEST_FIXTURE",
+  "mutable": false,
+  "strict_surface": false
 }

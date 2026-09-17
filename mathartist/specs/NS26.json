@@ -148,5 +148,8 @@
     ]
   },
   "interpretation_grammar": "specimen-grammar-v1",
-  "v1_lineage": "Observation vocabulary descends from mathartist-v1 src/artists.js NS26_CORE (mutable h/tau/twist/etaFreq). V3 froze all of those into the scaffold/schedule; only camera, tone-mapping, sampling and playback vary. See docs/ARCHIVE_MAP.md."
+  "v1_lineage": "Observation vocabulary descends from mathartist-v1 src/artists.js NS26_CORE (mutable h/tau/twist/etaFreq). V3 froze all of those into the scaffold/schedule; only camera, tone-mapping, sampling and playback vary. See docs/ARCHIVE_MAP.md.",
+  "status": "DERIVED",
+  "mutable": false,
+  "strict_surface": true
 }

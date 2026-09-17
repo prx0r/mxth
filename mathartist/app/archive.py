@@ -33,7 +33,8 @@ def init_db():
           mode TEXT NOT NULL,
           created_at REAL NOT NULL,
           spec_hash TEXT NOT NULL DEFAULT '',
-          bundle_hash TEXT NOT NULL DEFAULT ''
+          bundle_hash TEXT NOT NULL DEFAULT '',
+          lineage_channel TEXT NOT NULL DEFAULT 'OPEN_BLIND'
         );
         CREATE INDEX IF NOT EXISTS idx_pheno_source ON phenotypes(source_id, created_at DESC);
         CREATE TABLE IF NOT EXISTS events(
@@ -64,6 +65,8 @@ def init_db():
             c.execute("ALTER TABLE phenotypes ADD COLUMN spec_hash TEXT NOT NULL DEFAULT ''")
         if "bundle_hash" not in cols:
             c.execute("ALTER TABLE phenotypes ADD COLUMN bundle_hash TEXT NOT NULL DEFAULT ''")
+        if "lineage_channel" not in cols:
+            c.execute("ALTER TABLE phenotypes ADD COLUMN lineage_channel TEXT NOT NULL DEFAULT 'OPEN_BLIND'")
         # Legacy rows are deterministically backfilled from the current source spec + frozen assets.
         # bundle_hash protects executable/source bytes as well as immutable metadata.
         specs=load_specs()
@@ -146,10 +149,11 @@ def get_phenotype(c, pid):
     return {"id":r["id"],"source_id":r["source_id"],"source_variant":r["source_variant"],"generation":r["generation"],
             "parent_ids":json.loads(r["parent_ids"]),"genome":json.loads(r["genome_json"]),"mode":r["mode"],"created_at":r["created_at"],
             "spec_hash":r["spec_hash"] if "spec_hash" in r.keys() else "",
-            "bundle_hash":r["bundle_hash"] if "bundle_hash" in r.keys() else ""}
+            "bundle_hash":r["bundle_hash"] if "bundle_hash" in r.keys() else "",
+            "lineage_channel":r["lineage_channel"] if "lineage_channel" in r.keys() else "OPEN_BLIND"}
 
 
-def create_population(source_id, mode="open", count=72, selected_ids=None, session_id=None, seed=None):
+def create_population(source_id, mode="open", count=72, selected_ids=None, session_id=None, seed=None, lineage_channel="OPEN_BLIND"):
     specs = load_specs(); spec = specs[source_id]
     rng = random.Random(seed if seed is not None else time.time_ns())
     selected_ids = selected_ids or []
@@ -198,7 +202,7 @@ def create_population(source_id, mode="open", count=72, selected_ids=None, sessi
             pid = f"{source_id.lower()}-{uuid.uuid4().hex[:10]}"
             now = time.time()
             sh=core_hash(spec,variant); bh=source_bundle_hash(spec,variant)
-            c.execute("INSERT INTO phenotypes(id,source_id,source_variant,generation,parent_ids,genome_json,mode,created_at,spec_hash,bundle_hash) VALUES(?,?,?,?,?,?,?,?,?,?)", (pid,source_id,variant,generation,json.dumps(pids),json.dumps(genome,sort_keys=True),mode,now,sh,bh))
+            c.execute("INSERT INTO phenotypes(id,source_id,source_variant,generation,parent_ids,genome_json,mode,created_at,spec_hash,bundle_hash,lineage_channel) VALUES(?,?,?,?,?,?,?,?,?,?,?)", (pid,source_id,variant,generation,json.dumps(pids),json.dumps(genome,sort_keys=True),mode,now,sh,bh,lineage_channel))
             created.append({"id":pid,"source_id":source_id,"source_variant":variant,"generation":generation,"parent_ids":pids,"genome":genome,"mode":mode,"created_at":now,"spec_hash":sh,"bundle_hash":bh})
     return created
 
