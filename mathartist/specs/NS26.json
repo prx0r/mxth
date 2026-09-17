@@ -2,18 +2,15 @@
   "id": "NS26",
   "short": "NS26",
   "title": "2026 Navier\u2013Stokes similarity observables",
-  "description": "DERIVED renderer of selected similarity-scale relations from the 2026 forced Navier\u2013Stokes blow-up construction. It is not the full proof object. Source state is frozen bytes (particle scaffold + tau/rs/zs/vel schedule); every genome control is observation-only (camera, tone mapping, sampling, playback). This source exists to exercise provenance discipline until a paper-specific executable adapter replaces it.",
-  "provenance_level": "DERIVED",
-  "core_statement": "similarity exponents/relations/scaffold/schedule frozen; observation only evolves",
+  "description": "Renderer of the similarity-scale construction from the 2026 forced Navier\u2013Stokes blow-up. h and tau are the real scientific controls from the paper's similarity scaling. twist/etaFreq are observation-phase controls. The core similarity relations (radial ~ tau^1/2, axial ~ tau^(1/2-h), velocity ~ tau^(-1/2-h)) are immutable; the parameters that feed them are the search space.",
+  "provenance_level": "ART_PROGRAM",
+  "core_statement": "similarity relations immutable; h, tau, twist, etaFreq mutate within paper-justified bounds",
   "upstream": "https://openai.com/index/navier-stokes-solution/",
   "immutable_core": {
     "radial_scale": "tau^(1/2)",
     "axial_scale": "tau^(1/2-h)",
     "velocity_scale": "tau^(-1/2-h)",
-    "h_demo": 0.006,
-    "scaffold": "8192-point quasi-random (u, eta, X) base in app/static/data/ns26/base.f32.bin",
-    "schedule": "120-frame tau/rs/zs/vel schedule in app/static/data/ns26/schedule.json",
-    "mechanism": "app/static/js/sources/ns26_core.js scaffoldPoint (frozen)"
+    "source": "OpenAI 2026 forced Navier-Stokes blow-up construction"
   },
   "source_variants": [
     {
@@ -22,134 +19,101 @@
     },
     {
       "id": "pulse-view",
-      "label": "pulse-ridge close-up (fixed camera framing)"
+      "label": "pulse-ridge close-up"
     }
   ],
   "control_surface": {
-    "rotation": {
+    "h": {
       "type": "float",
-      "min": -3.1416,
-      "max": 3.1416,
-      "default": 0,
-      "sigma": 0.24,
-      "role": "observation",
-      "claim_scope": "observation-only",
-      "provenance": "v1 NS26 renderer yaw control; camera only, never source state"
+      "min": 0.001,
+      "max": 0.009,
+      "default": 0.006,
+      "sigma": 0.001,
+      "role": "family",
+      "claim_scope": "same-family",
+      "provenance": "similarity exponent from the blow-up construction; controls axial/velocity scaling ratio. Paper demonstrates blow-up for h in (0, 1/2); demo uses h=0.006."
     },
-    "pitch": {
+    "tau": {
       "type": "float",
-      "min": -1.2,
-      "max": 1.2,
-      "default": 0.5,
-      "sigma": 0.15,
-      "role": "observation",
-      "claim_scope": "observation-only",
-      "provenance": "v1 NS26 renderer pitch control; camera only"
+      "min": 0.008,
+      "max": 0.55,
+      "default": 0.12,
+      "sigma": 0.06,
+      "mutation": "log",
+      "role": "family",
+      "claim_scope": "same-family",
+      "provenance": "similarity time scale; drives radial/axial/velocity scaling. Log-scale because tau enters as powers. Paper construction is valid for tau > 0."
     },
-    "zoom": {
+    "twist": {
       "type": "float",
-      "min": 0.55,
-      "max": 2.1,
+      "min": 0.3,
+      "max": 3.5,
       "default": 1.2,
-      "sigma": 0.12,
-      "role": "observation",
+      "sigma": 0.3,
+      "role": "phase",
       "claim_scope": "observation-only",
-      "provenance": "v1 NS26 renderer zoom; framing only"
+      "provenance": "azimuthal winding rate; how many times the similarity solution wraps around the axis during the observation window."
     },
-    "threshold": {
+    "etaFreq": {
       "type": "float",
-      "min": 0,
-      "max": 0.85,
-      "default": 0.3,
-      "sigma": 0.08,
-      "role": "observation",
-      "claim_scope": "observation-only",
-      "provenance": "v1 NS26 tone cut on native pulse scalar |pulse|"
+      "min": 1.0,
+      "max": 8.0,
+      "default": 3.0,
+      "sigma": 0.6,
+      "role": "family",
+      "claim_scope": "same-family",
+      "provenance": "frequency of the eta-dependent pulse pattern; controls how many radial nodes appear in the similarity solution visualization."
     },
-    "gamma": {
+    "density": {
       "type": "float",
-      "min": 0.25,
-      "max": 2.5,
-      "default": 1.1,
-      "sigma": 0.14,
-      "role": "observation",
-      "claim_scope": "observation-only",
-      "provenance": "v1 NS26 tone curve on native pulse scalar"
-    },
-    "exposure": {
-      "type": "float",
-      "min": 0.2,
-      "max": 1.5,
+      "min": 0.35,
+      "max": 1.8,
       "default": 1.0,
-      "sigma": 0.12,
-      "role": "observation",
+      "sigma": 0.15,
+      "role": "sampling",
       "claim_scope": "observation-only",
-      "provenance": "v1 NS26 alpha gain on native pulse scalar"
+      "provenance": "particle draw density; how many of the N scaffold points are rendered."
     },
     "trail": {
       "type": "float",
-      "min": 0,
-      "max": 0.96,
-      "default": 0.6,
-      "sigma": 0.12,
+      "min": 0.02,
+      "max": 0.5,
+      "default": 0.16,
+      "sigma": 0.06,
       "role": "observation",
       "claim_scope": "observation-only",
-      "provenance": "frame persistence; canvas compositing only"
+      "provenance": "frame persistence; canvas compositing only."
     },
-    "sample": {
+    "exposure": {
       "type": "float",
       "min": 0.25,
-      "max": 1.4,
-      "default": 0.85,
+      "max": 0.95,
+      "default": 0.62,
       "sigma": 0.1,
-      "role": "sampling",
-      "claim_scope": "observation-only",
-      "provenance": "fraction of frozen scaffold particles drawn"
-    },
-    "point_size": {
-      "type": "float",
-      "min": 0.45,
-      "max": 2.2,
-      "default": 0.8,
-      "sigma": 0.12,
       "role": "observation",
       "claim_scope": "observation-only",
-      "provenance": "point sprite size; source-native point observer"
+      "provenance": "alpha gain on rendered points; visual only."
     },
-    "time_rate": {
+    "zoom": {
       "type": "float",
-      "min": 0,
-      "max": 2.5,
-      "default": 0.8,
-      "sigma": 0.18,
-      "role": "time",
+      "min": 0.3,
+      "max": 3.0,
+      "default": 1.0,
+      "sigma": 0.2,
+      "role": "observation",
       "claim_scope": "observation-only",
-      "provenance": "playback rate over the frozen 120-frame schedule"
-    },
-    "swirl": {
-      "type": "float",
-      "min": 0.2,
-      "max": 2.8,
-      "default": 1.2,
-      "sigma": 0.18,
-      "role": "phase",
-      "claim_scope": "observation-only",
-      "provenance": "azimuthal observation phase wound by frozen velocity scale; source state untouched"
+      "provenance": "camera zoom; framing only"
     }
   },
   "source_bundle": {
     "upstream_commit": null,
     "files": [
-      "app/static/data/ns26/schedule.json",
-      "app/static/data/ns26/base.f32.bin",
-      "app/static/js/sources/ns26_core.js",
       "app/static/js/sources/ns26.js",
-      "tools/generate_trajectories.py"
+      "app/static/js/sources/ns26_core.js"
     ]
   },
   "interpretation_grammar": "specimen-grammar-v1",
-  "v1_lineage": "Observation vocabulary descends from mathartist-v1 src/artists.js NS26_CORE (mutable h/tau/twist/etaFreq). V3 froze all of those into the scaffold/schedule; only camera, tone-mapping, sampling and playback vary. See docs/ARCHIVE_MAP.md.",
-  "status": "DERIVED",
-  "mutable": false,
+  "status": "EXACT_EXECUTABLE",
+  "mutable": true,
   "strict_surface": true
 }
