@@ -1,0 +1,529 @@
+{
+  "id": "B25_PROOF_3",
+  "seeds": [
+    {
+      "seed_id": "tsubuyaki-2014681662345642274",
+      "code_file": "corpus/tsubuyaki/code/2014681662345642274.js",
+      "controls": [
+        {
+          "literal": "0",
+          "value": 0,
+          "role": "INITIAL_CONDITION",
+          "mutable_art_program": true,
+          "confidence": 0.9,
+          "why": "state assignment to t",
+          "start": 2,
+          "end": 3,
+          "line": 1,
+          "column": 2,
+          "call": null,
+          "probe": {
+            "status": "EFFECTFUL",
+            "delta": 0.1,
+            "mad_minus": 0.01058948040008545,
+            "mad_plus": 0.014733887277543545
+          },
+          "id": "L1C2",
+          "min": -0.4,
+          "max": 0.4
+        },
+        {
+          "literal": "0",
+          "value": 0,
+          "role": "UNKNOWN",
+          "mutable_art_program": true,
+          "confidence": 0.35,
+          "why": "numeric AST literal",
+          "start": 68,
+          "end": 69,
+          "line": 5,
+          "column": 6,
+          "call": null,
+          "probe": {
+            "status": "EFFECTFUL",
+            "delta": 0.1,
+            "mad_minus": 0.015608485788106918,
+            "mad_plus": 0.014455280266702175
+          },
+          "id": "L5C6",
+          "min": -0.4,
+          "max": 0.4
+        },
+        {
+          "literal": "99",
+          "value": 99,
+          "role": "STOCHASTIC_PARAMETER",
+          "mutable_art_program": true,
+          "confidence": 0.8,
+          "why": "inside noise()",
+          "start": 129,
+          "end": 131,
+          "line": 5,
+          "column": 67,
+          "call": "noise",
+          "probe": {
+            "status": "EFFECTFUL",
+            "delta": 9.9,
+            "mad_minus": 0.008660529740154743,
+            "mad_plus": 0.013772883452475071
+          },
+          "id": "L5C67",
+          "min": 59.4,
+          "max": 138.6
+        },
+        {
+          "literal": "9",
+          "value": 9,
+          "role": "MATHEMATICAL_COEFFICIENT",
+          "mutable_art_program": true,
+          "confidence": 0.85,
+          "why": "inside cos()",
+          "start": 133,
+          "end": 134,
+          "line": 5,
+          "column": 71,
+          "call": "cos",
+          "probe": {
+            "status": "EFFECTFUL",
+            "delta": 0.9,
+            "mad_minus": 0.01293969340622425,
+            "mad_plus": 0.005578852724283934
+          },
+          "id": "L5C71",
+          "min": 5.4,
+          "max": 12.6
+        },
+        {
+          "literal": "2",
+          "value": 2,
+          "role": "MATHEMATICAL_COEFFICIENT",
+          "mutable_art_program": true,
+          "confidence": 0.85,
+          "why": "inside cos()",
+          "start": 148,
+          "end": 149,
+          "line": 5,
+          "column": 86,
+          "call": "cos",
+          "probe": {
+            "status": "EFFECTFUL",
+            "delta": 0.2,
+            "mad_minus": 0.013439703732728958,
+            "mad_plus": 0.01114190835505724
+          },
+          "id": "L5C86",
+          "min": 1.2,
+          "max": 2.8
+        },
+        {
+          "literal": "63",
+          "value": 63,
+          "role": "MATHEMATICAL_COEFFICIENT",
+          "mutable_art_program": true,
+          "confidence": 0.85,
+          "why": "inside sin()",
+          "start": 163,
+          "end": 165,
+          "line": 5,
+          "column": 101,
+          "call": "sin",
+          "probe": {
+            "status": "EFFECTFUL",
+            "delta": 6.300000000000001,
+            "mad_minus": 0.013582836836576462,
+            "mad_plus": 0.009633502922952175
+          },
+          "id": "L5C101",
+          "min": 37.8,
+          "max": 88.2
+        },
+        {
+          "literal": "9",
+          "value": 9,
+          "role": "MATHEMATICAL_COEFFICIENT",
+          "mutable_art_program": true,
+          "confidence": 0.65,
+          "why": "feeds line()",
+          "start": 177,
+          "end": 178,
+          "line": 5,
+          "column": 115,
+          "call": "line",
+          "probe": {
+            "status": "EFFECTFUL",
+            "delta": 0.9,
+            "mad_minus": 0.0101418886333704,
+            "mad_plus": 0.011988023295998573
+          },
+          "id": "L5C115",
+          "min": 5.4,
+          "max": 12.6
+        },
+        {
+          "literal": "2",
+          "value": 2,
+          "role": "MATHEMATICAL_COEFFICIENT",
+          "mutable_art_program": true,
+          "confidence": 0.65,
+          "why": "feeds line()",
+          "start": 179,
+          "end": 180,
+          "line": 5,
+          "column": 117,
+          "call": "line",
+          "probe": {
+            "status": "EFFECTFUL",
+            "delta": 0.2,
+            "mad_minus": 0.009522441774606705,
+            "mad_plus": 0.014746813103556633
+          },
+          "id": "L5C117",
+          "min": 1.2,
+          "max": 2.8
+        }
+      ]
+    },
+    {
+      "seed_id": "tsubuyaki-2087915361710866700",
+      "code_file": "corpus/tsubuyaki/code/2087915361710866700.js",
+      "controls": [
+        {
+          "literal": "0",
+          "value": 0,
+          "role": "UNKNOWN",
+          "mutable_art_program": true,
+          "confidence": 0.35,
+          "why": "numeric AST literal",
+          "start": 2,
+          "end": 3,
+          "line": 1,
+          "column": 2,
+          "call": null,
+          "probe": {
+            "status": "EFFECTFUL",
+            "delta": 0.1,
+            "mad_minus": 0.14180094003677368,
+            "mad_plus": 0.13421128690242767
+          },
+          "id": "L1C2",
+          "min": -0.4,
+          "max": 0.4
+        },
+        {
+          "literal": "0",
+          "value": 0,
+          "role": "UNKNOWN",
+          "mutable_art_program": true,
+          "confidence": 0.35,
+          "why": "numeric AST literal",
+          "start": 71,
+          "end": 72,
+          "line": 5,
+          "column": 6,
+          "call": null,
+          "probe": {
+            "status": "EFFECTFUL",
+            "delta": 0.1,
+            "mad_minus": 0.14003020524978638,
+            "mad_plus": 0.13726161420345306
+          },
+          "id": "L5C6",
+          "min": -0.4,
+          "max": 0.4
+        },
+        {
+          "literal": "1e3",
+          "value": 1000,
+          "role": "MATHEMATICAL_COEFFICIENT",
+          "mutable_art_program": true,
+          "confidence": 0.65,
+          "why": "feeds line()",
+          "start": 92,
+          "end": 95,
+          "line": 6,
+          "column": 9,
+          "call": "line",
+          "probe": {
+            "status": "EFFECTFUL",
+            "delta": 100.0,
+            "mad_minus": 0.1448385864496231,
+            "mad_plus": 0.13862186670303345
+          },
+          "id": "L6C9",
+          "min": 600.0,
+          "max": 1400.0
+        },
+        {
+          "literal": "9",
+          "value": 9,
+          "role": "STOCHASTIC_PARAMETER",
+          "mutable_art_program": true,
+          "confidence": 0.8,
+          "why": "inside noise()",
+          "start": 106,
+          "end": 107,
+          "line": 6,
+          "column": 23,
+          "call": "noise",
+          "probe": {
+            "status": "EFFECTFUL",
+            "delta": 0.9,
+            "mad_minus": 0.16027042269706726,
+            "mad_plus": 0.1461006999015808
+          },
+          "id": "L6C23",
+          "min": 5.4,
+          "max": 12.6
+        },
+        {
+          "literal": "250",
+          "value": 250,
+          "role": "MATHEMATICAL_COEFFICIENT",
+          "mutable_art_program": true,
+          "confidence": 0.65,
+          "why": "feeds line()",
+          "start": 109,
+          "end": 112,
+          "line": 6,
+          "column": 26,
+          "call": "line",
+          "probe": {
+            "status": "EFFECTFUL",
+            "delta": 25.0,
+            "mad_minus": 0.14647290110588074,
+            "mad_plus": 0.14155417680740356
+          },
+          "id": "L6C26",
+          "min": 150.0,
+          "max": 350.0
+        },
+        {
+          "literal": "1e3",
+          "value": 1000,
+          "role": "MATHEMATICAL_COEFFICIENT",
+          "mutable_art_program": true,
+          "confidence": 0.65,
+          "why": "feeds line()",
+          "start": 115,
+          "end": 118,
+          "line": 6,
+          "column": 32,
+          "call": "line",
+          "probe": {
+            "status": "EFFECTFUL",
+            "delta": 100.0,
+            "mad_minus": 0.13941961526870728,
+            "mad_plus": 0.13990741968154907
+          },
+          "id": "L6C32",
+          "min": 600.0,
+          "max": 1400.0
+        },
+        {
+          "literal": "9",
+          "value": 9,
+          "role": "STOCHASTIC_PARAMETER",
+          "mutable_art_program": true,
+          "confidence": 0.8,
+          "why": "inside noise()",
+          "start": 129,
+          "end": 130,
+          "line": 6,
+          "column": 46,
+          "call": "noise",
+          "probe": {
+            "status": "EFFECTFUL",
+            "delta": 0.9,
+            "mad_minus": 0.15275952219963074,
+            "mad_plus": 0.159791961312294
+          },
+          "id": "L6C46",
+          "min": 5.4,
+          "max": 12.6
+        },
+        {
+          "literal": "9",
+          "value": 9,
+          "role": "STOCHASTIC_PARAMETER",
+          "mutable_art_program": true,
+          "confidence": 0.8,
+          "why": "inside noise()",
+          "start": 131,
+          "end": 132,
+          "line": 6,
+          "column": 48,
+          "call": "noise",
+          "probe": {
+            "status": "EFFECTFUL",
+            "delta": 0.9,
+            "mad_minus": 0.13962043821811676,
+            "mad_plus": 0.14039355516433716
+          },
+          "id": "L6C48",
+          "min": 5.4,
+          "max": 12.6
+        }
+      ]
+    },
+    {
+      "seed_id": "tsubuyaki-2093974658752405988",
+      "code_file": "corpus/tsubuyaki/code/2093974658752405988.js",
+      "controls": [
+        {
+          "literal": "0",
+          "value": 0,
+          "role": "INITIAL_CONDITION",
+          "mutable_art_program": true,
+          "confidence": 0.9,
+          "why": "state assignment to t",
+          "start": 26,
+          "end": 27,
+          "line": 2,
+          "column": 2,
+          "call": null,
+          "probe": {
+            "status": "EFFECTFUL",
+            "delta": 0.1,
+            "mad_minus": 0.12545692920684814,
+            "mad_plus": 0.10999612510204315
+          },
+          "id": "L2C2",
+          "min": -0.4,
+          "max": 0.4
+        },
+        {
+          "literal": "20",
+          "value": 20,
+          "role": "UNKNOWN",
+          "mutable_art_program": true,
+          "confidence": 0.35,
+          "why": "numeric AST literal",
+          "start": 30,
+          "end": 32,
+          "line": 2,
+          "column": 6,
+          "call": null,
+          "probe": {
+            "status": "EFFECTFUL",
+            "delta": 2.0,
+            "mad_minus": 0.3182993233203888,
+            "mad_plus": 0.3295276165008545
+          },
+          "id": "L2C6",
+          "min": 12.0,
+          "max": 28.0
+        },
+        {
+          "literal": "0",
+          "value": 0,
+          "role": "UNKNOWN",
+          "mutable_art_program": true,
+          "confidence": 0.35,
+          "why": "numeric AST literal",
+          "start": 106,
+          "end": 107,
+          "line": 5,
+          "column": 6,
+          "call": null,
+          "probe": {
+            "status": "EFFECTFUL",
+            "delta": 0.1,
+            "mad_minus": 0.1297825276851654,
+            "mad_plus": 0.11731699109077454
+          },
+          "id": "L5C6",
+          "min": -0.4,
+          "max": 0.4
+        },
+        {
+          "literal": "0",
+          "value": 0,
+          "role": "UNKNOWN",
+          "mutable_art_program": true,
+          "confidence": 0.35,
+          "why": "numeric AST literal",
+          "start": 124,
+          "end": 125,
+          "line": 6,
+          "column": 6,
+          "call": null,
+          "probe": {
+            "status": "EFFECTFUL",
+            "delta": 0.1,
+            "mad_minus": 0.13770729303359985,
+            "mad_plus": 0.12120026350021362
+          },
+          "id": "L6C6",
+          "min": -0.4,
+          "max": 0.4
+        },
+        {
+          "literal": "0",
+          "value": 0,
+          "role": "UNKNOWN",
+          "mutable_art_program": true,
+          "confidence": 0.35,
+          "why": "numeric AST literal",
+          "start": 150,
+          "end": 151,
+          "line": 7,
+          "column": 14,
+          "call": null,
+          "probe": {
+            "status": "EFFECTFUL",
+            "delta": 0.1,
+            "mad_minus": 0.1257549226284027,
+            "mad_plus": 0.11494404077529907
+          },
+          "id": "L7C14",
+          "min": -0.4,
+          "max": 0.4
+        },
+        {
+          "literal": "41",
+          "value": 41,
+          "role": "MATHEMATICAL_COEFFICIENT",
+          "mutable_art_program": true,
+          "confidence": 0.85,
+          "why": "inside cos()",
+          "start": 255,
+          "end": 257,
+          "line": 11,
+          "column": 19,
+          "call": "cos",
+          "probe": {
+            "status": "EFFECTFUL",
+            "delta": 4.1000000000000005,
+            "mad_minus": 0.14720219373703003,
+            "mad_plus": 0.13485467433929443
+          },
+          "id": "L11C19",
+          "min": 24.599999999999998,
+          "max": 57.400000000000006
+        },
+        {
+          "literal": "2",
+          "value": 2,
+          "role": "MATHEMATICAL_COEFFICIENT",
+          "mutable_art_program": true,
+          "confidence": 0.65,
+          "why": "feeds rect()",
+          "start": 272,
+          "end": 273,
+          "line": 11,
+          "column": 36,
+          "call": "rect",
+          "probe": {
+            "status": "EFFECTFUL",
+            "delta": 0.2,
+            "mad_minus": 0.14462555944919586,
+            "mad_plus": 0.11981848627328873
+          },
+          "id": "L11C36",
+          "min": 1.2,
+          "max": 2.8
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MathArtist V5 Descendant",
+  "type": "object",
+  "required": [
+    "specimen_id",
+    "run_id",
+    "seed_id",
+    "source_code_sha256",
+    "theta",
+    "lineage_channel",
+    "sampler",
+    "sampler_index",
+    "renderer_mode",
+    "technical_status",
+    "execution_ms"
+  ],
+  "properties": {
+    "specimen_id": {
+      "type": "string"
+    },
+    "run_id": {
+      "type": "string"
+    },
+    "seed_id": {
+      "type": "string"
+    },
+    "source_code_sha256": {
+      "type": "string"
+    },
+    "parameterization_sha256": {
+      "type": "string"
+    },
+    "theta": {
+      "type": "object"
+    },
+    "parent_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "lineage_channel": {
+      "enum": [
+        "OPEN_BLIND",
+        "HUMAN_OPEN_ENDED",
+        "EXPERIMENT"
+      ]
+    },
+    "sampler": {
+      "enum": [
+        "sobol",
+        "local",
+        "boundary",
+        "human_branch",
+        "probe"
+      ]
+    },
+    "sampler_index": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "rng_seed": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "noise_seed": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "capture_frame": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "renderer_mode": {
+      "enum": [
+        "fidelity",
+        "search"
+      ]
+    },
+    "technical_status": {
+      "enum": [
+        "valid",
+        "crash",
+        "blank",
+        "timeout",
+        "oom",
+        "nan"
+      ]
+    },
+    "render_sha256": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "image_path": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "execution_ms": {
+      "type": "number",
+      "minimum": 0
+    },
+    "mutation_metadata": {
+      "type": "object"
+    }
+  }
+}

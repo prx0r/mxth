@@ -4,6 +4,10 @@
   "private": true,
   "description": "MathArtist V3.3: provenance-backed parameter-space discovery with exact browser rendering",
   "dependencies": {
+    "acorn": "^8.18.0",
+    "acorn-loose": "^8.5.2",
+    "acorn-walk": "^8.3.5",
+    "magic-string": "^1.4.1",
     "playwright": "^1.63.0",
     "skia-canvas": "^2.0.2"
   }

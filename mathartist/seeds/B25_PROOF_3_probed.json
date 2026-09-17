@@ -1,0 +1,9 @@
+{
+  "code_file": "seeds/B25_PROOF_3.json",
+  "code_sha256": "2c578314253119554aaefe98299103b91cbcff22c182b242bde881437b52ae4a",
+  "parser": "acorn-loose",
+  "default_ok": false,
+  "candidates_probed": 0,
+  "effectful_controls": 0,
+  "controls": []
+}

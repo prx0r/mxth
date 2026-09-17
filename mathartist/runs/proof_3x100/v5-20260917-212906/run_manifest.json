@@ -1,0 +1,9 @@
+{
+  "run_id": "v5-20260917-212906",
+  "source_manifest": "seeds/B25_PROOF_3.json",
+  "source_manifest_sha256": "44c0137a4d1563d2bf3cd9819169a73bf803035baae4ab0141c49201518aeec8",
+  "descendants_per_seed": 100,
+  "workers": 2,
+  "frame": 20,
+  "jobs_this_invocation": 300
+}
