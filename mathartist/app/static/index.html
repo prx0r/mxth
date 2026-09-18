@@ -1,9 +1,190 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>MathArtist Lab</title><link rel="stylesheet" href="./style.css"></head><body>
-<header id="top"><div class="brand">MATHARTIST <i>LAB</i></div><nav id="tabs"></nav><div id="density"><button data-n="36">36</button><button data-n="72" class="on">72</button><button data-n="108">108</button></div></header>
-<div id="sub"><select id="source"></select><select id="studyExp" title="Study protocol"><option value="attention-rasa-v2">ATTENTION/RASA LAB</option><option value="commonization-v1">COMMONIZATION LAB</option></select><select id="youtubeMetric" title="YouTube wild objective"><option value="youtube-5s">YT · 5 SECOND</option><option value="youtube-10s">YT · 10|5 HOLD</option><option value="youtube-20s" selected>YT · 20|10 HOLD</option><option value="youtube-replay">YT · REPLAY</option></select><span id="provenance"></span><span class="spacer"></span><span id="generation"></span><button id="evolve">EVOLVE</button><button id="branch" style="display:none">BRANCH</button><button id="wander">WANDER</button><a href="/api/analysis" target="_blank">ANALYSIS</a><a href="/api/experiments" target="_blank">EXPERIMENTS</a><a href="/api/export" target="_blank">DATA</a></div>
-<main id="grid"></main>
-<div id="empty" hidden>No specimens yet.</div>
-<div id="detail" class="hidden"><section class="stage"><canvas id="hero" width="900" height="900"></canvas><div class="hero-actions"><button id="fav">☆</button><button id="replay">↻</button><button id="close">×</button></div></section><aside><div class="eyebrow" id="dsource"></div><h1 id="dtitle"></h1><p id="dprov"></p><h3>CONTROL SURFACE</h3><pre id="dgenome"></pre><h3>STRUCTURAL READOUT</h3><pre id="dmetrics"></pre><h3>AESTHETIC RESPONSE <span class="optional">OPTIONAL</span></h3><button id="revealSurvey">AFTER VIEWING · RESPOND</button><div id="survey" class="hidden"><label>VALENCE <input id="valence" type="range" min="-1" max="1" step="0.1" value="0"></label><label>AROUSAL <input id="arousal" type="range" min="-1" max="1" step="0.1" value="0"></label><label>ABSORPTION <input id="absorption" type="range" min="-1" max="1" step="0.1" value="0"></label><div id="rasa"></div><textarea id="responseText" maxlength="500" placeholder="optional words / image association"></textarea><button id="submitResponse">RECORD RESPONSE</button></div><h3>LINEAGE</h3><div id="lineage"></div></aside></div>
-<div id="toast"></div>
-<script type="module" src="./js/app.js"></script></body></html>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MathArtist</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0a0a0a;color:#999;font-family:monospace;height:100vh;overflow:hidden;display:flex;flex-direction:column}
+header{display:flex;align-items:center;gap:10px;padding:8px 14px;border-bottom:1px solid #181818;background:#0c0c0c;flex-shrink:0}
+.brand{color:#ccc;font-size:10px;letter-spacing:.15em;font-weight:700}
+header button{background:0 0;color:#888;border:1px solid #1a1a1a;padding:3px 10px;font:10px monospace;cursor:pointer}
+header button:hover{color:#fff;border-color:#444}
+.info{color:#444;font-size:9px;margin-left:auto}
+#grid{flex:1;display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(3,1fr);gap:2px;padding:2px;overflow:hidden}
+.cell{position:relative;background:#080808;cursor:pointer;overflow:hidden}
+.cell img{width:100%;height:100%;object-fit:cover;opacity:.85;transition:opacity .15s}
+.cell:hover img{opacity:1}
+.cell .label{position:absolute;bottom:0;left:0;right:0;padding:2px 5px;background:#000b;color:#555;font-size:7px;opacity:0;transition:opacity .15s}
+.cell:hover .label{opacity:1}
+#detail{position:fixed;inset:0;background:#0a0a0a;z-index:100;display:none;flex-direction:column}
+#detail.open{display:flex}
+#detail .bar{display:flex;align-items:center;gap:10px;padding:8px 14px;background:#0c0c0c;border-bottom:1px solid #181818}
+#detail .bar button{background:0 0;color:#888;border:1px solid #1a1a1a;padding:4px 12px;font:10px monospace;cursor:pointer}
+#detail .bar button:hover{color:#fff;border-color:#444}
+#detail .bar .close{margin-left:auto}
+#detail .stage{flex:1;display:flex;align-items:center;justify-content:center;background:#111}
+#detail .stage iframe{width:600px;height:600px;border:none}
+#detail .panel{position:absolute;right:16px;top:56px;background:#0a0a0aee;border:1px solid #1a1a1a;padding:10px;font:9px monospace;color:#556;max-width:200px;white-space:pre-wrap;max-height:60vh;overflow:auto}
+</style>
+</head>
+<body>
+<header>
+  <span class="brand">MATHARTIST</span>
+  <button id="shuffle">SHUFFLE</button>
+  <button id="evolve">EVOLVE</button>
+  <span class="info" id="info"></span>
+</header>
+<div id="grid"></div>
+<div id="detail">
+  <div class="bar">
+    <span id="d-id" style="color:#666;font:9px monospace"></span>
+    <button id="d-prev">←</button>
+    <button id="d-next">→</button>
+    <button id="d-close" class="close">✕</button>
+  </div>
+  <div class="stage" id="d-stage"></div>
+  <div class="panel" id="d-code"></div>
+</div>
+<script>
+// ─── SKETCH DATA ────────────────────────────────────────────
+const SKETCHES=[
+{id:"2100481433668383127",artist:"きんぞ",thumb:"https://pbs.twimg.com/tweet_video_thumb/HSZosLlboAA6ruv.jpg"},
+{id:"2100472551512404405",artist:"きんぞ",thumb:"https://pbs.twimg.com/tweet_video_thumb/HSZgoPMbkAEpBki.jpg"},
+{id:"2100325830551593261",artist:"きんぞ",thumb:"https://pbs.twimg.com/tweet_video_thumb/HSXbL3QaAAA35B-.jpg"},
+{id:"2100251514367582252",artist:"Snow Esamosc",thumb:"https://pbs.twimg.com/tweet_video_thumb/HSYA0yBKAAAj7eM.jpg"},
+{id:"2100251512262058278",artist:"Snow Esamosc",thumb:"https://pbs.twimg.com/tweet_video_thumb/HSYA0U4KAAAJH-k.jpg"},
+{id:"2100230050063024467",artist:"ア",thumb:"https://pbs.twimg.com/tweet_video_thumb/HSX1lTaXIAAmU7w.jpg"},
+{id:"2100192987410248174",artist:"なるほど",thumb:"https://pbs.twimg.com/tweet_video_thumb/HSXnXiAXAAQkl-p.jpg"},
+{id:"2100179447966285928",artist:"きんぞ",thumb:"https://pbs.twimg.com/tweet_video_thumb/HSXlEoQWgAArQyS.jpg"},
+{id:"2100146793506075086",artist:"きんぞ",thumb:"https://pbs.twimg.com/tweet_video_thumb/HSXi-9aXIAAiLQH.jpg"},
+{id:"2100074674256294304",artist:"Nicolás Báez",thumb:"https://pbs.twimg.com/tweet_video_thumb/HSXUjHAXIAIjSjH.jpg"},
+{id:"2099987768227279133",artist:"きんぞ",thumb:"https://pbs.twimg.com/tweet_video_thumb/HSXF_vqXIAA_aLH.jpg"},
+{id:"2099781900550406193",artist:"きんぞ",thumb:"https://pbs.twimg.com/tweet_video_thumb/HSWpGFDWgAAv7vM.jpg"}
+];
+
+const grid=document.getElementById('grid');
+const detail=document.getElementById('detail');
+let current=[...SKETCHES];
+let selectedIdx=-1;
+let currentCode='';
+
+// ─── GRID ───────────────────────────────────────────────────
+function shuffle(){
+  current=[...SKETCHES].sort(()=>Math.random()-.5);
+  selectedIdx=-1;
+  buildGrid();
+}
+
+function buildGrid(){
+  grid.innerHTML='';
+  current.forEach((s,i)=>{
+    const cell=document.createElement('div');
+    cell.className='cell';
+    const img=document.createElement('img');
+    img.src=s.thumb;
+    img.loading='lazy';
+    img.onerror=()=>{img.style.display='none'};
+    const label=document.createElement('div');
+    label.className='label';
+    label.textContent=s.artist+' · '+s.id;
+    cell.appendChild(img);
+    cell.appendChild(label);
+    cell.onclick=()=>openDetail(i);
+    grid.appendChild(cell);
+  });
+  document.getElementById('info').textContent=current.length+' sketches';
+}
+
+// ─── DETAIL ─────────────────────────────────────────────────
+async function openDetail(i){
+  selectedIdx=i;
+  const s=current[i];
+  document.getElementById('d-id').textContent=s.artist+' · '+s.id;
+
+  // Fetch sketch code
+  const r=await fetch('/api/sketch/'+s.id);
+  currentCode=await r.text();
+  document.getElementById('d-code').textContent=currentCode;
+
+  // Load sketch in iframe via srcdoc
+  const stage=document.getElementById('d-stage');
+  stage.innerHTML='';
+  const html='<!DOCTYPE html><html><head><meta charset="utf-8">'+
+    '<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"><\/script>'+
+    '<style>body{margin:0;overflow:hidden;background:#111}</style>'+
+    '</head><body><script>'+
+    currentCode+
+    '<\/script></body></html>';
+  const iframe=document.createElement('iframe');
+  iframe.srcdoc=html;
+  stage.appendChild(iframe);
+
+  detail.classList.add('open');
+}
+
+function closeDetail(){
+  detail.classList.remove('open');
+  document.getElementById('d-stage').innerHTML='';
+  selectedIdx=-1;
+}
+
+function next(){if(selectedIdx<current.length-1)openDetail(selectedIdx+1)}
+function prev(){if(selectedIdx>0)openDetail(selectedIdx-1)}
+
+// ─── EVOLVE ─────────────────────────────────────────────────
+async function evolve(){
+  if(selectedIdx<0)return;
+  const s=current[selectedIdx];
+
+  const r=await fetch('/api/sketch/'+s.id);
+  const code=await r.text();
+
+  const mutated=code.replace(/(\d+\.?\d*)/g,(match)=>{
+    if(Math.random()>.3)return match;
+    const n=parseFloat(match);
+    if(n===0||isNaN(n))return match;
+    const f=1+(Math.random()-.5)*.4;
+    const newN=n*f;
+    return match.includes('.')?newN.toFixed(match.split('.')[1].length):String(Math.round(newN));
+  });
+
+  currentCode=mutated;
+  document.getElementById('d-code').textContent=mutated;
+
+  const stage=document.getElementById('d-stage');
+  stage.innerHTML='';
+  const html='<!DOCTYPE html><html><head><meta charset="utf-8">'+
+    '<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"><\/script>'+
+    '<style>body{margin:0;overflow:hidden;background:#111}</style>'+
+    '</head><body><script>'+
+    mutated+
+    '<\/script></body></html>';
+  const iframe=document.createElement('iframe');
+  iframe.srcdoc=html;
+  stage.appendChild(iframe);
+}
+
+// ─── CONTROLS ───────────────────────────────────────────────
+document.getElementById('shuffle').onclick=shuffle;
+document.getElementById('evolve').onclick=()=>{
+  if(selectedIdx>=0)evolve();
+  else{selectedIdx=0;openDetail(0)}
+};
+document.getElementById('d-close').onclick=closeDetail;
+document.getElementById('d-next').onclick=next;
+document.getElementById('d-prev').onclick=prev;
+
+document.addEventListener('keydown',e=>{
+  if(e.key==='Escape')closeDetail();
+  if(e.key==='ArrowRight')next();
+  if(e.key==='ArrowLeft')prev();
+  if(e.key==='e')evolve();
+  if(e.key==='s')shuffle();
+});
+
+shuffle();
+</script>
+</body>
+</html>

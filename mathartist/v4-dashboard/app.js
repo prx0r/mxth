@@ -88,13 +88,13 @@ function renderFallback(cv,p,t){
   c.globalCompositeOperation='source-over';
 }
 
-// Card element
+// Card element with animated canvas
 function card(s){
   const el=document.createElement('article');
   el.className='cell';el.dataset.id=s.id;
   const cv=document.createElement('canvas');
   cv.width=cv.height=360;
-  renderPheno(cv,s,performance.now()/1000);
+  el._cv=cv;el._pheno=s;
   const m=document.createElement('div');
   m.className='meta';
   m.innerHTML=`<span>${s.source_variant||s.source_id} · ${s.id.slice(-6)}</span><span>G${s.generation||0}</span>`;
@@ -106,7 +106,12 @@ function card(s){
 
 function mount(){
   const g=$("#grid");g.innerHTML='';
-  specimens.forEach(s=>g.append(card(s)));
+  visibleCards.clear();
+  specimens.forEach(s=>{
+    const el=card(s);
+    g.append(el);
+    cardObserver.observe(el);
+  });
   $("#gen").textContent=`G${gen}`;
   update();
 }
@@ -170,6 +175,18 @@ $("#branchOne").onclick=()=>{
   $("#detail").classList.add('hidden');branch();
 };
 
+$("#exportGif").onclick=async()=>{
+  if(!current)return;
+  toast('rendering GIF...');
+  try{
+    const r=await fetch(`/api/gif?id=${current.id}`);
+    if(!r.ok)throw new Error(await r.text());
+    const blob=await r.blob();
+    const url=URL.createObjectURL(blob);
+    const a=document.createElement('a');a.href=url;a.download=`${current.id}.gif`;a.click();
+    URL.revokeObjectURL(url);toast('GIF saved');
+  }catch(e){toast('GIF failed: '+e.message)}
+};
 $$(".responses button").forEach(b=>b.onclick=()=>b.classList.toggle('active'));
 $("#reflect").onclick=()=>$("#reflection").classList.toggle('hidden');
 
@@ -209,8 +226,16 @@ async function loadTab(tab){
   selected.clear();gen=0;mount();
 }
 
+// Animation loop - animate all visible cards + hero
+const visibleCards=new Set();
+const cardObserver=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{e.isIntersecting?visibleCards.add(e.target):visibleCards.delete(e.target)});
+},{threshold:0.1});
+
 function loop(t){
-  if(current)renderPheno($("#hero"),current,t/1000);
+  const time=t/1000;
+  if(current)renderPheno($("#hero"),current,time);
+  visibleCards.forEach(el=>{if(el._cv&&el._pheno)renderPheno(el._cv,el._pheno,time)});
   requestAnimationFrame(loop);
 }
 
