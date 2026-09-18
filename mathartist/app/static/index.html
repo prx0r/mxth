@@ -57,7 +57,7 @@ async function loadSketchList(){
     const r=await fetch('/api/sketches');
     const d=await r.json();
     // Build sketch objects with preview URLs from registry
-    SKETCHES=d.ids.map(id=>({id,artist:'',thumb:'/api/thumb/'+id}));
+    SKETCHES=d.ids.map(id=>({id,artist:'',thumb:'/gif/'+id}));
   }catch(e){
     // Fallback: hardcoded list with verified URLs
     SKETCHES=[

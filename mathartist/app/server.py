@@ -5,6 +5,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 STATIC = ROOT / "app" / "static"
+GIFS = ROOT / "static" / "gifs"
 REGISTRY = ROOT / "corpus" / "tsubuyaki" / "local_registry.jsonl"
 
 def load_sketch_ids():
@@ -148,6 +149,24 @@ class Handler(SimpleHTTPRequestHandler):
                 self.send_header("Content-Length", str(len(gif)))
                 self.end_headers()
                 self.wfile.write(gif)
+            return
+
+        # Serve pre-rendered GIFs
+        if u.path.startswith("/gif/"):
+            gif_id = u.path.split("/gif/", 1)[1].split("?")[0]
+            gif_path = GIFS / f"{gif_id}.gif"
+            if gif_path.exists():
+                data = gif_path.read_bytes()
+                self.send_response(200)
+                self.send_header("Content-Type", "image/gif")
+                self.send_header("Content-Length", str(len(data)))
+                self.send_header("Cache-Control", "public,max-age=86400")
+                self.end_headers()
+                self.wfile.write(data)
+            else:
+                self.send_response(404)
+                self.send_header("Content-Length", "0")
+                self.end_headers()
             return
 
         # Serve static files
