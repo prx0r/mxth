@@ -52,6 +52,47 @@ class Handler(SimpleHTTPRequestHandler):
         if u.path == "/api/sketches":
             return self._json({"ids": SKETCH_IDS[:50], "total": len(SKETCH_IDS)})
 
+        # Proxy thumbnail from Twitter CDN
+        if u.path.startswith("/api/thumb/"):
+            sketch_id = u.path.split("/api/thumb/", 1)[1].split("?")[0]
+            # Look up preview URL from registry
+            thumb_url = None
+            for line in REGISTRY.read_text().splitlines():
+                if line.strip():
+                    d = json.loads(line)
+                    if d["id"] == sketch_id:
+                        thumb_url = d.get("preview", {}).get("still")
+                        break
+            if not thumb_url:
+                # 1x1 transparent GIF
+                import base64
+                gif = base64.b64decode("R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7")
+                self.send_response(200)
+                self.send_header("Content-Type", "image/gif")
+                self.send_header("Content-Length", str(len(gif)))
+                self.end_headers()
+                self.wfile.write(gif)
+                return
+            try:
+                req = urllib.request.Request(thumb_url, headers={"User-Agent": "MathArtist/1.0"})
+                resp = urllib.request.urlopen(req, timeout=10)
+                data = resp.read()
+                self.send_response(200)
+                self.send_header("Content-Type", "image/jpeg")
+                self.send_header("Content-Length", str(len(data)))
+                self.send_header("Cache-Control", "public,max-age=86400")
+                self.end_headers()
+                self.wfile.write(data)
+            except Exception:
+                import base64
+                gif = base64.b64decode("R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7")
+                self.send_response(200)
+                self.send_header("Content-Type", "image/gif")
+                self.send_header("Content-Length", str(len(gif)))
+                self.end_headers()
+                self.wfile.write(gif)
+            return
+
         # Proxy sketch code from tsubuyaki.art
         if u.path.startswith("/api/sketch/"):
             sketch_id = u.path.split("/api/sketch/", 1)[1].split("?")[0]

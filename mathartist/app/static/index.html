@@ -49,20 +49,29 @@ header button:hover{color:#fff;border-color:#444}
 </div>
 <script>
 // ─── SKETCH DATA ────────────────────────────────────────────
-const SKETCHES=[
-{id:"2100481433668383127",artist:"きんぞ",thumb:"https://pbs.twimg.com/tweet_video_thumb/HSZosLlboAA6ruv.jpg"},
-{id:"2100472551512404405",artist:"きんぞ",thumb:"https://pbs.twimg.com/tweet_video_thumb/HSZgoPMbkAEpBki.jpg"},
-{id:"2100325830551593261",artist:"きんぞ",thumb:"https://pbs.twimg.com/tweet_video_thumb/HSXbL3QaAAA35B-.jpg"},
-{id:"2100251514367582252",artist:"Snow Esamosc",thumb:"https://pbs.twimg.com/tweet_video_thumb/HSYA0yBKAAAj7eM.jpg"},
-{id:"2100251512262058278",artist:"Snow Esamosc",thumb:"https://pbs.twimg.com/tweet_video_thumb/HSYA0U4KAAAJH-k.jpg"},
-{id:"2100230050063024467",artist:"ア",thumb:"https://pbs.twimg.com/tweet_video_thumb/HSX1lTaXIAAmU7w.jpg"},
-{id:"2100192987410248174",artist:"なるほど",thumb:"https://pbs.twimg.com/tweet_video_thumb/HSXnXiAXAAQkl-p.jpg"},
-{id:"2100179447966285928",artist:"きんぞ",thumb:"https://pbs.twimg.com/tweet_video_thumb/HSXlEoQWgAArQyS.jpg"},
-{id:"2100146793506075086",artist:"きんぞ",thumb:"https://pbs.twimg.com/tweet_video_thumb/HSXi-9aXIAAiLQH.jpg"},
-{id:"2100074674256294304",artist:"Nicolás Báez",thumb:"https://pbs.twimg.com/tweet_video_thumb/HSXUjHAXIAIjSjH.jpg"},
-{id:"2099987768227279133",artist:"きんぞ",thumb:"https://pbs.twimg.com/tweet_video_thumb/HSXF_vqXIAA_aLH.jpg"},
-{id:"2099781900550406193",artist:"きんぞ",thumb:"https://pbs.twimg.com/tweet_video_thumb/HSWpGFDWgAAv7vM.jpg"}
-];
+// Loaded from server registry, with preview thumbnails
+let SKETCHES=[];
+
+async function loadSketchList(){
+  try{
+    const r=await fetch('/api/sketches');
+    const d=await r.json();
+    // Build sketch objects with preview URLs from registry
+    SKETCHES=d.ids.map(id=>({id,artist:'',thumb:'/api/thumb/'+id}));
+  }catch(e){
+    // Fallback: hardcoded list with verified URLs
+    SKETCHES=[
+      {id:"2100481433668383127",artist:"きんぞ",thumb:"https://pbs.twimg.com/tweet_video_thumb/HSZosLlboAA6ruv.jpg"},
+      {id:"2100472551512404405",artist:"きんぞ",thumb:"https://pbs.twimg.com/tweet_video_thumb/HSZgoPMbkAEpBki.jpg"},
+      {id:"2100325830551593261",artist:"きんぞ",thumb:"https://pbs.twimg.com/tweet_video_thumb/HSXbL3QaAAA35B-.jpg"},
+      {id:"2100179447966285928",artist:"きんぞ",thumb:"https://pbs.twimg.com/tweet_video_thumb/HSVWD6XawAAVV0y.jpg"},
+      {id:"2100146793506075086",artist:"きんぞ",thumb:"https://pbs.twimg.com/tweet_video_thumb/HSU4S2cbIAA6my5.jpg"},
+      {id:"2100074674256294304",artist:"Nicolás Báez",thumb:"https://pbs.twimg.com/tweet_video_thumb/HST2cWpWMAEOnds.jpg"},
+      {id:"2099987768227279133",artist:"きんぞ",thumb:"https://pbs.twimg.com/tweet_video_thumb/HSSnu9cbUAAcmz-.jpg"},
+      {id:"2099781900550406193",artist:"きんぞ",thumb:"https://pbs.twimg.com/tweet_video_thumb/HSPsendbAAAfZVl.jpg"}
+    ];
+  }
+}
 
 const grid=document.getElementById('grid');
 const detail=document.getElementById('detail');
@@ -184,7 +193,7 @@ document.addEventListener('keydown',e=>{
   if(e.key==='s')shuffle();
 });
 
-shuffle();
+loadSketchList().then(()=>shuffle());
 </script>
 </body>
 </html>
